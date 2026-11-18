@@ -179,6 +179,8 @@ input,select{font-family:inherit;color:var(--ink)}
 .pt{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:14.5px}
 .pt .cnt{font-size:12px;font-weight:700;color:var(--muted)}
 .search{width:100%;margin-top:12px;background:#F7F8FA;border:0;border-radius:12px;padding:12px 14px;font-size:13.5px}
+.search:focus{outline:2px solid #CDEFE2;outline-offset:0;background:#fff}
+.search::-webkit-search-cancel-button{filter:grayscale(1);opacity:.55}
 .search::placeholder{color:#AEB6BE}
 .grp{border-top:1px solid var(--line)}
 .grp:first-child{border-top:0}
@@ -195,8 +197,37 @@ input,select{font-family:inherit;color:var(--ink)}
 .drow.sel{color:var(--accent-d);font-weight:700}
 .drow.dis{opacity:.38}
 .drow[hidden]{display:none}
+.drow .tg{flex:0 0 auto;margin-left:auto;font-size:10px;font-weight:700;color:var(--muted);background:#F2F4F6;border-radius:6px;padding:2px 6px;white-space:nowrap}
+.drow .del{flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:#F2F4F6;color:var(--muted);font-size:11px;line-height:1;display:grid;place-items:center}
+.drow .del:hover{background:#E8554A;color:#fff}
 .p-cta{display:flex;gap:8px;margin-top:14px}
 #dxBtn{flex:1}
+
+/* ---------- 진단 검색 · 직접 추가 ---------- */
+.dxmeta{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:8px;font-size:11px;color:var(--muted);line-height:1.4}
+.dxmeta>span{white-space:nowrap}
+.dxmeta b{color:var(--accent-d);font-weight:800}
+.addbtn{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;margin-top:11px;background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-radius:12px;padding:11px;font-size:12.5px;font-weight:800;color:var(--ink2);letter-spacing:-.02em;transition:.15s}
+.addbtn:hover{background:#FAFBFC;color:var(--ink)}
+.addbtn .plus{font-size:14px;font-weight:800;color:var(--accent-d);line-height:1}
+.addpanel{display:none;margin-top:10px;background:#F9FAFB;border-radius:14px;padding:14px}
+.addpanel.on{display:block}
+.addpanel .fl{display:block;font-size:11.5px;font-weight:800;color:var(--ink2);letter-spacing:-.02em;margin-bottom:7px}
+.addpanel .fl span{font-weight:600;color:var(--muted)}
+.addpanel input{width:100%;border:0;background:#fff;border-radius:10px;padding:11px 12px;font-size:13.5px;box-shadow:inset 0 0 0 1px var(--line2)}
+.addpanel input:focus{outline:2px solid #CDEFE2;outline-offset:0}
+.addchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}
+.addchips button{font-size:11.5px;font-weight:700;color:var(--ink2);background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-radius:999px;padding:7px 11px;transition:.12s}
+.addchips button[aria-pressed="true"]{background:var(--accent-l);color:var(--accent-d);box-shadow:inset 0 0 0 1px #CDEFE2}
+.addacts{display:flex;gap:8px;margin-top:12px}
+.addacts .btn{padding:11px;font-size:12.5px}
+.addacts .btn.fill{flex:1}
+.dempty{margin-top:10px;background:#F7F8FA;border-radius:12px;padding:14px;text-align:center}
+.dempty b{display:block;font-size:12.5px;color:var(--ink);letter-spacing:-.02em}
+.dempty span{display:block;margin-top:3px;font-size:11.5px;color:var(--muted);line-height:1.55}
+.dempty[hidden]{display:none}
+.gcnt{flex:0 0 auto}
+.grp .gcnt.hit{color:var(--accent-d)}
 
 .findings{display:grid;gap:10px;margin-top:12px}
 .fnd{background:#fff;border-radius:var(--r);padding:16px 18px;box-shadow:var(--sh)}
@@ -299,7 +330,7 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
 /* ---------- print ---------- */
 @media print{
   body{background:#fff}
-  .appbar,.tabbar,.vhead,.p-segs,.no-print,.bundle,footer,#toast,.modal,.cats,.catnote,#pane-dx,.p-cta,.notice,#noticeBar{display:none!important}
+  .appbar,.tabbar,.vhead,.p-segs,.no-print,.bundle,footer,#toast,.modal,.cats,.catnote,#pane-dx,.p-cta,.notice,#noticeBar,.addbtn,.addpanel,.dempty,.dxmeta{display:none!important}
   .view:not(#view-paid){display:none!important}
   #view-paid{display:block!important}
   #pane-report{display:block!important;padding:0}
@@ -443,7 +474,21 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
     <div class="ppanel on" id="pane-dx">
       <div class="card">
         <h2 class="pt">지금 먹이는 것<span class="cnt" id="dietCnt">0/3</span></h2>
-        <input id="dietSearch" class="search" type="search" placeholder="제품 이름으로 찾기" autocomplete="off" aria-label="제품 검색">
+        <input id="dietSearch" class="search" type="search" placeholder="이름·브랜드·영문 동의어로 찾기" autocomplete="off" aria-label="제품 검색">
+        <div class="dxmeta"><span id="dbCount"></span><span>띄어쓰기 무관</span></div>
+        <button class="addbtn" id="addToggle" type="button" aria-expanded="false" aria-controls="addPanel"><span class="plus">+</span> 찾는 제품 직접 추가하기</button>
+        <div class="addpanel" id="addPanel">
+          <label class="fl" for="customName">제품명</label>
+          <input id="customName" type="text" placeholder="예: 우리 아이가 먹는 관절 영양제" maxlength="40" autocomplete="off">
+          <p class="fl" style="margin-top:13px">주요 함유 성분 <span>복수 선택</span></p>
+          <div class="addchips" id="addChips" role="group" aria-label="함유 성분 선택"></div>
+          <div class="addacts">
+            <button class="btn fill" type="button" id="addConfirm">목록에 추가하고 선택</button>
+            <button class="btn line" type="button" id="addCancel" style="flex:0 0 auto">취소</button>
+          </div>
+          <p class="hint" style="margin-top:9px">성분을 모르면 ‘성분표 미표기’를 고르세요. 추가한 제품도 같은 중복 진단이 적용됩니다.</p>
+        </div>
+        <div id="dietEmpty" class="dempty" hidden></div>
         <div id="dietGroups" class="grps" style="margin-top:6px"></div>
         <div class="p-cta">
           <button class="btn fill" id="dxBtn" disabled>진단 실행</button>
@@ -496,7 +541,7 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
   </section>
 
   <footer>
-    <b>멍케어 Lab</b> · 반려견 영양 비교 프로토타입 (v0.4)<br>
+    <b>멍케어 Lab</b> · 반려견 영양 비교 프로토타입 (v0.5)<br>
     수의학적 진단·처방을 제공하지 않습니다. 영양제는 질병 치료제가 아니며, 급여 전 기저질환·복용 약을 수의사와 확인하세요.<br>
     제품 가격·평점·리뷰 수는 2026-11-17 조사 시점의 공개 자료로 이후 변동될 수 있습니다.
     <div class="fl">
@@ -900,13 +945,119 @@ const PRODUCTS = [
   }
 ];
 
-/* 진단용 추가 항목 (제품 외) */
-const EXTRAS = [
-  {id:'food', name:'완전건식 사료 (AAFCO 완전영양)', cat:'기타', prof:{vitAD:1, ca:1, phos:1, disc:'full'}},
-  {id:'homemade', name:'수제식·화식 (육류 위주)', cat:'기타', prof:{phos:1, meaty:1, disc:'none'}},
-  {id:'multivit', name:'종합 비타민·미네랄', cat:'기타', prof:{vitAD:1, zinc:1, biotin:1, disc:'partial'}},
-  {id:'calcium', name:'칼슘 보충제', cat:'기타', prof:{caSupp:1, disc:'partial'}}
+/* =========================================================
+   진단용 확장 DB (2026-11-18 추가) — 보호자가 실제로 많이 찾는 사료·영양제
+   카드(가격·논문) 없이 ‘지금 먹이는 것’ 진단 목록에서만 쓰입니다.
+   prof 태그: food 완전사료 / vitAD 비타민A·D / ca·phos / caSupp 칼슘보충
+              glu 글루코사민 / chon 콘드로이틴 / msm / mussel 홍합
+              o3 오메가3 / probio 유산균 / lutein 루테인
+              zinc·biotin / coq10 / taurine
+   disc: full 함량 공개 · partial 성분명만 · none 미표기
+   s: 검색 동의어(공백 무시 부분일치)
+   ========================================================= */
+const FD  = {food:1, vitAD:1, ca:1, phos:1, disc:'full'};
+const FDP = {food:1, vitAD:1, ca:1, phos:1, disc:'partial'};
+
+const DX_EXTRA_ITEMS = [
+  /* ---------- 사료 (주식) ---------- */
+  {id:'rc_indoor', cat:'food', name:'로얄캐닌 미니 인도어 어덜트', tag:'완전사료', s:'로얄캐닌 로얄카닌 royal canin royalcanin mini indoor 실내견 소형견', prof:FD},
+  {id:'rc_adult', cat:'food', name:'로얄캐닌 미니 어덜트', tag:'완전사료', s:'로얄캐닌 로얄카닌 royal canin mini adult 어덜트', prof:FD},
+  {id:'rc_skin', cat:'food', name:'로얄캐닌 미니 스킨케어', tag:'완전사료', s:'로얄캐닌 로얄카닌 royal canin skin care skincare 피부', prof:FD},
+  {id:'rc_gi', cat:'food', name:'로얄캐닌 가스트로인테스티널', tag:'처방식', s:'로얄캐닌 로얄카닌 royal canin gastrointestinal gi 장 소화 처방', prof:FD},
+  {id:'rc_urinary', cat:'food', name:'로얄캐닌 유리너리 S/O', tag:'처방식', s:'로얄캐닌 로얄카닌 royal canin urinary 유리너리 요로 방광 결석 처방', prof:FD},
+  {id:'orijen_orig', cat:'food', name:'오리젠 오리지널', tag:'완전사료', s:'오리젠 orijen original 오리지널', prof:FD},
+  {id:'orijen_small', cat:'food', name:'오리젠 스몰브리드', tag:'완전사료', s:'오리젠 orijen small breed 스몰브리드 소형견', prof:FD},
+  {id:'orijen_sixfish', cat:'food', name:'오리젠 식스피쉬', tag:'완전사료', s:'오리젠 orijen six fish sixfish 식스피쉬 생선', prof:FD},
+  {id:'acana_small', cat:'food', name:'아카나 스몰브리드', tag:'완전사료', s:'아카나 acana small breed 스몰브리드 소형견', prof:FD},
+  {id:'acana_pacifica', cat:'food', name:'아카나 패시피카', tag:'완전사료', s:'아카나 acana pacifica 패시피카 생선', prof:FD},
+  {id:'ziwi_beef', cat:'food', name:'지위픽 소고기 (에어드라이)', tag:'완전사료', s:'지위픽 ziwi peak 에어드라이 소고기 beef', prof:FD},
+  {id:'ziwi_lamb', cat:'food', name:'지위픽 양고기 (에어드라이)', tag:'완전사료', s:'지위픽 ziwi peak 에어드라이 양고기 lamb', prof:FD},
+  {id:'ziwi_venison', cat:'food', name:'지위픽 사슴고기 (에어드라이)', tag:'완전사료', s:'지위픽 ziwi peak 에어드라이 사슴고기 venison', prof:FD},
+  {id:'now_adult', cat:'food', name:'나우프레시 스몰브리드 어덜트', tag:'완전사료', s:'나우프레시 now fresh 스몰브리드 small breed 어덜트 adult', prof:FD},
+  {id:'now_senior', cat:'food', name:'나우프레시 스몰브리드 시니어', tag:'완전사료', s:'나우프레시 now fresh 스몰브리드 small breed 시니어 senior 노령', prof:FD},
+  {id:'nutro_small', cat:'food', name:'뉴트로 초이스 소형견', tag:'완전사료', s:'뉴트로 nutro 초이스 choice 소형견 스몰', prof:FD},
+  {id:'nb_salmon', cat:'food', name:'내추럴발란스 L.I.D 고구마&연어', tag:'완전사료', s:'내추럴발란스 natural balance 내추럴 밸런스 lid 고구마 연어 salmon', prof:FD},
+  {id:'nb_duck', cat:'food', name:'내추럴발란스 L.I.D 오리', tag:'완전사료', s:'내추럴발란스 natural balance 내추럴 밸런스 lid 오리 duck', prof:FD},
+  {id:'hills_smallbites', cat:'food', name:'힐스 사이언스 다이어트 스몰바이츠', tag:'완전사료', s:'힐스 hills science diet 사이언스 다이어트 스몰바이츠 small bites', prof:FD},
+  {id:'hills_id', cat:'food', name:'힐스 i/d (소화기)', tag:'처방식', s:'힐스 hills i/d 아이디 소화기 gi 장 처방', prof:FD},
+  {id:'hills_zd', cat:'food', name:'힐스 z/d (하이드롤라이즈드)', tag:'처방식', s:'힐스 hills z/d 지디 하이드롤라이즈즈 알러지 피부 처방', prof:FD},
+  {id:'anf_beef', cat:'food', name:'ANF 6Free 소고기', tag:'완전사료', s:'anf 에이엔에프 6free 식스프리 소고기 beef', prof:FD},
+  {id:'anf_salmon', cat:'food', name:'ANF 6Free 연어', tag:'완전사료', s:'anf 에이엔에프 6free 식스프리 연어 salmon', prof:FD},
+  {id:'harim_duck', cat:'food', name:'하림펫푸드 더리얼 오리', tag:'완전사료', s:'하림 하림펫푸드 더리얼 the real 오리 duck', prof:FDP},
+  {id:'doctordog', cat:'food', name:'닥터독 화식 (완전영양)', tag:'화식', s:'닥터독 doctor dog 화식 수제 완전영양', prof:FDP},
+  {id:'naturalcore_eco', cat:'food', name:'네츄럴코어 에코 오리지널', tag:'완전사료', s:'네츄럴코어 natural core eco 에코 오리지널', prof:FD},
+  {id:'jogong_philo', cat:'food', name:'조공 Philo Dog 닭&산양유', tag:'습식', s:'조공 jogong philo 필로 독 dog 닭 산양유 습식 캔', prof:FDP},
+  {id:'willow_hipjoint', cat:'food', name:'윌로펫 헬시포뮬러 힙앤조인트', tag:'완전사료', s:'윌로펫 willow pet 유한양행 헬시포뮬러 힙앤조인트 hip joint 관절 사료', prof:{food:1, vitAD:1, ca:1, phos:1, glu:1, disc:'full'}},
+
+  /* ---------- 관절 ---------- */
+  {id:'nutrvet_hipjoint', cat:'joint', name:'뉴트리벳 히프&조인트', tag:'글루코사민·콘드로이틴', s:'뉴트리벳 nutri vet nutrived hip joint 히프 조인트 관절 글루코사민 콘드로이친 msm', prof:{glu:1, chon:1, msm:1, disc:'full'}},
+  {id:'willow_joint', cat:'joint', name:'윌로펫 관절&조인트 영양보조제', tag:'30입', s:'윌로펫 willow 유한양행 관절 조인트 joint 영양보조제', prof:{glu:1, disc:'partial'}},
+  {id:'yuhan_joint', cat:'joint', name:'유한양행 뉴트리헬스 관절조인트', tag:'60정', s:'유한양행 뉴트리헬스 관절 조인트 joint 60정', prof:{glu:1, disc:'partial'}},
+  {id:'recipev_mussel', cat:'joint', name:'레시피브이 본앤고 초록입홍합오일', tag:'홍합 오일', s:'레시피브이 recipe v 본앤고 초록입홍합 홍합 오일 관절 30입', prof:{mussel:1, disc:'partial'}},
+  {id:'bito_calcium', cat:'joint', name:'비토 해조칼슘 져키', tag:'칼슘', s:'비토 vito 해조칼슘 칼슘 져키 관절 영양간식', prof:{caSupp:1, ca:1, disc:'partial'}},
+  {id:'mybev_joint', cat:'joint', name:'마이베프 별자리스틱 관절', tag:'홍합·MSM', s:'마이베프 mybev 별자리스틱 관절 joint 초록입홍합 식이유황 msm', prof:{msm:1, mussel:1, disc:'partial'}},
+
+  /* ---------- 피부 ---------- */
+  {id:'vetnex_dermacoat', cat:'skin', name:'벳넥스 더마코트 오메가 츄', tag:'오메가 츄', s:'벳넥스 vetnex 더마코트 dermacoat 오메가 츄 피부 피모', prof:{o3:1, disc:'partial'}},
+  {id:'maxiderm_lq', cat:'skin', name:'협성로하스 맥시덤 LQ', tag:'피부·모발', s:'협성로하스 맥시덤 maxiderm lq 피부 모발 오메가3', prof:{o3:1, disc:'partial'}},
+
+  /* ---------- 눈 ---------- */
+  {id:'mybev_eye', cat:'eye', name:'마이베프 별자리스틱 눈', tag:'루테인·아스타잔틴', s:'마이베프 mybev 별자리스틱 눈 eye 루테인 아스타잔틴 포도씨', prof:{lutein:1, o3:1, disc:'partial'}},
+  {id:'bito_lutein', cat:'eye', name:'비토 루테인 눈 건강 영양간식', tag:'루테인', s:'비토 vito 루테인 눈 눈물자국 영양간식', prof:{lutein:1, disc:'partial'}},
+  {id:'alokitchen_eye', cat:'eye', name:'알로키친 눈 아이즈 100파워', tag:'눈 영양', s:'알로키친 alokitchen 눈 아이즈 eye 100파워 백내장 녹내장', prof:{disc:'partial'}},
+  {id:'thinkpets_lutein', cat:'eye', name:'펫생각 리포좀 루테인', tag:'루테인', s:'펫생각 thinkpets 리포좀 루테인 눈 눈물자국 백내장', prof:{lutein:1, disc:'partial'}},
+  {id:'petspark_eye', cat:'eye', name:'펫츠파크 눈 건강 항산화제', tag:'항산화', s:'펫츠파크 petspark 눈 eye 항산화 눈물', prof:{disc:'partial'}},
+
+  /* ---------- 털·피모 ---------- */
+  {id:'jogong_omega3', cat:'coat', name:'조공 이지 케어 오메가-3', tag:'EPA+DHA 200mg', s:'조공 jogong 이지케어 easy care 오메가3 omega3 피부 피모 스틱', prof:{o3:1, disc:'full'}},
+  {id:'jogong_red', cat:'coat', name:'조공 프리미엄 레드 오메가3 미니', tag:'캡슐', s:'조공 jogong 프리미엄 레드 오메가3 omega3 미니 캡슐', prof:{o3:1, disc:'partial'}},
+  {id:'fera_fish', cat:'coat', name:'페라 펫츠 피쉬오일 236.5ml', tag:'EPA 700mg/5ml', s:'페라 펫츠 fera pets 피쉬오일 fish oil 오메가3', prof:{o3:1, disc:'full'}},
+  {id:'fera_algae', cat:'coat', name:'페라 펫츠 플랜트 베이스드 알게오일', tag:'DHA 460mg/5ml', s:'페라 펫츠 fera pets 알게오일 algae plant based 식물성 오메가3', prof:{o3:1, disc:'full'}},
+  {id:'vetactive8_omega', cat:'coat', name:'벳액티브8 오메가3', tag:'90캡슐', s:'벳액티브8 vetactive8 오메가3 omega3 90캡슐 360캡슐', prof:{o3:1, disc:'partial'}},
+  {id:'drinnerpeace_omega', cat:'coat', name:'닥터이너피스 rTG 오메가3', tag:'rTG', s:'닥터이너피스 dr innerpeace rtg 오메가3 omega3 바잇미', prof:{o3:1, disc:'partial'}},
+
+  /* ---------- 장·소화 ---------- */
+  {id:'jogong_multi', cat:'gut', name:'조공 이지 케어 멀티바이오틱스', tag:'장·면역', s:'조공 jogong 이지케어 멀티바이오틱스 multibiotics 장 면역 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'jogong_probio', cat:'gut', name:'조공 프로바이오틱스 30스틱', tag:'30스틱', s:'조공 jogong 프로바이오틱스 probiotics 유산균 스틱', prof:{probio:1, disc:'partial'}},
+  {id:'mercola_probio', cat:'gut', name:'닥터머콜라 컴플리트 유산균', tag:'38억 CFU·14종', s:'닥터머콜라 dr mercola bark whiskers 컴플리트 유산균 probiotics 90g', prof:{probio:1, disc:'full'}},
+  {id:'drinnerpeace_gut', cat:'gut', name:'바잇미 닥터이너피스 장튼튼 유산균', tag:'비피더스 80억', s:'바잇미 biteme 닥터이너피스 장튼튼 유산균 비피더스', prof:{probio:1, disc:'full'}},
+  {id:'oral_effect', cat:'gut', name:'바잇미 오랄이펙트 프로바이오틱스', tag:'구강·장', s:'바잇미 biteme 오랄이펙트 oral effect 프로바이오틱스 구강 장', prof:{probio:1, disc:'partial'}},
+  {id:'vetactive8_syn', cat:'gut', name:'벳액티브8 신바이오틱 부스트', tag:'신바이오틱', s:'벳액티브8 vetactive8 신바이오틱 부스트 synbiotic 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'fera_probio', cat:'gut', name:'페라 오가닉 프로바이오틱스', tag:'유기농', s:'페라 오가닉 organic 프로바이오틱스 프리바이오틱스 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'labivet_gut_joint', cat:'gut', name:'라비벳 유산균 (장&관절)', tag:'장·관절', s:'라비벳 labivet 유산균 장 관절 종근당', prof:{probio:1, disc:'partial'}},
+  {id:'pethroom_probio', cat:'gut', name:'페스룸 프로바이오 케어 스틱', tag:'장건강', s:'페스룸 pethroom 프로바이오 probio 케어 스틱 장 유산균', prof:{probio:1, disc:'partial'}},
+
+  /* ---------- 심장 ---------- */
+  {id:'mybev_heart', cat:'heart', name:'마이베프 별자리스틱 심장', tag:'CoQ10·타우린', s:'마이베프 mybev 별자리스틱 심장 heart 코엔자임 타우린 카르니틴', prof:{coq10:1, taurine:1, o3:1, disc:'partial'}},
+
+  /* ---------- 구강 ---------- */
+  {id:'pethroom_dental', cat:'oral', name:'페스룸 덴탈 케어 스틱', tag:'구강', s:'페스룸 pethroom 덴탈 dental 케어 스틱 구강 치아', prof:{disc:'partial'}},
+  {id:'petspark_kelp', cat:'oral', name:'펫츠파크 켈프 구강 영양제', tag:'켈프', s:'펫츠파크 petspark 켈프 kelp 구강 영양제 치아', prof:{disc:'partial'}},
+  {id:'jogong_dental', cat:'oral', name:'조공 산양유 덴탈껌', tag:'덴탈껌', s:'조공 jogong 산양유 덴탈껌 dental gum 14개입', prof:{disc:'partial'}},
+
+  /* ---------- 체중 ---------- */
+  {id:'pethroom_weight', cat:'weight', name:'페스룸 웨이트 케어 스틱', tag:'체중조절', s:'페스룸 pethroom 웨이트 weight 케어 스틱 다이어트 체중', prof:{disc:'partial'}},
+  {id:'proqumin_inulin', cat:'weight', name:'프로큐민 하이눌린', tag:'이눌린', s:'프로큐민 proqumin 하이눌린 inulin 비만 혈당 신장', prof:{disc:'partial'}},
+
+  /* ---------- 기타 (종합·신장·간) ---------- */
+  {id:'nutrvet_multi', cat:'extra', name:'뉴트리벳 멀티비타민&미네랄', tag:'종합', s:'뉴트리벳 nutri vet 멀티비타민 멀티바이탈 미네랄 종합 60정', prof:{vitAD:1, zinc:1, ca:1, disc:'full'}},
+  {id:'willow_senior', cat:'extra', name:'윌로펫 시니어 종합영양보조제', tag:'7세 이상', s:'윌로펫 willow 유한양행 시니어 senior 종합 영양보조제', prof:{vitAD:1, disc:'partial'}},
+  {id:'willow_adult', cat:'extra', name:'윌로펫 어덜트 종합영양보조제', tag:'1~7세', s:'윌로펫 willow 유한양행 어덜트 adult 종합 영양보조제', prof:{vitAD:1, disc:'partial'}},
+  {id:'willow_puppy', cat:'extra', name:'윌로펫 퍼피&주니어 종합영양보조제', tag:'1세 이하', s:'윌로펫 willow 유한양행 퍼피 puppy 주니어 종합 영양보조제', prof:{vitAD:1, ca:1, disc:'partial'}},
+  {id:'pethroom_total', cat:'extra', name:'페스룸 토탈 밸런스 스틱', tag:'종합', s:'페스룸 pethroom 토탈 밸런스 total balance 스틱 종합영양제', prof:{vitAD:1, zinc:1, disc:'partial'}},
+  {id:'jogong_enough', cat:'extra', name:'조공 이지 케어 이너프 (종합)', tag:'종합', s:'조공 jogong 이지케어 이너프 enough 종합케어 종합', prof:{vitAD:1, disc:'partial'}},
+  {id:'mercola_mealmix', cat:'extra', name:'닥터머콜라 밀믹스 종합 영양제', tag:'종합', s:'닥터머콜라 dr mercola 밀믹스 meal mix 종합 영양제', prof:{vitAD:1, zinc:1, disc:'partial'}},
+  {id:'mybev_multi', cat:'extra', name:'마이베프 별자리스틱 멀티비타민', tag:'비타민B·D3', s:'마이베프 mybev 별자리스틱 멀티비타민 multivitamin', prof:{vitAD:1, disc:'partial'}},
+  {id:'mybev_kidney', cat:'extra', name:'마이베프 별자리스틱 신장', tag:'신장', s:'마이베프 mybev 별자리스틱 신장 kidney 코엔자임 오메가3', prof:{coq10:1, o3:1, disc:'partial'}},
+
+  /* ---------- 제품 외 기본 항목 ---------- */
+  {id:'food', cat:'extra', name:'완전건식 사료 (AAFCO 완전영양)', tag:'완전사료', s:'완전건식 사료 aafco 주식 건식', prof:{food:1, vitAD:1, ca:1, phos:1, disc:'full'}},
+  {id:'homemade', cat:'extra', name:'수제식·화식 (육류 위주)', tag:'', s:'수제식 화식 육류 생식', prof:{phos:1, meaty:1, disc:'none'}},
+  {id:'multivit', cat:'extra', name:'종합 비타민·미네랄', tag:'', s:'종합 비타민 미네랄 멀티비타민', prof:{vitAD:1, zinc:1, biotin:1, disc:'partial'}},
+  {id:'calcium', cat:'extra', name:'칼슘 보충제', tag:'', s:'칼슘 보충제 calcium', prof:{caSupp:1, ca:1, disc:'partial'}}
 ];
+
+const EXTRAS = DX_EXTRA_ITEMS;
 
 const ALLERGIES = ['닭고기','소고기','곡물','유제품','없음'];
 
@@ -957,7 +1108,11 @@ const state = {
   purchased: {dx:false, report:false},
   reportOpen: false,
   paidKind: null,
-  paidTab: 'dx'
+  paidTab: 'dx',
+  q: '',
+  custom: [],
+  customSeq: 1,
+  addChips: []
 };
 
 function save(){
@@ -965,7 +1120,7 @@ function save(){
     localStorage.setItem(LS, JSON.stringify({
       weight:state.weight, age:state.age, neuter:state.neuter, concern:state.concern,
       foodKcal:state.foodKcal, diet:state.diet, breed:state.breed,
-      allergies:state.allergies, purchased:state.purchased
+      allergies:state.allergies, purchased:state.purchased, custom:state.custom
     }));
   }catch(e){}
 }
@@ -983,6 +1138,12 @@ function load(){
     if(typeof o.breed === 'string') state.breed = o.breed;
     if(Array.isArray(o.allergies)) state.allergies = o.allergies;
     if(o.purchased) state.purchased = {dx:!!o.purchased.dx, report:!!o.purchased.report};
+    if(Array.isArray(o.custom)){
+      state.custom = o.custom.filter(function(c){ return c && c.id && c.name; }).map(function(c){
+        return {id:c.id, name:String(c.name).slice(0,40), prof:c.prof || {disc:'none'}, s:c.s || c.name};
+      });
+      state.customSeq = state.custom.length + 1;
+    }
   }catch(e){}
 }
 
@@ -1130,10 +1291,21 @@ function renderProducts(){
    6. 진단 엔진 (룰 기반)
    ========================================================= */
 function dietCatalog(){
-  return PRODUCTS.map(function(p){
-    return {id:p.id, name:p.brand + ' ' + p.name, cat:p.cat, prof:p.prof};
-  }).concat(EXTRAS.map(function(e){ return {id:e.id, name:e.name, cat:'extra', prof:e.prof}; }));
+  const base = PRODUCTS.map(function(p){
+    return {id:p.id, name:p.brand + ' ' + p.name, cat:p.cat, prof:p.prof, s:p.brand + ' ' + p.name, tag:''};
+  }).concat(EXTRAS.map(function(e){
+    return {id:e.id, name:e.name, cat:e.cat || 'extra', prof:e.prof, s:e.s || e.name, tag:e.tag || ''};
+  }));
+  return base.concat((state.custom || []).map(function(c){
+    return {id:c.id, name:c.name, cat:'custom', prof:c.prof, s:c.s || c.name, tag:'직접 추가', custom:true};
+  }));
 }
+
+function esc(s){
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function normQ(s){ return String(s == null ? '' : s).toLowerCase().replace(/\s+/g, ''); }
 
 function selectedItems(){
   const all = dietCatalog();
@@ -1148,8 +1320,8 @@ function diagnose(){
   const out = [];
 
   /* --- 지용성 비타민 A·D --- */
-  const vitSupp = items.filter(function(i){ return i.prof.vitAD && i.id !== 'food'; }).length;
-  const foodItem = items.some(function(i){ return i.id === 'food'; });
+  const vitSupp = items.filter(function(i){ return i.prof.vitAD && !i.prof.food; }).length;
+  const foodItem = items.some(function(i){ return i.prof.food; });
   if(vitSupp >= 2){
     out.push({
       id:'vitad', level: vitSupp >= 3 ? 'high' : 'mid',
@@ -1296,6 +1468,70 @@ function diagnose(){
       brief:'오메가3 급원이 없습니다.',
       fix:'피부·관절·모질을 함께 보려면 오메가3를 1개 추가하는 편이 효율적입니다.',
       amount:'체중 ' + c.w + 'kg 기준 하루 ' + nf(target[0]) + '~' + nf(target[1]) + 'mg EPA+DHA.',
+      watch:'-'
+    });
+  }
+
+  /* --- 유산균 --- */
+  const probioN = cnt('probio');
+  if(probioN >= 2){
+    const names = items.filter(function(i){ return i.prof.probio; }).map(function(i){ return i.name; }).join(' + ');
+    out.push({
+      id:'probio', level:'mid',
+      title:'유산균 중복 ' + probioN + '개',
+      brief:names + ' — 장 건강을 겨냥한 제품이 겹칩니다.',
+      fix:'유산균은 1개만 남기세요. 나머지는 관절·피부·눈처럼 다른 축으로 바꾸는 편이 판단하기 쉽습니다.',
+      amount:'균주와 CFU가 다른 제품을 동시에 주면 어느 쪽이 들었는지 알 수 없습니다. 같은 제품을 2주 이상 유지한 뒤 평가하세요.',
+      watch:'묽은 변·가스·복부 팽만. 2~3일 이어지면 1개로 줄이세요.'
+    });
+  } else if(probioN === 1){
+    out.push({
+      id:'probio', level:'ok',
+      title:'유산균',
+      brief:'1개 제품에서만 공급됩니다. 중복 없음.',
+      fix:'급여량(포·스푼)만 라벨 기준으로 확인하세요.',
+      amount:'설사가 이틀을 넘으면 제품을 바꾸지 말고 진료하세요.',
+      watch:'변 상태·가스. 2주 뒤에도 변화가 없으면 균주 교체를 검토.'
+    });
+  } else {
+    out.push({
+      id:'probio', level:'ok',
+      title:'유산균',
+      brief:'유산균 급원이 없습니다. 장 건강이 목적이라면 1개 추가를 검토할 수 있습니다.',
+      fix:'장·피부를 함께 보려면 유산균 1개를 고르고, 다른 축은 따로 두세요.',
+      amount:'처음엔 권장량의 절반부터. 첫 2~3일에 변이 묽어지면 감량.',
+      watch:'-'
+    });
+  }
+
+  /* --- 루테인·눈 영양 --- */
+  const lutN = cnt('lutein');
+  if(lutN >= 2){
+    const names = items.filter(function(i){ return i.prof.lutein; }).map(function(i){ return i.name; }).join(' + ');
+    out.push({
+      id:'lutein', level:'mid',
+      title:'루테인·눈 영양 중복 ' + lutN + '개',
+      brief:names + ' — 눈을 겨냥한 제품이 겹칩니다. 개는 사람과 달리 황반이 없어 ‘황반 보호’ 논리는 그대로 적용되지 않습니다.',
+      fix:'눈 영양제는 1개만 남기세요. 눈물자국이 목적이라면 영양제보다 원인(속눈썹·눈꺼풀·알러지) 감별이 먼저입니다.',
+      amount:'루테인은 mg 표기가 있는 제품만 합산할 수 있습니다. 표기가 없으면 1일 권장량을 넘기지 마세요.',
+      watch:'눈곱 증가·충혐·각막 혼탁이 보이면 급여를 늘리지 말고 진료.'
+    });
+  } else if(lutN === 1){
+    out.push({
+      id:'lutein', level:'ok',
+      title:'루테인·눈 영양',
+      brief:'1개 제품에서만 공급됩니다. 중복 없음.',
+      fix:'mg 함량만 확인하고 유지하세요.',
+      amount:'루테인·제아잔틴은 mg 표기가 있는 제품을 고르세요.',
+      watch:'눈곱·충혐이 2주 이상 이어지면 진료.'
+    });
+  } else {
+    out.push({
+      id:'lutein', level:'ok',
+      title:'루테인·눈 영양',
+      brief:'루테인 계열 급원이 없습니다.',
+      fix:'눈물자국·눈곱이 고민이면 원인 감별이 우선이고, 보조로 루테인 제품 1개를 검토할 수 있습니다.',
+      amount:'-',
       watch:'-'
     });
   }
@@ -1596,32 +1832,88 @@ function toast(msg){
 }
 
 /* =========================================================
-   9. 진단 입력 UI (부위별 아코디언 + 검색)
+   9. 진단 입력 UI (부위별 아코디언 + 검색 + 직접 추가)
    ========================================================= */
-const GROUPS = CAT_ORDER.map(function(k){
-  return {key:k, label:CATS[k].emoji + ' ' + CATS[k].label};
-}).concat([{key:'extra', label:'🌾 주식·기타'}]);
+const GROUPS_BASE = [{key:'food', label:'🍚 사료 (주식)'}]
+  .concat(CAT_ORDER.map(function(k){ return {key:k, label:CATS[k].emoji + ' ' + CATS[k].label}; }))
+  .concat([{key:'extra', label:'🌾 주식·기타'}]);
+
+const ADD_CHIPS = [
+  {k:'o3', label:'오메가3'},
+  {k:'glu', label:'글루코사민·콘드로이틴'},
+  {k:'probio', label:'유산균'},
+  {k:'vitAD', label:'비타민 A·D'},
+  {k:'caSupp', label:'칼슘·인'},
+  {k:'zinc', label:'아연·비오틴'},
+  {k:'lutein', label:'루테인·눈영양'},
+  {k:'disc_none', label:'성분표 미표기'}
+];
+
+function groupsForRender(){
+  const arr = GROUPS_BASE.slice();
+  if((state.custom || []).length) arr.unshift({key:'custom', label:'➕ 내가 추가한 제품'});
+  return arr;
+}
 
 function groupItems(key){
   const all = dietCatalog();
   return all.filter(function(it){ return it.cat === key; });
 }
 
+function dietRowHTML(it){
+  const tag = it.tag ? (it.custom ? '' : '<span class="tg">' + esc(it.tag) + '</span>') : '';
+  const del = it.custom
+    ? '<button class="del" type="button" data-del="' + esc(it.id) + '" aria-label="' + esc(it.name) + ' 목록에서 삭제">✕</button>'
+    : '';
+  const hay = normQ(it.name + ' ' + (it.s || '') + ' ' + (it.tag || ''));
+  return '<label class="drow" data-name="' + esc(it.name) + '" data-s="' + esc(hay) + '">' +
+    '<input type="checkbox" value="' + esc(it.id) + '"><span>' + esc(it.name) + '</span>' + tag + del + '</label>';
+}
+
+function paintDbCount(){
+  const el = document.getElementById('dbCount');
+  if(!el) return;
+  const all = dietCatalog();
+  const foodN = all.filter(function(it){ return it.cat === 'food'; }).length;
+  el.innerHTML = '진단 DB <b>' + all.length + '종</b> · 사료 ' + foodN + '종';
+}
+
 function renderDietList(){
   const box = document.getElementById('dietGroups');
-  box.innerHTML = GROUPS.map(function(g){
+  if(!box) return;
+  box.innerHTML = groupsForRender().map(function(g){
     const items = groupItems(g.key);
     if(!items.length) return '';
-    const rows = items.map(function(it){
-      return '<label class="drow" data-name="' + it.name + '">' +
-        '<input type="checkbox" value="' + it.id + '"><span>' + it.name + '</span></label>';
-    }).join('');
+    const rows = items.map(dietRowHTML).join('');
     return '<details class="grp" data-group="' + g.key + '">' +
       '<summary><span class="gname">' + g.label + '</span>' +
       '<span class="gcnt" data-cnt="' + g.key + '">' + items.length + '</span></summary>' +
       '<div class="rows">' + rows + '</div></details>';
   }).join('');
+  paintDbCount();
   updateDietUI();
+}
+
+function paintGroupCounts(){
+  const box = document.getElementById('dietGroups');
+  if(!box) return;
+  const q = normQ(state.q || '');
+  box.querySelectorAll('.grp').forEach(function(g){
+    const cntEl = g.querySelector('.gcnt');
+    if(!cntEl) return;
+    const items = groupItems(g.dataset.group);
+    const sel = items.filter(function(it){ return state.diet.indexOf(it.id) > -1; }).length;
+    if(q){
+      const vis = g.querySelectorAll('.drow:not([hidden])').length;
+      cntEl.textContent = vis + '건';
+      cntEl.classList.add('hit');
+      cntEl.classList.remove('on');
+    } else {
+      cntEl.textContent = sel ? sel + '/' + items.length : String(items.length);
+      cntEl.classList.toggle('on', sel > 0);
+      cntEl.classList.remove('hit');
+    }
+  });
 }
 
 function updateDietUI(){
@@ -1636,42 +1928,139 @@ function updateDietUI(){
     cb.checked = on;
     cb.disabled = dis;
   });
-  /* 그룹별 선택 개수 */
-  GROUPS.forEach(function(g){
-    const el = box.querySelector('[data-cnt="' + g.key + '"]');
-    if(!el) return;
-    const items = groupItems(g.key);
-    const sel = items.filter(function(it){ return state.diet.indexOf(it.id) > -1; }).length;
-    el.textContent = sel ? sel + '/' + items.length : String(items.length);
-    el.classList.toggle('on', sel > 0);
-  });
   /* 선택된 그룹은 열어 둔다 */
   box.querySelectorAll('.grp').forEach(function(g){
-    const hasSel = g.querySelectorAll('.drow.sel').length > 0;
-    if(hasSel) g.open = true;
+    if(g.querySelectorAll('.drow.sel').length > 0) g.open = true;
   });
+  paintGroupCounts();
 
-  document.getElementById('dietCnt').textContent = state.diet.length + '/3';
-  document.getElementById('dxBtn').disabled = state.diet.length < 2;
-  document.getElementById('dxHint').textContent = state.diet.length < 2
+  const cnt = document.getElementById('dietCnt');
+  if(cnt) cnt.textContent = state.diet.length + '/3';
+  const btn = document.getElementById('dxBtn');
+  if(btn) btn.disabled = state.diet.length < 2;
+  const hint = document.getElementById('dxHint');
+  if(hint) hint.textContent = state.diet.length < 2
     ? '2개 이상 선택하면 검사할 수 있어요.'
     : state.diet.length + '개 선택됨 · 진단을 실행하세요.';
 }
 
 function filterDiet(q){
+  state.q = q || '';
   const box = document.getElementById('dietGroups');
-  const key = (q || '').trim().toLowerCase();
+  if(!box) return 0;
+  const key = normQ(q);
+  let total = 0;
   box.querySelectorAll('.grp').forEach(function(g){
-    let visible = 0;
+    let vis = 0;
     g.querySelectorAll('.drow').forEach(function(row){
-      const hit = !key || row.dataset.name.toLowerCase().indexOf(key) > -1;
+      const hit = !key || String(row.dataset.s || '').indexOf(key) > -1;
       row.hidden = !hit;
-      if(hit) visible++;
+      if(hit) vis++;
     });
-    g.hidden = visible === 0;
-    if(key){ g.open = true; }
+    g.hidden = vis === 0;
+    if(key){ g.open = vis > 0; }
     else { g.open = g.querySelector('.drow.sel') !== null; }
+    total += vis;
   });
+
+  const emp = document.getElementById('dietEmpty');
+  if(emp){
+    if(key && total === 0){
+      emp.hidden = false;
+      emp.innerHTML = '<b>‘' + esc(String(q || '').trim()) + '’ 검색 결과가 없어요</b>' +
+        '<span>위의 <b style="display:inline;color:var(--accent-d)">+ 찾는 제품 직접 추가하기</b>로 넣으면 같은 중복 진단이 적용됩니다.</span>';
+    } else {
+      emp.hidden = true;
+      emp.innerHTML = '';
+    }
+  }
+  paintGroupCounts();
+  return total;
+}
+
+/* ---------- 직접 추가 ---------- */
+function paintAddChips(){
+  const box = document.getElementById('addChips');
+  if(!box) return;
+  box.innerHTML = ADD_CHIPS.map(function(c){
+    return '<button type="button" data-chip="' + c.k + '" aria-pressed="' +
+      (state.addChips.indexOf(c.k) > -1) + '">' + c.label + '</button>';
+  }).join('');
+}
+
+function toggleAddPanel(open){
+  const panel = document.getElementById('addPanel');
+  const btn = document.getElementById('addToggle');
+  if(!panel) return;
+  panel.classList.toggle('on', !!open);
+  if(btn) btn.setAttribute('aria-expanded', String(!!open));
+  if(open){
+    const inp = document.getElementById('customName');
+    if(inp) inp.focus();
+  }
+}
+
+function customProfFromChips(chips){
+  if(!chips.length || chips.indexOf('disc_none') > -1) return {disc:'none'};
+  const prof = {};
+  chips.forEach(function(k){
+    if(k === 'glu'){ prof.glu = 1; prof.chon = 1; }
+    else if(k === 'zinc'){ prof.zinc = 1; prof.biotin = 1; }
+    else if(k === 'caSupp'){ prof.caSupp = 1; prof.ca = 1; prof.phos = 1; }
+    else if(k === 'o3' || k === 'probio' || k === 'vitAD' || k === 'lutein'){ prof[k] = 1; }
+  });
+  prof.disc = 'partial';
+  return prof;
+}
+
+function addCustomItem(){
+  const input = document.getElementById('customName');
+  const raw = (input && input.value ? input.value : '').trim().replace(/\s+/g, ' ');
+  if(!raw){ toast('제품명을 입력해 주세요'); if(input) input.focus(); return; }
+  const name = raw.slice(0, 40);
+  const item = {
+    id:'cus_' + Date.now().toString(36) + '_' + (state.customSeq++),
+    name:name,
+    prof:customProfFromChips(state.addChips),
+    s:name
+  };
+  state.custom.push(item);
+  save();
+  renderDietList();
+
+  let picked = false;
+  if(state.diet.length < 3){
+    state.diet.push(item.id);
+    picked = true;
+    updateDietUI();
+  } else {
+    toast('이미 3개를 선택했어요 · 목록에는 추가했습니다');
+  }
+  if(state.diet.length >= 2){
+    state.dx = diagnose();
+    renderDx();
+  }
+
+  if(input) input.value = '';
+  state.addChips = [];
+  paintAddChips();
+  toggleAddPanel(false);
+  const grp = document.querySelector('#dietGroups .grp[data-group="custom"]');
+  if(grp) grp.open = true;
+  if(picked && state.diet.length < 3) toast('추가하고 선택했습니다 · 진단에 포함');
+  else if(picked) toast('추가하고 선택했습니다 · 3개가 모두 찼어요');
+  save();
+}
+
+function removeCustomItem(id){
+  state.custom = (state.custom || []).filter(function(c){ return c.id !== id; });
+  state.diet = state.diet.filter(function(x){ return x !== id; });
+  save();
+  renderDietList();
+  if(state.diet.length >= 2){ state.dx = diagnose(); }
+  else { state.dx = null; }
+  renderDx();
+  toast('목록에서 삭제했습니다');
 }
 
 /* =========================================================
@@ -1773,6 +2162,39 @@ function bind(){
     filterDiet(e.target.value);
   });
 
+  /* 진단: 직접 추가 항목 삭제 */
+  document.getElementById('dietGroups').addEventListener('click', function(e){
+    const del = e.target.closest ? e.target.closest('[data-del]') : null;
+    if(!del) return;
+    e.preventDefault();
+    if(e.stopPropagation) e.stopPropagation();
+    removeCustomItem(del.dataset.del);
+  });
+
+  /* 진단: 직접 추가 패널 */
+  document.getElementById('addToggle').addEventListener('click', function(){
+    const panel = document.getElementById('addPanel');
+    toggleAddPanel(!panel.classList.contains('on'));
+  });
+  document.getElementById('addCancel').addEventListener('click', function(){ toggleAddPanel(false); });
+  document.getElementById('addConfirm').addEventListener('click', addCustomItem);
+  document.getElementById('customName').addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); addCustomItem(); }
+  });
+  document.getElementById('addChips').addEventListener('click', function(e){
+    const b = e.target.closest ? e.target.closest('[data-chip]') : null;
+    if(!b) return;
+    const k = b.dataset.chip;
+    if(k === 'disc_none'){
+      state.addChips = state.addChips.indexOf('disc_none') > -1 ? [] : ['disc_none'];
+    } else {
+      state.addChips = state.addChips.filter(function(x){ return x !== 'disc_none'; });
+      const i = state.addChips.indexOf(k);
+      if(i > -1) state.addChips.splice(i, 1); else state.addChips.push(k);
+    }
+    paintAddChips();
+  });
+
   /* 진단 실행 */
   document.getElementById('dxBtn').addEventListener('click', function(){
     if(state.diet.length < 2) return;
@@ -1783,9 +2205,11 @@ function bind(){
   });
 
   document.getElementById('dxReset').addEventListener('click', function(){
-    state.diet = []; state.dx = null;
+    state.diet = []; state.dx = null; state.q = ''; state.addChips = [];
     document.getElementById('dietSearch').value = '';
     filterDiet('');
+    paintAddChips();
+    toggleAddPanel(false);
     updateDietUI(); renderDx(); save();
   });
 
@@ -1870,10 +2294,15 @@ function bind(){
     state.diet = []; state.dx = null; state.reportOpen = false;
     state.purchased = {dx:false, report:false};
     state.allergies = []; state.breed = '';
+    state.custom = []; state.customSeq = 1; state.q = ''; state.addChips = [];
     document.getElementById('breed').value = '';
     document.getElementById('dietSearch').value = '';
     document.getElementById('w').value = state.weight;
+    document.getElementById('customName').value = '';
+    paintAddChips();
+    toggleAddPanel(false);
     filterDiet('');
+    renderDietList();
     paintAllergies(); updateDietUI(); renderDx(); renderReport();
     document.getElementById('printBtn').disabled = true;
     toast('데모 상태를 초기화했습니다');
@@ -1903,6 +2332,7 @@ function bind(){
 
   bind();
   paintAllergies();
+  paintAddChips();
   renderCalc();
   renderProducts();
   renderDietList();

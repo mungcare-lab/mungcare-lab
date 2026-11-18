@@ -47,7 +47,26 @@ function comboPicks(){
     return {cat:c, pick:best, excluded:excluded, total:list.length};
   });
 }
-const LEVEL_LABEL = {high:'주의', mid:'확인 필요', ok:'이상 없음', unk:'판단 보류'};
+const LEVEL_LABEL = {high:'주의', mid:'확인 필요', ok:'중복 없음', unk:'판단 보류'};
+
+/* v0.8 — 기능별 법적 안내 박스(공통). 상세는 disclaimer.html 로 연결 */
+const LEGAL = {
+  dx:'<b>안내:</b> 성분 중복이 없더라도 영양제 병용의 안전성이 보장되는 것은 아닙니다. 성분 함량 및 복용 약물 등에 따라 위험이 달라질 수 있습니다.',
+  calc:'<b>안내:</b> 계산 결과는 일반적인 영양학적 계산식에 따른 추정치이며, 실제 필요 열량과 급여량은 반려견의 건강 상태, 활동량 및 체형에 따라 달라질 수 있습니다.',
+  rec:'본 추천은 제품 정보와 공개된 자료를 기반으로 한 참고 정보이며, 수의학적 진단이나 치료를 대신하지 않습니다.',
+  shop:'가격, 재고 및 상품 정보는 판매처에서 최종 확인해 주세요.'
+};
+function legalNoteHTML(body, extra){
+  return '' +
+  '<div class="legalnote" role="note">' +
+    '<span class="lic" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.6v.01"/></svg></span>' +
+    '<div>' +
+      '<p>' + body + '</p>' +
+      (extra ? '<p class="lx">' + extra + '</p>' : '') +
+      '<a href="disclaimer.html">자세한 이용 안내 보기</a>' +
+    '</div>' +
+  '</div>';
+}
 
 /* =========================================================
    2. 상태 · 저장
@@ -301,7 +320,7 @@ function diagnose(){
       title:'지용성 비타민 A·D 중복',
       brief:'A·D를 공급하는 보충제가 ' + vitSupp + '개 겹칩니다. 지용성은 배출이 느려 상한 초과 위험이 있습니다.',
       fix:'A·D 함유 제품은 1개만 남기고, 나머지는 같은 목적의 비-A/D 성분(예: 오메가3·유산균)으로 교체하세요.',
-      amount:'완전사료를 주식으로 유지한다면 A·D 단독 보충제는 추가하지 않는 쪽이 안전합니다. 추가할 경우 2주 간격으로 급여량을 다시 확인하세요.',
+      amount:'완전사료를 주식으로 유지한다면 A·D 단독 보충제는 추가하지 않는 것을 권장합니다. 추가할 경우 2주 간격으로 급여량을 다시 확인하세요.',
       watch:'식욕 저하, 구토, 과도한 음수, 피부 각질 증가가 보이면 즉시 중단.'
     });
   } else if(vitSupp === 1 && foodItem){
@@ -420,7 +439,7 @@ function diagnose(){
     out.push({
       id:'o3', level:'high',
       title:'오메가3 중복',
-      brief:o3N + '개 제품에서 오메가3를 공급합니다. 합산하지 않으면 과량이 됩니다.',
+      brief:o3N + '개 제품에서 오메가3를 공급합니다. 합산량을 확인하지 않으면 권장 범위를 넘을 수 있습니다.',
       fix:'오메가3 급원은 1개만 남기세요. 나머지는 유산균·피부 유산균 등 다른 축으로 바꾸는 편이 낫습니다.',
       amount:'체중 ' + c.w + 'kg 기준 하루 EPA+DHA 목표는 ' + nf(target[0]) + '~' + nf(target[1]) + 'mg입니다. 제품 라벨의 EPA+DHA mg × 급여 개수로 합계를 계산해 이 범위에 맞추세요.',
       watch:'묽은 변·지방변. 수술 전 2주는 항응고 작용 때문에 수의사와 상의하세요.'
@@ -547,13 +566,15 @@ function renderDx(){
   }
   const d = state.dx;
 
+  const insufficient = d.items.filter(function(i){ return !i.prof || i.prof.disc !== 'full'; }).length;
+
   const head = '' +
     '<div class="fnd sum' + (d.flagged ? '' : ' hi') + '">' +
-      '<div class="fh"><span class="ft">' + (d.flagged ? '주의 ' + d.flagged + '개 항목' : '검사한 ' + d.findings.length + '개 항목 모두 이상 없음') + '</span>' +
+      '<div class="fh"><span class="ft">' + (d.flagged ? '주의 ' + d.flagged + '개 항목' : '검사한 ' + d.findings.length + '개 항목 중복 신호 없음') + '</span>' +
       '<span class="st">' + d.items.length + '개 제품 검사</span></div>' +
       '<div class="fb">' + (d.flagged
         ? '항목마다 <b>해결책·조절량·관찰 지표</b>를 바로 아래에 정리했습니다.'
-        : '현재 조합에서는 중복·과다 신호가 잡히지 않았습니다.') + '</div>' +
+        : '중복 신호가 확인되지 않았습니다. 다만 중복이 없다는 것만으로 병용의 안전성이 보장되지는 않습니다.') + '</div>' +
     '</div>';
 
   const rows = d.findings.map(function(f){
@@ -570,8 +591,10 @@ function renderDx(){
     '</div>';
   }).join('');
 
-  box.innerHTML = head + rows;
   box.className = 'findings';
+  box.innerHTML = head + rows + legalNoteHTML(LEGAL.dx, insufficient
+    ? '함량 정보 부족으로 정확한 위험 평가 불가 — mg 함량 표기가 완전하지 않은 제품이 ' + insufficient + '개 포함되어 있습니다. 라벨의 함량과 실제 급여량을 확인하세요.'
+    : '');
 }
 
 /* =========================================================
@@ -586,7 +609,7 @@ function allergyList(){
   if(a.indexOf('유제품') > -1) out.push('탈지분유·유청단백·치즈 분말 (분유·유청 유래 단백질 포함)');
   if(!out.length){
     out.push('인공색소 (일부 저키형 제품에 식용색소 표기)');
-    out.push('특정 원료 알러지가 없다면, 성분표 3번째 이후 원료까지 확인하는 습관이 안전합니다');
+    out.push('특정 원료 알러지가 없다면, 성분표 3번째 이후 원료까지 확인하는 습관을 권장합니다');
   }
   out.push('A·D 고함량 복합제 (완전사료와 중복 시 상한 초과 위험)');
   return out;
@@ -655,7 +678,7 @@ function reportHTML(){
   const dxBlock = d
     ? '<ul>' + d.findings.filter(function(f){ return f.level === 'high' || f.level === 'mid'; })
         .map(function(f){ return '<li><b>' + f.title + '</b> — ' + f.fix + '</li>'; }).join('') +
-      (d.flagged ? '' : '<li>현재 조합에서 중복·과다 신호는 잡히지 않았습니다.</li>') + '</ul>'
+      (d.flagged ? '' : '<li>현재 조합에서는 성분 중복 신호가 확인되지 않았습니다. 중복이 없다는 것만으로 병용의 안전성이 보장되지는 않습니다.</li>') + '</ul>'
     : '<p>진단을 먼저 실행하면 이 리포트에 자동 반영됩니다. (진단 미실행)</p>';
 
   return '' +
@@ -719,7 +742,7 @@ function reportHTML(){
       '</ul>' +
     '</div>' +
 
-    '<div class="rp-foot">본 리포트는 공개 자료와 입력값에 기반한 참고 문서이며 의학적 진단·처방이 아닙니다. 제품 선택·구매·급여 및 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 운영자는 법적·금전적 책임을 지지 않습니다. 제품 가격·평점은 2026-11-17 조사 기준입니다.</div>' +
+    '<div class="rp-foot">본 리포트는 공개 자료와 입력값에 기반한 참고 문서이며 수의학적 진단·처방을 대신하지 않습니다. 제품 선택·구매·급여에 관한 판단은 이용자에게 있으며, 운영자의 고의 또는 중대한 과실로 인한 책임은 면제되지 않습니다. 제품 가격·평점은 2026-11-17 조사 기준입니다. <a href="disclaimer.html">자세한 이용 안내 보기</a></div>' +
   '</div>';
 }
 

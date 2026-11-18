@@ -1,9 +1,9 @@
-/* 멍케어 Lab v0.7 — 설정
+/* 멍케어 Lab v0.8 — 설정
    여기 값만 바꾸면 유료 모듈·외부 검색 연동을 켜고 끌 수 있습니다.
    비밀 키는 절대 이 파일(브라우저로 내려가는 코드)에 두지 마세요.
    실제 API 키는 server/.env (서버리스 프록시) 에만 둡니다. */
 window.APP_CONFIG = Object.assign({
-  APP_VERSION: 'v0.7',
+  APP_VERSION: 'v0.8',
 
   /* 유료 기능 스위치 — false 이면 premium.js 는 아무 UI·결제·가격도 만들지 않습니다. */
   ENABLE_PREMIUM: false,

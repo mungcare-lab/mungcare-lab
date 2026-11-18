@@ -271,6 +271,7 @@ function renderSearch(){
     empty.innerHTML =
       '<p class="emp">' + EMPTY_TEXT + '</p>' +
       '<div class="shoprow center">' + shopButtonsHTML('big') + '</div>' +
+      '<p class="shopnote">가격, 재고 및 상품 정보는 판매처에서 최종 확인해 주세요.</p>' +
       (list.filtersActive ? '<p class="emphint">필터를 “전체”로 바꾸면 더 많은 결과가 나옵니다.</p>' : '') +
       '<button type="button" class="reqopen" data-req-open>제품 직접 등록 요청하기</button>';
   } else {
@@ -665,7 +666,8 @@ function detailHTML(p){
     '</div>' +
     '<div class="dbody">' +
       body +
-      '<section class="dsec"><h4><i>09</i> 판매처·가격</h4>' + offersTable(p) + '</section>' +
+      '<section class="dsec"><h4><i>09</i> 판매처·가격</h4>' + offersTable(p) +
+        '<p class="dhint">가격, 재고 및 상품 정보는 판매처에서 최종 확인해 주세요.</p></section>' +
       '<section class="dsec"><h4><i>10</i> 리뷰 정보</h4>' +
         (review && review.summaryText
           ? '<p>' + mcEscape(review.summaryText) + '</p><p class="dhint">리뷰 요약은 판매처 표시값과 공개 리뷰 집계를 정리한 것이며 효능 근거가 아닙니다.</p>'

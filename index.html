@@ -485,6 +485,19 @@ body.dopen{overflow:hidden}
 .dataerr b{display:block;font-size:12.5px;margin-bottom:3px}
 .dataerr span{display:block;color:#A5503F}
 
+/* ---------- 법적 안내 박스 (v0.8) ---------- */
+.legalnote{display:flex;gap:10px;margin-top:16px;background:#F5F7F8;border:1px solid var(--line2);border-radius:14px;padding:14px 15px}
+.legalnote .lic{flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:var(--accent-l);color:var(--accent-d);display:grid;place-items:center;margin-top:1px}
+.legalnote p{font-size:12.5px;line-height:1.7;color:var(--ink2)}
+.legalnote b{color:var(--ink);font-weight:800}
+.legalnote a{display:inline-block;margin-top:7px;font-size:12px;font-weight:800;color:var(--accent-d);text-decoration:underline;text-underline-offset:2px}
+.legalnote .lx{margin-top:7px;font-size:11.5px;color:var(--muted);line-height:1.6}
+.shopnote{margin-top:6px;font-size:11px;color:var(--muted);line-height:1.6;text-align:right}
+.sempty .shopnote{text-align:center;margin-top:8px}
+.flinks{display:flex;flex-wrap:wrap;gap:6px 14px;margin:10px 0 12px}
+.flinks a{font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--line2)}
+.flinks a:hover{color:var(--accent-d);border-color:var(--accent)}
+
 /* ---------- print ---------- */
 @media print{
   body{background:#fff}
@@ -523,6 +536,7 @@ body.dopen{overflow:hidden}
     <a class="shopbtn naver off" data-shop="naver" target="_blank" rel="noopener" aria-disabled="true">네이버 쇼핑 검색</a>
     <a class="shopbtn coupang off" data-shop="coupang" target="_blank" rel="noopener" aria-disabled="true">쿠팡 검색</a>
   </div>
+  <p class="shopnote">가격, 재고 및 상품 정보는 판매처에서 최종 확인해 주세요.</p>
 </div>
 
 <nav class="tabbar wrap" aria-label="화면 전환">
@@ -546,8 +560,14 @@ body.dopen{overflow:hidden}
     <div class="cats" id="catPills" role="tablist" aria-label="부위 선택"></div>
     <p class="catnote" id="catNote"></p>
     <div class="plist" id="plist"></div>
-    <p class="hint" style="margin-top:16px">구매 버튼은 쿠팡·네이버 검색 결과로 연결됩니다(제휴 링크 아님). 가격 옆 괄호는 그 채널의 용량·수량이며, 같은 규격끼리 비교할 수 있도록 맞췄습니다. 가격·평점·리뷰 수는 조사 시점 기준이고 확인하지 못한 칸은 ‘미확인’입니다.</p>
-    <p class="hint" style="margin-top:8px"><b style="color:var(--ink2)">추천은 참고용입니다.</b> 제품 선택·구매·급여와 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 운영자는 법적·금전적 책임을 지지 않습니다.</p>
+    <div class="legalnote" role="note">
+      <span class="lic" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.6v.01"/></svg></span>
+      <div>
+        <p>본 추천은 제품 정보와 공개된 자료를 기반으로 한 참고 정보이며, 수의학적 진단이나 치료를 대신하지 않습니다.</p>
+        <a href="disclaimer.html">자세한 이용 안내 보기</a>
+      </div>
+    </div>
+    <p class="hint" style="margin-top:16px">구매 버튼은 쿠팡·네이버 검색 결과로 연결됩니다(제휴 링크 아님). 가격 옆 괄호는 그 채널의 용량·수량이며, 같은 규격끼리 비교할 수 있도록 맞췄습니다. 가격·평점·리뷰 수는 조사 시점 기준이고 확인하지 못한 칸은 ‘미확인’입니다. 가격, 재고 및 상품 정보는 판매처에서 최종 확인해 주세요.</p>
   </section>
 
 
@@ -582,10 +602,17 @@ body.dopen{overflow:hidden}
       <p class="snote">내부 DB(data/*.json)에서 먼저 찾은 결과입니다. 쇼핑몰 전체 검색은 위의 <b>네이버 쇼핑 검색</b>·<b>쿠팡 검색</b> 버튼으로 새 탭에서 열립니다.</p>
     </div>
 
-    <p class="slistnote">가격은 쿠팡·네이버 판매 페이지에서 확인한 값입니다. 가격을 확인하지 못한 제품은 추정하지 않고 “가격 미확인”으로 표시하며, 확인된 가격이 있는 제품은 21종입니다.</p>
+    <p class="slistnote">가격은 쿠팡·네이버 판매 페이지에서 확인한 값입니다. 가격을 확인하지 못한 제품은 추정하지 않고 “가격 미확인”으로 표시하며, 확인된 가격이 있는 제품은 21종입니다. 가격, 재고 및 상품 정보는 판매처에서 최종 확인해 주세요.</p>
 
     <div id="searchEmpty" class="sempty" hidden role="status"></div>
     <div id="searchResults" class="slist" aria-live="polite"></div>
+    <div class="legalnote" role="note">
+      <span class="lic" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.6v.01"/></svg></span>
+      <div>
+        <p>본 추천은 제품 정보와 공개된 자료를 기반으로 한 참고 정보이며, 수의학적 진단이나 치료를 대신하지 않습니다.</p>
+        <a href="disclaimer.html">자세한 이용 안내 보기</a>
+      </div>
+    </div>
 
     <details class="card reqcard" id="reqBox">
       <summary><b>제품 직접 등록 요청</b><span>찾는 제품이 없을 때</span></summary>
@@ -609,7 +636,7 @@ body.dopen{overflow:hidden}
       </div>
     </details>
 
-    <p class="hint" style="margin-top:18px"><b style="color:var(--ink2)">검색 결과는 참고용입니다.</b> 제품 선택·구매·급여와 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 운영자는 법적·금전적 책임을 지지 않습니다.</p>
+    <p class="hint" style="margin-top:18px"><b style="color:var(--ink2)">검색 결과는 참고용입니다.</b> 확인된 자료를 기준으로 정리한 정보이며, 개별 반려견에 따라 결과가 달라질 수 있습니다. 제품 선택·구매·급여에 관한 판단은 이용자에게 있으며, 운영자의 고의 또는 중과실로 인한 책임은 면제되지 않습니다.</p>
   </section>
 
   <!-- ③ 급여량 계산 -->
@@ -674,6 +701,14 @@ body.dopen{overflow:hidden}
       <div class="mini"><div class="k">1회 급여 2끼</div><div class="v" id="kMeal">—<span>g</span></div></div>
     </div>
 
+    <div class="legalnote" role="note">
+      <span class="lic" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><path d="M12 7.6v.01"/></svg></span>
+      <div>
+        <p><b>안내:</b> 계산 결과는 일반적인 영양학적 계산식에 따른 추정치이며, 실제 필요 열량과 급여량은 반려견의 건강 상태, 활동량 및 체형에 따라 달라질 수 있습니다.</p>
+        <a href="disclaimer.html">자세한 이용 안내 보기</a>
+      </div>
+    </div>
+
     <details class="acc card" style="margin-top:12px;border-top:0">
       <summary>계산식과 조정 방법</summary>
       <div class="acc-body">
@@ -722,7 +757,7 @@ body.dopen{overflow:hidden}
           <button class="btn line" id="dxReset" style="flex:0 0 auto">초기화</button>
         </div>
         <p class="hint" id="dxHint" style="margin-top:10px">2개 이상 선택하면 검사할 수 있어요.</p>
-        <p class="hint" style="margin-top:6px">진단 결과는 참고용입니다. 제품 선택·급여에 대한 최종 판단과 그 결과에 대한 책임은 보호자 본인에게 있습니다.</p>
+        <p class="hint" style="margin-top:6px">진단 결과는 등록된 성분 정보를 기준으로 한 참고 정보입니다. 최종 판단은 보호자에게 있으며, 운영자의 고의 또는 중과실로 인한 책임은 면제되지 않습니다.</p>
       </div>
       <div class="findings" id="dxOut" aria-live="polite"></div>
     </div>
@@ -780,8 +815,13 @@ body.dopen{overflow:hidden}
   </section>
 
   <footer>
-    <b>멍케어 Lab</b> · 반려견 영양 비교 프로토타입 (v0.7)<br>
-    <span class="disc">본 사이트의 추천 제품·급여량·성분 정보는 공개 자료를 바탕으로 한 참고용 정보이며, 의학적 진단·처방이 아닙니다. 제품 선택, 구매, 급여 및 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 사이트 운영자는 이에 대한 법적·금전적 책임을 지지 않습니다.</span><br>
+    <b>멍케어 Lab</b> · 반려견 영양 정보 비교 (v0.8)<br>
+    <nav class="flinks" aria-label="정책 및 안내">
+      <a href="disclaimer.html">서비스 이용 안내</a>
+      <a href="terms.html">이용약관</a>
+      <a href="privacy.html">개인정보 처리방침</a>
+    </nav>
+    <span class="disc">본 사이트의 추천 제품·급여량·성분 정보는 공개 자료를 바탕으로 한 참고용 정보이며, 수의학적 진단·처방을 대신하지 않습니다. 이 안내는 관계 법령에 따라 인정되는 이용자의 권리를 제한하거나 운영자의 고의 또는 중대한 과실로 인한 책임을 면제하는 것으로 해석되지 않습니다.</span><br>
     영양제는 질병 치료제가 아니므로 급여 전 기저질환·복용 약을 수의사와 확인하세요.<br>
     제품 가격·평점·리뷰 수는 2026-11-17~18 조사 시점의 공개 자료로 이후 변동될 수 있습니다.<br>
     데이터: <b>data/</b> 8개 JSON 파일(brands·ingredients·products·product_ingredients·product_offers·product_reviews·evidence·data_sources) · 진단 DB 96종 중 가격 확인 21종 · 확인하지 못한 값은 ‘정보 미확인’으로 표시합니다.

@@ -1,10 +1,26 @@
-# 멍케어 Lab v0.7
+# 멍케어 Lab v0.8
 
 반려견 사료·영양제 **96종**을 제품명·브랜드·제조사·성분·8개 건강 카테고리로 찾고,
 확인된 가격과 성분 근거를 비교하는 정적 웹앱입니다. 로그인·설치 없이 동작합니다.
 
 - 라이브: https://mungcare-lab.github.io/mungcare-lab/
 - 배포: GitHub Pages (`gh-pages` 브랜치 루트), 소스는 `main`
+
+## v0.8에서 달라진 점 — 법적 고지·면책 안내 개편
+
+1. **신규 페이지 3종** — `disclaimer.html`(서비스 이용 안내 및 책임 범위, 제1조~제8조),
+   `terms.html`(이용약관), `privacy.html`(개인정보 처리방침). 세 페이지 모두 같은 디자인 토큰과
+   상단 문서 내비게이션을 쓰고, 모바일 390px에서 가로 스크롤이 없습니다.
+2. **공통 푸터 3개 링크** — 모든 페이지(`index`·`disclaimer`·`terms`·`privacy`) 하단에
+   서비스 이용 안내 · 이용약관 · 개인정보 처리방침. 연락처(이메일·문의 링크)는 두지 않았습니다.
+3. **기능별 안내 박스** — 연한 회색 박스 + 정보 아이콘 + `자세한 이용 안내 보기`(→ `disclaimer.html`).
+   급여량 계산기, 중복 검사 결과 아래, 제품 추천 목록 아래, 외부 쇼핑몰 버튼 옆에 배치했습니다.
+4. **안전 단정 제거** — `완전히 안전`·`모두 이상 없음`·`과다 복용` 단정·`법적·금전적 책임을 지지 않습니다`
+   표현을 걷어내고, "중복 신호 없음 / 병용 안전성이 보장되는 것은 아님 / 고의·중과실 책임은 면제되지 않음"으로 바꿨습니다.
+   함량(mg) 표기가 완전하지 않은 제품이 조합에 있으면 **`정확한 위험 평가 불가`**를 함께 표시합니다.
+5. **개인정보 처리방침은 실제 구현 기준** — 회원가입·서버 DB 없음, 입력값은 `localStorage`
+   (`mc_state_v1`, `mc_requests_v1`)에만 저장, 쿠키·애널리틱스·제휴 링크 없음, GitHub Pages 접속 기록 가능성,
+   외부 쇼핑몰 이동 시 해당 사업자 정책 적용을 그대로 적었습니다.
 
 ## v0.7에서 달라진 점
 
@@ -30,6 +46,9 @@
 
 ```
 index.html               셸(스타일 + 마크업) · 스크립트는 아래 순서로 로드
+disclaimer.html          서비스 이용 안내 및 책임 범위 (제1조~제8조)
+terms.html               이용약관
+privacy.html             개인정보 처리방침 (localStorage·호스팅 로그·외부 링크)
 config.js                설정 (ENABLE_PREMIUM, DATA_BASE, 검색 상한)
 premium.js               유료 기능 모듈 (분리 보관, 스위치 꺼짐 = UI 없음)
 js/constants.js          8개 카테고리·알러지·미확인 표기 상수
@@ -84,6 +103,7 @@ GitHub Pages 설정: `Settings → Pages → Source: Deploy from a branch → gh
 
 ```bash
 cd .build
+python3 test_v08.py            # v0.8 법적 고지·면책 지시서 8번 전체 (96 checks)
 python3 test_v07.py            # v0.7 지시서 1~10 + 수정 지시서 항목 (91 checks)
 python3 test_parity.py         # v0.6 대비 카드·진단·리포트 HTML 동일성
 python3 test_prices.py         # 가격·용량 표기
@@ -93,7 +113,7 @@ python3 test_report_inputs.py  # 리포트 폼(체중·나이·중성화) 동기
 python3 test_allergy_filter.py # 알러지 자동 제외
 python3 test_pure_free.py      # 순수 무료 UI
 python3 test_pure_free_logic.py
-python3 test_live.py           # 배포 URL 검증 (배포 후)
+python3 test_live.py           # 배포 URL 검증 (배포 후, v0.8 페이지·푸터 포함)
 ```
 
 `.build/obsolete/`는 v0.5 유료 UI 시절 테스트로, 해당 화면이 v0.6에서 제거되어 현재 코드에서는 실행 대상이 아닙니다.

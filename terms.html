@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F8FA">
+<title>이용약관 — 멍케어 Lab</title>
+<meta name="description" content="멍케어 Lab 이용약관 — 무료 정보 비교 서비스의 이용 조건, 정보의 성격과 변경·중단, 지적재산권, 책임의 범위를 안내합니다.">
+<style>
+:root{
+  --bg:#F7F8FA; --card:#FFFFFF; --ink:#191F28; --ink2:#4E5968; --muted:#8B95A1;
+  --line:#EFF1F4; --line2:#E5E8EB;
+  --accent:#0EA57A; --accent-d:#0B8763; --accent-l:#E9F8F2;
+  --sh:0 1px 2px rgba(25,31,40,.04), 0 6px 18px rgba(25,31,40,.045);
+  --font:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.75;letter-spacing:-.01em;word-break:keep-all;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.appbar{padding:16px 0 6px}
+.appbar .in{display:flex;align-items:center;gap:8px}
+.logo{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:800;letter-spacing:-.04em;text-decoration:none}
+.logo .mark{width:26px;height:26px;border-radius:9px;background:var(--accent);display:grid;place-items:center}
+.appbar .note{margin-left:auto;font-size:11.5px;font-weight:700;color:var(--muted)}
+.docnav{position:sticky;top:0;z-index:20;background:rgba(247,248,250,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line2)}
+.dnin{max-width:760px;margin:0 auto;display:flex;gap:6px;overflow-x:auto;padding:8px 20px 10px;scrollbar-width:none}
+.dnin::-webkit-scrollbar{display:none}
+.dnin a{flex:0 0 auto;font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none;background:#fff;border:1px solid var(--line2);border-radius:999px;padding:7px 12px;letter-spacing:-.02em;white-space:nowrap}
+.dnin a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.dnin a.home{font-weight:800;color:var(--accent-d);background:var(--accent-l);border-color:transparent}
+main{padding:22px 0 40px}
+.doc{background:#fff;border-radius:18px;padding:26px 22px 30px;box-shadow:var(--sh)}
+.doc h1{font-size:clamp(21px,5.2vw,27px);font-weight:800;letter-spacing:-.04em;line-height:1.35;margin:0}
+.doc .meta{margin-top:8px;font-size:12px;font-weight:700;color:var(--muted)}
+.doc .lead{margin-top:16px;font-size:13.5px;color:var(--ink2);background:#F5F7F8;border:1px solid var(--line2);border-radius:12px;padding:13px 15px;line-height:1.8}
+.doc section{margin-top:26px}
+.doc h2{font-size:14.5px;font-weight:800;letter-spacing:-.03em;color:var(--ink);margin:0 0 9px;line-height:1.5}
+.doc h2 i{font-style:normal;font-size:11px;font-weight:800;color:var(--accent-d);background:var(--accent-l);border-radius:6px;padding:2px 7px;margin-right:7px;position:relative;top:-1px}
+.doc p{font-size:13.5px;color:var(--ink2);line-height:1.85;margin:0}
+.doc p+p{margin-top:9px}
+.doc b{color:var(--ink);font-weight:800}
+.doc ul{margin:8px 0 0;padding-left:18px}
+.doc li{font-size:13.5px;color:var(--ink2);line-height:1.85}
+.doc li+li{margin-top:4px}
+.doc ol{margin:8px 0 0;padding-left:20px}
+.tablebox{margin-top:10px;overflow-x:auto;border:1px solid var(--line2);border-radius:12px}
+.tbl{width:100%;border-collapse:collapse;font-size:12.5px;min-width:420px}
+.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top;line-height:1.7}
+.tbl th{background:#FAFBFC;color:var(--ink);font-weight:800;white-space:nowrap}
+.tbl tr:last-child td,.tbl tr:last-child th{border-bottom:0}
+.tbl td{color:var(--ink2)}
+.doc .box{display:flex;gap:10px;margin-top:14px;background:#F5F7F8;border:1px solid var(--line2);border-radius:12px;padding:13px 15px}
+.doc .box .lic{flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:var(--accent-l);color:var(--accent-d);display:grid;place-items:center;margin-top:2px}
+.doc .box p{font-size:12.5px}
+.backlink{display:inline-block;margin-top:26px;font-size:12.5px;font-weight:800;color:var(--accent-d);text-decoration:underline;text-underline-offset:2px}
+footer{border-top:1px solid var(--line2);padding:22px 0 44px;font-size:11.5px;color:var(--muted);line-height:1.8}
+footer b{color:var(--ink2)}
+.flinks{display:flex;flex-wrap:wrap;gap:6px 14px;margin:10px 0}
+.flinks a{font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--line2)}
+.flinks a:hover{color:var(--accent-d);border-color:var(--accent)}
+@media(max-width:400px){
+  .doc{padding:22px 16px 26px;border-radius:16px}
+  .doc p,.doc li,.doc .lead{font-size:13px}
+  .tbl{font-size:12px}
+}
+</style>
+</head>
+<body>
+
+<header class="appbar">
+  <div class="wrap in">
+    <a class="logo" href="index.html"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><ellipse cx="6.8" cy="8.2" rx="2" ry="2.6"/><ellipse cx="12" cy="6.4" rx="2" ry="2.8"/><ellipse cx="17.2" cy="8.2" rx="2" ry="2.6"/><ellipse cx="20.2" cy="12.4" rx="1.7" ry="2.1"/><ellipse cx="3.8" cy="12.4" rx="1.7" ry="2.1"/><path d="M12 11.4c3.2 0 5.8 2.3 5.8 4.6 0 1.9-1.4 3-3.3 3-1.1 0-1.8-.4-2.5-.4s-1.4.4-2.5.4c-1.9 0-3.3-1.1-3.3-3 0-2.3 2.6-4.6 5.8-4.6Z"/></svg></span>멍케어 Lab</a>
+    <span class="note">이용약관</span>
+  </div>
+</header>
+
+<nav class="docnav" aria-label="문서 메뉴">
+  <div class="dnin">
+    <a class="home" href="index.html">앱으로 돌아가기</a>
+    <a href="disclaimer.html">서비스 이용 안내</a>
+    <a href="terms.html" aria-current="page">이용약관</a>
+    <a href="privacy.html">개인정보 처리방침</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <article class="doc">
+    <h1>이용약관</h1>
+    <p class="meta">멍케어 Lab · 시행일 2026년 11월 18일</p>
+
+    <p class="lead">이 약관은 멍케어 Lab(이하 “서비스”)을 이용할 때 적용되는 조건과, 운영자와 이용자의 권리·의무 및 책임 범위를 정합니다. 서비스를 이용하면 이 약관에 동의한 것으로 봅니다.</p>
+
+    <section>
+      <h2><i>제1조</i>목적</h2>
+      <p>이 약관은 멍케어 Lab이 제공하는 반려견 사료·영양제 정보 비교 서비스의 이용 조건과 절차, 운영자와 이용자 사이의 권리·의무 및 책임 범위를 정하는 것을 목적으로 합니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제2조</i>정의</h2>
+      <ul>
+        <li><b>서비스</b>: 멍케어 Lab이 운영하는 반려견 사료·영양제 정보 비교 웹사이트(https://mungcare-lab.github.io/mungcare-lab/) 및 그 부속 페이지를 말합니다.</li>
+        <li><b>이용자</b>: 별도의 회원가입 없이 서비스에 접속하여 정보를 열람·이용하는 사람을 말합니다.</li>
+        <li><b>운영자</b>: 서비스를 기획·제작하고 정보를 관리하는 자를 말합니다.</li>
+        <li><b>콘텐츠</b>: 서비스가 제공하는 제품 정보, 성분·연구자료 요약, 급여량 계산 결과, 성분 중복 검사 결과, 맞춤 리포트, 안내 문구 등 일체의 정보를 말합니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i>제3조</i>서비스의 내용</h2>
+      <p>서비스는 다음 기능을 무료로 제공합니다.</p>
+      <ol>
+        <li>사료·영양제 96종의 제품명·브랜드·성분 검색과 8개 건강 카테고리별 비교</li>
+        <li>확인된 판매처 가격·용량·성분 근거 정보의 제공</li>
+        <li>체중·나이·중성화 여부에 따른 하루 급여량 계산</li>
+        <li>급여 중인 제품의 성분 중복·충돌 검사(직접 추가 기능 포함)</li>
+        <li>체중·나이·중성화·알러지 조건을 반영한 맞춤 리포트와 인쇄(PDF) 기능</li>
+        <li>네이버·쿠팡 등 외부 쇼핑몰의 검색 결과로 이동하는 링크</li>
+      </ol>
+      <p>서비스는 <b>회원가입과 로그인이 없으며</b>, 현재 유료 서비스·결제 기능을 제공하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제4조</i>이용 조건</h2>
+      <p>이용자는 별도의 가입 절차 없이 서비스를 이용할 수 있습니다. 서비스는 정적 웹페이지로 제공되며, 이용에 필요한 브라우저와 통신 환경은 이용자가 마련합니다.</p>
+      <p>이용자가 입력한 체중·나이·알러지·진단 대상 제품 등의 값은 <b>이용자의 기기(브라우저 저장소)에만 저장</b>되고 운영자에게 전송되지 않습니다. 자세한 내용은 <a href="privacy.html">개인정보 처리방침</a>을 따릅니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제5조</i>정보의 성격과 한계</h2>
+      <p>서비스가 제공하는 콘텐츠는 제품 선택을 돕기 위한 <b>일반적인 참고 정보</b>이며, 수의사의 진료·진단·처방 또는 개별 영양 상담을 대체하지 않습니다.</p>
+      <p>연구자료는 특정 성분을 대상으로 한 연구 결과를 정리한 것으로, 해당 성분이 포함된 모든 제품의 효능을 보장하지 않습니다. 반려견의 질병, 복용 약물, 알러지, 임신·수유 여부 등에 따라 적합한 제품과 급여량은 달라질 수 있습니다.</p>
+      <p>건강상 문제가 있거나 치료 중인 경우에는 수의사와 상담하시기 바랍니다. 급여량 계산기와 성분 중복 검사의 한계는 <a href="disclaimer.html">서비스 이용 안내 및 책임 범위</a>에 정리되어 있습니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제6조</i>정보의 변경 및 서비스의 중단</h2>
+      <p>제조사의 성분 변경, 판매처의 가격 변동, 상품 단종, 재고 상황, 외부 자료의 수정 등으로 인해 서비스에 표시된 정보와 실제 판매 정보가 달라질 수 있습니다. 운영자는 정보의 정확성과 최신성을 유지하기 위해 합리적인 노력을 기울입니다.</p>
+      <p>운영자는 서비스의 내용을 변경하거나 제공을 중단할 수 있으며, 이 경우 변경·중단의 내용과 시기를 서비스 내에 미리 알리도록 노력합니다. 다만 점검·장애·호스팅 정책 변경 등 부득이한 사유가 있는 경우에는 사후에 알릴 수 있습니다.</p>
+      <p>이 조항은 운영자의 고의 또는 중대한 과실로 인한 책임을 면제하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제7조</i>지적재산권</h2>
+      <p>서비스의 화면 구성, 편집·분류 방식, 데이터베이스 구성, 리포트 양식 등 운영자가 창작한 부분에 대한 권리는 운영자에게 있습니다.</p>
+      <p>제품명·상표·제품 이미지·제조사 안내문·연구자료 등은 각 권리자에게 권리가 있으며, 서비스는 출처를 표시하여 인용합니다.</p>
+      <p>이용자는 서비스의 콘텐츠를 개인적인 참고 목적으로 이용할 수 있습니다. 운영자의 사전 동의 없이 대량으로 복제·수집·재배포하거나 상업적으로 이용하는 행위는 허용되지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제8조</i>이용자의 의무</h2>
+      <ul>
+        <li>자동화된 수단으로 서비스 전체를 반복 수집하는 등 서비스 운영을 방해하는 행위를 하지 않습니다.</li>
+        <li>서비스를 통해 얻은 정보를 마치 수의학적 진단·처방인 것처럼 제3자에게 제공하지 않습니다.</li>
+        <li>외부 쇼핑몰로 이동하여 상품을 구매하는 경우 해당 판매처의 약관과 정책을 따릅니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i>제9조</i>외부 링크 및 거래</h2>
+      <p>서비스는 네이버·쿠팡 등 외부 쇼핑몰의 검색 결과나 상품 페이지로 이동하는 링크를 제공합니다. 서비스는 해당 상품의 판매 당사자가 아닙니다.</p>
+      <p>상품의 구매 계약, 결제, 배송, 교환 및 환불은 해당 판매처의 정책과 관계 법령에 따릅니다. 가격·재고·상품 정보는 구매 전에 판매처에서 최종 확인해 주세요.</p>
+    </section>
+
+    <section>
+      <h2><i>제10조</i>책임의 범위</h2>
+      <p>운영자는 서비스의 정확성과 안전성을 높이기 위해 합리적인 주의를 기울이며, 오류가 확인되면 필요한 정정 조치를 취하도록 노력합니다.</p>
+      <p>이용자는 서비스가 제공하는 정보의 목적과 한계를 이해하고, 반려견의 개별적인 건강 상태를 고려하여 정보를 활용해야 합니다.</p>
+      <p>이 약관은 관계 법령에 따라 인정되는 이용자의 권리를 제한하거나, 운영자의 고의 또는 중대한 과실로 인한 책임을 면제하는 것으로 해석되지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제11조</i>약관의 변경</h2>
+      <p>운영자는 필요한 경우 이 약관을 변경할 수 있습니다. 약관을 변경할 때에는 변경 내용과 시행일을 서비스 내에 게시하며, 이용자에게 불리한 변경은 시행일 30일 전, 그 밖의 변경은 7일 전에 알리도록 노력합니다.</p>
+      <p>변경된 약관은 게시한 시행일부터 적용됩니다.</p>
+    </section>
+
+    <section>
+      <h2><i>제12조</i>준거법 및 분쟁의 해결</h2>
+      <p>이 약관은 대한민국 법률에 따라 해석되고 적용됩니다. 서비스 이용과 관련하여 분쟁이 발생한 경우 당사자는 성실히 협의하여 해결하도록 노력하며, 협의가 이루어지지 않을 경우 관계 법령에 따른 관할 법원에 제소할 수 있습니다.</p>
+    </section>
+
+    <section>
+      <h2><i>부칙</i>시행일</h2>
+      <p>이 약관은 2026년 11월 18일부터 시행합니다.</p>
+    </section>
+
+    <a class="backlink" href="index.html">멍케어 Lab으로 돌아가기</a>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <b>멍케어 Lab</b> · 반려견 영양 정보 비교 (v0.8)
+    <nav class="flinks" aria-label="정책 안내">
+      <a href="disclaimer.html">서비스 이용 안내</a>
+      <a href="terms.html">이용약관</a>
+      <a href="privacy.html">개인정보 처리방침</a>
+    </nav>
+    <span>본 사이트의 정보는 공개 자료를 바탕으로 한 참고 정보이며, 수의학적 진단·처방을 대신하지 않습니다.</span>
+  </div>
+</footer>
+
+</body>
+</html>

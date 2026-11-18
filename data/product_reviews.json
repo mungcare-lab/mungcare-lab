@@ -1,0 +1,2291 @@
+[
+ {
+  "productId": "penovis",
+  "summaryText": "리뷰 중심은 \"기호성 좋다·잘 먹는다\". 효과 체감은 4~8주 뒤부터 언급됩니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-15",
+  "note": null
+ },
+ {
+  "productId": "tamsa",
+  "summaryText": "가성비·기호성 위주. 산책 간식으로 준다는 사용 맥락이 많습니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-15",
+  "note": null
+ },
+ {
+  "productId": "pokens",
+  "summaryText": "\"잘 먹는다\"가 압도적. 함량을 밝힌 트릿을 찾는 보호자가 선택.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "drby",
+  "summaryText": "자사 분석(최신 1,000건): 기호성 561건, 꾸준 급여 354건, 모질·털 변화 113건, 재구매 94건.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "review_analysis",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "theracort",
+  "summaryText": "\"털결·피부가 좋아졌다\", \"가성비\", \"재구매\"가 긍정 키워드. 냄새·기호성은 호불호가 갈립니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "rabivet",
+  "summaryText": "\"장과 피부를 같이 챙긴다\", 변 상태 개선 언급이 반복. 가루라 사료에 섞기 편하다는 평.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "eyespro",
+  "summaryText": "캡슐을 열어 사료에 뿌려 먹인다는 후기가 많고, \"캡슐이라 먹이기 불편\" 불만도 있습니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "haruallday",
+  "summaryText": "\"사료에 뿌려 간편\", \"가루가 목에 걸린다\"가 공존. 제약사 브랜드 신뢰를 꼽는 리뷰가 많습니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "helciyum",
+  "summaryText": "자사몰 구매평 2,145건. \"간식처럼 잘 먹는다\"가 중심.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "omg3",
+  "summaryText": "\"알이 작아 먹이기 편함\" 1,587건, \"거부감 없이 잘 먹음\" 2,040건, 뱉는다는 후기 121건(5,919건 분석).",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   }
+  ],
+  "sourceId": "review_analysis",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "brilliant",
+  "summaryText": "포옹 4.8(78) / 펫프렌즈 4.7(410, 만족도 91%). \"거부감 없이 잘 먹는다\"와 \"배송 중 누수\"가 함께 언급.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "icelandic",
+  "summaryText": "에누리 4.8(55건). \"비린내가 거의 없다\", \"3번째 구매\" 같은 재구매 언급.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "petomedi",
+  "summaryText": "하루 1포 고정이라 유지비 계산이 쉬움. 쿠팡 5.0점·2,727건.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "intragen",
+  "summaryText": "가루형이라 사료에 뿌리기 쉽고, 체중 따라 1~5포로 늘어납니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "lacto200",
+  "summaryText": "가격 변동이 잠합니다(14,410~22,800원). 4.6점·175건.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "hepacardio",
+  "summaryText": "병원에서 권유받아 급여하는 사례가 많습니다. 알약이 커서 반으로 나눠 준다는 후기도 있습니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 1360,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "에누리",
+    "rating": "4.7",
+    "reviewCount": 91,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "jinjeongseong",
+  "summaryText": "3개 묶음이 59,850원. 리뷰 수는 확인되지 않았습니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 1360,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "에누리",
+    "rating": "4.7",
+    "reviewCount": 91,
+    "checkedAt": "2026-11-17"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "oratics",
+  "summaryText": "원료·성분을 꼽는 후기가 많고, 냄새·기호성 불만도 일부(5.4%).",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 1360,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "에누리",
+    "rating": "4.7",
+    "reviewCount": 91,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 274,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2318,
+    "checkedAt": "2026-11-13"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "canule",
+  "summaryText": "\"잘 먹는다·재구매\"가 중심. 안 먹는 아이도 있어 기호성은 갈립니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 1360,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "에누리",
+    "rating": "4.7",
+    "reviewCount": 91,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 274,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2318,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 2176,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8184,
+    "checkedAt": "2026-11-13"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "nutrina",
+  "summaryText": "가성비 위주로 꼽히지만 리뷰 수가 적어 참고용입니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 1360,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "에누리",
+    "rating": "4.7",
+    "reviewCount": 91,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 274,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2318,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 2176,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8184,
+    "checkedAt": "2026-11-13"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ },
+ {
+  "productId": "bonapetti",
+  "summaryText": "기호성이 좋다는 후기가 있지만 리뷰 2건으로 판단 근거는 약합니다.",
+  "ratings": [
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 11303,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "네이버",
+    "rating": "5.0",
+    "reviewCount": 2829,
+    "checkedAt": "2026-11-15"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 26691,
+    "checkedAt": "2026-10-19"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 9459,
+    "checkedAt": "2026-11-18"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2426,
+    "checkedAt": "2026-11-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.7",
+    "reviewCount": 12575,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 1638,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8524,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 3916,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "다나와",
+    "rating": "4.8",
+    "reviewCount": 137,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 63,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1325,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.8",
+    "reviewCount": 1058,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.0",
+    "reviewCount": 1,
+    "checkedAt": "2026-06-04"
+   },
+   {
+    "mall": "자사몰",
+    "rating": null,
+    "reviewCount": 2145,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 508,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "네이버",
+    "rating": "4.85",
+    "reviewCount": 5411,
+    "checkedAt": "2026-10-14"
+   },
+   {
+    "mall": "포옹",
+    "rating": "4.8",
+    "reviewCount": 78,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.8",
+    "reviewCount": 55,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2727,
+    "checkedAt": "2026-10-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 5600,
+    "checkedAt": "2026-11-10"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "4.6",
+    "reviewCount": 175,
+    "checkedAt": "2026-11-09"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 1360,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "에누리",
+    "rating": "4.7",
+    "reviewCount": 91,
+    "checkedAt": "2026-11-17"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 274,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 2318,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": null,
+    "reviewCount": 2176,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "네이버",
+    "rating": null,
+    "reviewCount": 8184,
+    "checkedAt": "2026-11-13"
+   },
+   {
+    "mall": "쿠팡",
+    "rating": "5.0",
+    "reviewCount": 2,
+    "checkedAt": "2026-08-15"
+   }
+  ],
+  "sourceId": "store",
+  "checkedAt": "2026-11-18",
+  "note": null
+ }
+]

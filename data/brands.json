@@ -1,0 +1,345 @@
+[
+ {
+  "id": "penovis",
+  "nameKo": "페노비스",
+  "nameEn": "Penovis",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "tamsa",
+  "nameKo": "탐사",
+  "nameEn": "Tamsa",
+  "maker": "쿠팡 PB",
+  "productCount": 1
+ },
+ {
+  "id": "pokens",
+  "nameKo": "포켄스",
+  "nameEn": null,
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "drby",
+  "nameKo": "닥터바이",
+  "nameEn": "Dr.By",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "davis",
+  "nameKo": "데이비스",
+  "nameEn": "Davis",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "labivet",
+  "nameKo": "종근당 라비벳",
+  "nameEn": "Labivet",
+  "maker": "종근당바이오",
+  "productCount": 2
+ },
+ {
+  "id": "thinkpets",
+  "nameKo": "펫생각",
+  "nameEn": "ThinkPets",
+  "maker": null,
+  "productCount": 3
+ },
+ {
+  "id": "yuyu",
+  "nameKo": "유유제약",
+  "nameEn": "Yuyu Pharma",
+  "maker": "유유제약",
+  "productCount": 1
+ },
+ {
+  "id": "healthyyum",
+  "nameKo": "헬시얌",
+  "nameEn": null,
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "brilliant",
+  "nameKo": "브릴리언트",
+  "nameEn": "Brilliant",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "icelandic",
+  "nameKo": "아이슬랜딕",
+  "nameEn": "Icelandic+",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "petomedi",
+  "nameKo": "페토메디",
+  "nameEn": null,
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "intragen",
+  "nameKo": "인트라젠",
+  "nameEn": "Intragen",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "lacto",
+  "nameKo": "락토",
+  "nameEn": null,
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "careside",
+  "nameKo": "케어사이드",
+  "nameEn": "CareSide",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "jinjeongseong",
+  "nameKo": "진정성",
+  "nameEn": null,
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "oratics",
+  "nameKo": "오라틱스",
+  "nameEn": "Oratics",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "nutrina",
+  "nameKo": "뉴트리나",
+  "nameEn": "Nutrina",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "bonapetti",
+  "nameKo": "본아페티",
+  "nameEn": "Bonapetti",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "royalcanin",
+  "nameKo": "로얄캐닌",
+  "nameEn": "Royal Canin",
+  "maker": "Royal Canin",
+  "productCount": 5
+ },
+ {
+  "id": "orijen",
+  "nameKo": "오리젠",
+  "nameEn": "Orijen",
+  "maker": "Champion Petfoods",
+  "productCount": 3
+ },
+ {
+  "id": "acana",
+  "nameKo": "아카나",
+  "nameEn": "Acana",
+  "maker": "Champion Petfoods",
+  "productCount": 2
+ },
+ {
+  "id": "ziwi",
+  "nameKo": "지위픽",
+  "nameEn": "Ziwi Peak",
+  "maker": "Ziwi Ltd",
+  "productCount": 3
+ },
+ {
+  "id": "nowfresh",
+  "nameKo": "나우프레시",
+  "nameEn": "Now Fresh",
+  "maker": "Petcurean",
+  "productCount": 2
+ },
+ {
+  "id": "nutro",
+  "nameKo": "뉴트로",
+  "nameEn": "Nutro",
+  "maker": "Mars Petcare",
+  "productCount": 1
+ },
+ {
+  "id": "naturalbalance",
+  "nameKo": "내추럴발란스",
+  "nameEn": "Natural Balance",
+  "maker": "Natural Balance Pet Foods",
+  "productCount": 2
+ },
+ {
+  "id": "hills",
+  "nameKo": "힐스",
+  "nameEn": "Hill's",
+  "maker": "Hill's Pet Nutrition",
+  "productCount": 3
+ },
+ {
+  "id": "anf",
+  "nameKo": "ANF",
+  "nameEn": "ANF",
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "harim",
+  "nameKo": "하림펫푸드",
+  "nameEn": "Harim Pet Food",
+  "maker": "하림펫푸드",
+  "productCount": 1
+ },
+ {
+  "id": "doctordog",
+  "nameKo": "닥터독",
+  "nameEn": "Dr.Dog",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "naturalcore",
+  "nameKo": "네츄럴코어",
+  "nameEn": "Natural Core",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "jogong",
+  "nameKo": "조공",
+  "nameEn": "Jogong",
+  "maker": null,
+  "productCount": 7
+ },
+ {
+  "id": "willow",
+  "nameKo": "윌로펫",
+  "nameEn": "Willow Pet",
+  "maker": "유한양행",
+  "productCount": 5
+ },
+ {
+  "id": "nutrvet",
+  "nameKo": "뉴트리벳",
+  "nameEn": "NutriVet",
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "recipev",
+  "nameKo": "레시피브이",
+  "nameEn": "RecipeV",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "vito",
+  "nameKo": "비토",
+  "nameEn": "Vito",
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "mybev",
+  "nameKo": "마이베프",
+  "nameEn": "MyBev",
+  "maker": null,
+  "productCount": 5
+ },
+ {
+  "id": "vetnex",
+  "nameKo": "벳넥스",
+  "nameEn": "Vetnex",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "maxiderm",
+  "nameKo": "협성로하스",
+  "nameEn": null,
+  "maker": "협성로하스",
+  "productCount": 1
+ },
+ {
+  "id": "alokitchen",
+  "nameKo": "알로키친",
+  "nameEn": "Alokitchen",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "petspark",
+  "nameKo": "펫츠파크",
+  "nameEn": "PetSpark",
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "fera",
+  "nameKo": "페라 펫츠",
+  "nameEn": "Fera Pets",
+  "maker": null,
+  "productCount": 3
+ },
+ {
+  "id": "vetactive8",
+  "nameKo": "벳액티브8",
+  "nameEn": "VetActive8",
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "biteme",
+  "nameKo": "바잇미",
+  "nameEn": "Biteme",
+  "maker": null,
+  "productCount": 3
+ },
+ {
+  "id": "mercola",
+  "nameKo": "닥터머콜라",
+  "nameEn": "Dr. Mercola",
+  "maker": null,
+  "productCount": 2
+ },
+ {
+  "id": "pethroom",
+  "nameKo": "페스룸",
+  "nameEn": "Pethroom",
+  "maker": null,
+  "productCount": 4
+ },
+ {
+  "id": "proqumin",
+  "nameKo": "프로큐민",
+  "nameEn": "Proqumin",
+  "maker": null,
+  "productCount": 1
+ },
+ {
+  "id": "yuhan",
+  "nameKo": "유한양행",
+  "nameEn": "Yuhan",
+  "maker": "유한양행",
+  "productCount": 1
+ },
+ {
+  "id": "generic",
+  "nameKo": "일반 항목",
+  "nameEn": null,
+  "maker": null,
+  "productCount": 4
+ }
+]

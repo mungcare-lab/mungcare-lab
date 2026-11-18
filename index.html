@@ -71,6 +71,9 @@ input,select{font-family:inherit;color:var(--ink)}
 .ev.strong{background:var(--accent-l);color:var(--accent-d)}
 .ev.mid{background:#F2F4F6;color:var(--ink2)}
 .ev.weak{background:#fff;color:var(--muted);box-shadow:inset 0 0 0 1px var(--line2)}
+.alg-tag{align-self:flex-start;margin-top:9px;font-size:11px;font-weight:700;line-height:1.45;padding:5px 9px;border-radius:9px;background:var(--amber-l);color:var(--amber);border:1px solid #EEDFBE}
+.alg-tag.note{background:#F7F8FA;color:var(--muted);border-color:var(--line);font-weight:600}
+.alg-tag.hit{background:var(--red-l);color:var(--red);border-color:#F2D6D1}
 
 .chan{margin-top:14px;border-top:1px solid var(--line)}
 .chan-row{display:flex;align-items:baseline;gap:8px;padding:9px 0;border-bottom:1px solid var(--line);font-size:12.5px}
@@ -273,6 +276,11 @@ select.inp{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='h
 .rtable th,.rtable td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top;color:var(--ink2)}
 .rtable th{font-size:10.5px;font-weight:800;color:var(--muted);white-space:nowrap}
 .rtable td b{color:var(--ink)}
+.algbar{margin:0 0 10px;background:var(--accent-l);border:1px solid #CDEBE2;border-radius:12px;padding:10px 12px;font-size:11.5px;color:var(--ink2);line-height:1.65}
+.algbar b{color:var(--accent-d)}
+.algbar.off{background:#F7F8FA;border-color:var(--line);color:var(--muted)}
+.exclnote{display:block;margin-top:5px;font-size:10.5px;font-weight:500;color:var(--muted);line-height:1.5}
+.nopick{color:var(--red);font-weight:700;font-size:11.5px;line-height:1.6}
 .rp-foot{padding:12px 18px;font-size:10.5px;color:#AEB6BE;line-height:1.6;background:#FAFBFC;border-top:1px solid var(--line)}
 
 /* ---------- toast ---------- */
@@ -545,6 +553,8 @@ const PRODUCTS = [
   {
     id:'penovis', cat:'joint', brand:'페노비스', name:'인캡슐 글루코사민',
     meta:'90g · 연어 저키 안 코팅캡슐 · 3개월령 이상',
+    allergens:['곡물','유제품'],
+    allergenNote:'제조사 전성분에 쌀·분리유청단백이 포함(연어 저키 베이스)',
     ch:{
       coupang:{p:'20,720원', sz:'90g', r:'5.0', n:'11,303', as:'2026-10-19'},
       naver:{p:'25,900원', sz:'90g', r:'5.0', n:'2,829', as:'2026-11-15'}
@@ -561,6 +571,8 @@ const PRODUCTS = [
   {
     id:'tamsa', cat:'joint', brand:'탐사(쿠팡 PB)', name:'뉴트리션 트릿 관절케어',
     meta:'300g 트릿 · 1.5cm · HACCP',
+    allergens:['닭고기','곡물'],
+    allergenNote:'원료 첫 줄이 밀가루·가수분해닭',
     ch:{
       coupang:{p:'10,390원', sz:'300g', r:'5.0', n:'26,691', as:'2026-10-19'},
       naver:null
@@ -577,6 +589,8 @@ const PRODUCTS = [
   {
     id:'pokens', cat:'joint', brand:'포켄스', name:'뉴트리션 트릿 (뼈/관절)',
     meta:'800g · 100P 대용량 트릿 · 1개당 글루코사민 320mg',
+    allergens:[],
+    allergenNote:'타피오카·젤라틴·향료 구성(곡물 표기 없음). 젤라틴의 원료 동물은 표기되지 않음',
     q:'포켄스 뉴트리션 트릿 800g 뼈 관절',
     ch:{
       coupang:{p:'46,500원', sz:'800g', r:'5.0', n:'9,459', as:'2026-11-18'},
@@ -596,6 +610,7 @@ const PRODUCTS = [
   {
     id:'drby', cat:'skin', brand:'닥터바이', name:'스킨앤코트 3.0',
     meta:'8g × 30포 스틱 겔 · 수분 85% · 10.1kcal/포',
+    allergens:[],
     ch:{
       coupang:null,
       naver:{p:'29,800원', sz:'8g×30포', r:'4.7', n:'12,575', as:'2026-11-17'}
@@ -612,6 +627,8 @@ const PRODUCTS = [
   {
     id:'theracort', cat:'skin', brand:'데이비스', name:'테라코트',
     meta:'400g 분말 · 5kg 이하 1/2티스푼/일',
+    allergens:[],
+    allergenNote:'전성분 목록 미공개(오메가3·6·콩 레시틴·비타민B 중심) — 급여 전 라벨 확인',
     ch:{
       coupang:{p:'36,740원', sz:'400g', r:'—', n:'1,638', as:'2026-11-13'},
       naver:{p:'36,740원', sz:'400g', r:'—', n:'8,524', as:'2026-11-13'}
@@ -628,6 +645,8 @@ const PRODUCTS = [
   {
     id:'rabivet', cat:'skin', brand:'종근당 라비벳', name:'장&피부 유산균',
     meta:'2g × 30포 · 투입 200억 / 보장 20억 CFU',
+    allergens:[],
+    allergenNote:'난소화성말토덱스트린(전분 유래) 포함 — 원료 동물성 단백은 확인되지 않음',
     ch:{
       coupang:{p:'16,780원', sz:'2g×30포', r:'—', n:'3,916', as:'2026-11-17'},
       naver:{label:'다나와', p:'18,250원', sz:'2g×30포', r:'4.8', n:'137', as:'2026-11-17'}
@@ -646,6 +665,8 @@ const PRODUCTS = [
   {
     id:'eyespro', cat:'eye', brand:'펫생각', name:'데일리케얼 아이즈PRO',
     meta:'300mg × 60캡슐 · 차즈기·마리골드·빌베리',
+    allergens:[],
+    allergenNote:'캡슐 껍질이 식물성(HPMC)이라 젤라틴이 없음',
     ch:{
       coupang:{p:'65,070원', sz:'60캡슐×2', r:'—', n:'63', as:'2026-11-17'},
       naver:{p:'34,800원', sz:'60캡슐', r:'4.8', n:'1,325', as:'2026-11-17'}
@@ -662,6 +683,8 @@ const PRODUCTS = [
   {
     id:'haruallday', cat:'eye', brand:'유유제약', name:'하루올데이 EYES',
     meta:'스틱 분말 · 6kg 미만 1포 / 6kg 이상 2포',
+    allergens:[],
+    allergenNote:'전성분 목록을 확인하지 못함(제조사는 그레인·글루텐 프리 표기)',
     ch:{
       coupang:null,
       naver:{p:'18,000원', sz:'30포', r:'4.8', n:'1,058', as:'2026-11-17'}
@@ -678,6 +701,8 @@ const PRODUCTS = [
   {
     id:'helciyum', cat:'eye', brand:'헬시얌', name:'아이즈 120정',
     meta:'120정 간식형 · 루테인 중심',
+    allergens:[],
+    allergenNote:'성분표 미공개(루테인 함량도 미확인) — 급여 전 라벨 확인',
     ch:{
       coupang:{p:'9,900원', sz:'120정', r:'4.0', n:'1', as:'2026-06-04'},
       naver:{label:'자사몰', p:'18,900원', sz:'120정', r:'—', n:'2,145', as:'2026-11-17'}
@@ -696,6 +721,8 @@ const PRODUCTS = [
   {
     id:'omg3', cat:'coat', brand:'펫생각', name:'리얼 rTG 오메가3 미니 180캡슐',
     meta:'1캡슐 EPA+DHA 126mg · 순도 80% · 6개월분',
+    allergens:[],
+    allergenNote:'연질캡슐 껍질(젤라틴) 원료 동물 미표기',
     ch:{
       coupang:{p:'35,800원', sz:'180캡슐', r:'—', n:'508', as:'2026-10-14'},
       naver:{p:'34,800원', sz:'180캡슐', r:'4.85', n:'5,411', as:'2026-10-14'}
@@ -712,6 +739,7 @@ const PRODUCTS = [
   {
     id:'brilliant', cat:'coat', brand:'브릴리언트', name:'연어오일 300ml',
     meta:'노르웨이산 연어 100% · 957kcal/100g · 4kg당 1펌프',
+    allergens:[],
     ch:{
       coupang:null,
       naver:{label:'포옹', p:'25,000원', sz:'300ml', r:'4.8', n:'78', as:'2026-11-17'}
@@ -728,6 +756,7 @@ const PRODUCTS = [
   {
     id:'icelandic', cat:'coat', brand:'아이슬랜딕', name:'헤링 오메가3 250ml',
     meta:'청어 오일 · 1g당 EPA+DHA 147mg · 10kg까지 2펌프',
+    allergens:[],
     ch:{
       coupang:{p:'37,000원', sz:'250ml', r:'4.8', n:'55', as:'2026-11-17'},
       naver:{p:'42,500원', sz:'250ml', r:'—', n:'—', as:'2026-11-17'}
@@ -746,6 +775,8 @@ const PRODUCTS = [
   {
     id:'petomedi', cat:'gut', brand:'페토메디', name:'락토 생유산균 600',
     meta:'1g × 60포 · 1포 10억 CFU · 하루 1포 고정',
+    allergens:[],
+    allergenNote:'전성분 목록 미확인(균주·프리바이오틱스 표기 중심) — 급여 전 라벨 확인',
     ch:{
       coupang:{p:'19,900원', sz:'1g×60포', r:'5.0', n:'2,727', as:'2026-10-13'},
       naver:null
@@ -762,6 +793,8 @@ const PRODUCTS = [
   {
     id:'intragen', cat:'gut', brand:'인트라젠', name:'플러스 유산균 30포',
     meta:'2g × 30포(60g) · 10종 복합균 + 비타민 · 개·고양이 겸용',
+    allergens:['유제품'],
+    allergenNote:'탈지분유 함유(제조사 표시사항)',
     ch:{
       coupang:null,
       naver:{p:'17,680원', sz:'2g×30포', r:'—', n:'5,600', as:'2026-11-10'}
@@ -778,6 +811,8 @@ const PRODUCTS = [
   {
     id:'lacto200', cat:'gut', brand:'락토', name:'200+ 프로바이오틱스 30포',
     meta:'30포 · 개·고양이 겸용 분말',
+    allergens:[],
+    allergenNote:'전성분 표기가 적어 부원료 미확인',
     ch:{
       coupang:{p:'16,670원', sz:'30포', r:'4.6', n:'175', as:'2026-11-09'},
       naver:null
@@ -796,6 +831,8 @@ const PRODUCTS = [
   {
     id:'hepacardio', cat:'heart', brand:'케어사이드', name:'모두 헤파카디오 Q10',
     meta:'60정 · CoQ10·타우린·L-카르니틴 · 5kg 이하 2~3정/일',
+    allergens:[],
+    allergenNote:'향미제·감미료 합제의 세부 원료는 미표기',
     ch:{
       coupang:{p:'20,050원', sz:'60정', r:'5.0', n:'1,360', as:'2026-11-17'},
       naver:{label:'에누리', p:'25,120원', sz:'60정', r:'4.7', n:'91', as:'2026-11-17'}
@@ -812,6 +849,8 @@ const PRODUCTS = [
   {
     id:'jinjeongseong', cat:'heart', brand:'진정성', name:'코엔자임Q10·타우린 30회분',
     meta:'30회분 · CoQ10 + 타우린 · 기침·헉헉거림 표방',
+    allergens:[],
+    allergenNote:'전성분·함량 미확인 — 급여 전 라벨 확인',
     ch:{
       coupang:{p:'23,000원', sz:'30회분', r:'—', n:'—', as:'2026-11-17'},
       naver:null
@@ -830,6 +869,8 @@ const PRODUCTS = [
   {
     id:'oratics', cat:'oral', brand:'오라틱스', name:'독 펫바이옴 구강 유산균',
     meta:'2g × 30포(60g) · 구강 유산균',
+    allergens:[],
+    allergenNote:'치즈향 표기 — 유제품 유래 여부는 미확인',
     ch:{
       coupang:{p:'26,730원', sz:'2g×30포', r:'—', n:'274', as:'2026-11-13'},
       naver:{p:'26,730원', sz:'2g×30포', r:'—', n:'2,318', as:'2026-11-13'}
@@ -846,6 +887,8 @@ const PRODUCTS = [
   {
     id:'canule', cat:'oral', brand:'포켄스', name:'카누들 잇몸플러스 S',
     meta:'170g × 2 · S 사이즈(체중 기준) · 덴탈껌',
+    allergens:['닭고기'],
+    allergenNote:'치킨오일·천연가금향 함유(제조사 전성분)',
     ch:{
       coupang:{p:'15,660원', sz:'170g×2', r:'—', n:'2,176', as:'2026-11-13'},
       naver:{p:'15,660원', sz:'170g×2', r:'—', n:'8,184', as:'2026-11-13'}
@@ -864,6 +907,8 @@ const PRODUCTS = [
   {
     id:'nutrina', cat:'weight', brand:'뉴트리나', name:'어덜트 다이어트 2.1kg',
     meta:'2.1kg · kg당 약 5,667원 · 닭 단일단백',
+    allergens:['닭고기','곡물'],
+    allergenNote:'옥수수·밀·닭고기가루가 주원료(제조사·판매처 원료표)',
     ch:{
       coupang:{p:'11,900원', sz:'2.1kg', r:'—', n:'—', as:'2026-05-11'},
       naver:null
@@ -880,6 +925,8 @@ const PRODUCTS = [
   {
     id:'bonapetti', cat:'weight', brand:'본아페티', name:'기능성 사료 다이어트 1kg×2',
     meta:'1kg × 2 · L-카르니틴 강화 · 소포장',
+    allergens:['닭고기','곡물','유제품'],
+    allergenNote:'가수분해닭고기·쌀가루·옥수수분말·유청단백(1kg 고시 원료 기준)',
     ch:{
       coupang:{p:'39,000원', sz:'1kg×2', r:'5.0', n:'2', as:'2026-08-15'},
       naver:null
@@ -1010,6 +1057,11 @@ const DX_EXTRA_ITEMS = [
 const EXTRAS = DX_EXTRA_ITEMS;
 
 const ALLERGIES = ['닭고기','소고기','곡물','유제품','없음'];
+const ALLERGY_KEYS = ['닭고기','소고기','곡물','유제품'];
+/* 알러지 원료 표기
+   - allergens: 제조사 전성분·판매 페이지에서 확인된 해당 원료(강한 표기 순서 아님)
+   - allergenNote: 전성분을 끝까지 확인하지 못했거나 부원료 출처가 모호한 경우의 정직한 메모
+   검증 출처: research.md, 2026-11-18 전성분 확인(각 제품 전성분 표기·제조사 페이지) */
 
 const HOOKS = {
   penovis:'글루코사민 9,500mg 캡슐, 리뷰 1.1만 건',
@@ -1040,6 +1092,39 @@ const EV_TXT = {strong:'근거 강함', mid:'근거 보통', weak:'근거 약함
 const EV_ORDER = {strong:0, mid:1, weak:2};
 function evRank(ev){
   return Object.prototype.hasOwnProperty.call(EV_ORDER, ev) ? EV_ORDER[ev] : 3;
+}
+function evScore(ev){
+  return ev === 'strong' ? 3 : (ev === 'mid' ? 2 : (ev === 'weak' ? 1 : 0));
+}
+
+/* ---------- 알러지 자동 제외 ---------- */
+function activeAllergies(){
+  return state.allergies.filter(function(x){ return ALLERGY_KEYS.indexOf(x) > -1; });
+}
+function conflictAllergens(p, alg){
+  return (p.allergens || []).filter(function(a){ return (alg || activeAllergies()).indexOf(a) > -1; });
+}
+function isExcluded(p, alg){
+  return conflictAllergens(p, alg).length > 0;
+}
+/* 전성분을 끝까지 확인하지 못해 "안전하다"고 단정할 수 없는 제품인지 */
+function unverifiedLabel(p){
+  if(!p.allergenNote) return false;
+  return /미확인|미표기|미공개|확인하지 못|확인되지 않|표기되지|표기 부족/.test(p.allergenNote);
+}
+/* 부위별로 알러지 원료가 든 제품을 빼고, 남은 제품 중 근거 등급이 가장 높은 하나를 고른다 */
+function comboPicks(){
+  const alg = activeAllergies();
+  return CAT_ORDER.map(function(c){
+    const list = PRODUCTS.filter(function(p){ return p.cat === c; });
+    let best = null;
+    const excluded = [];
+    list.forEach(function(p){
+      if(isExcluded(p, alg)){ excluded.push(p); return; }
+      if(!best || evScore(p.ev) > evScore(best.ev)) best = p;
+    });
+    return {cat:c, pick:best, excluded:excluded, total:list.length};
+  });
 }
 const LEVEL_LABEL = {high:'주의', mid:'확인 필요', ok:'이상 없음', unk:'판단 보류'};
 
@@ -1204,6 +1289,13 @@ function cardHTML(p){
   if(p.ch.coupang) buy.push('<a class="btn fill" href="https://www.coupang.com/np/search?q=' + q + '" target="_blank" rel="noopener">쿠팡에서 보기</a>');
   if(p.ch.naver) buy.push('<a class="btn line" href="https://search.shopping.naver.com/search/all?query=' + q + '" target="_blank" rel="noopener">네이버에서 보기</a>');
 
+  const hit = conflictAllergens(p, activeAllergies());
+  const algLine = hit.length
+    ? '<span class="alg-tag hit">⚠ 선택한 알러지(' + hit.join('·') + ') 포함 — 리포트 추천에서 제외</span>'
+    : (p.allergens && p.allergens.length
+        ? '<span class="alg-tag">포함 원료: ' + p.allergens.join(' · ') + '</span>'
+        : (p.allergenNote ? '<span class="alg-tag note">' + (unverifiedLabel(p) ? '원료 확인 필요: ' : '원료 메모: ') + p.allergenNote + '</span>' : ''));
+
   return '' +
   '<article class="pcard">' +
     '<div class="p-top">' +
@@ -1214,6 +1306,7 @@ function cardHTML(p){
       '<span class="ev ' + p.ev + '">' + (EV_TXT[p.ev] || p.evLabel) + '</span>' +
     '</div>' +
     (hook ? '<p class="p-hook">' + hook + '</p>' : '') +
+    algLine +
     '<div class="chan">' + chanRow(p.ch.coupang, '쿠팡') + chanRow(p.ch.naver, '네이버') + '</div>' +
     (buy.length ? '<div class="p-cta">' + buy.join('') + '</div>' : '') +
     '<details class="acc">' +
@@ -1566,10 +1659,10 @@ function renderDx(){
 function allergyList(){
   const a = state.allergies.filter(function(x){ return x !== '없음'; });
   const out = [];
-  if(a.indexOf('닭고기') > -1) out.push('가수분해 닭고기·닭 부산물·닭고기분말 (탐사·포켄스 트릿의 주원료)');
-  if(a.indexOf('소고기') > -1) out.push('소고기·소 부산물, 소 연골 유래 원료');
-  if(a.indexOf('곡물') > -1) out.push('밀가루·타피오카전분·옥수수 (트릿형 관절 제품의 주원료인 경우가 많음)');
-  if(a.indexOf('유제품') > -1) out.push('유청단백·치즈 분말');
+  if(a.indexOf('닭고기') > -1) out.push('가수분해 닭고기·닭 부산물·닭기름·가금향 (탐사·포켄스 카누들·뉴트리나·본아페티에 표기)');
+  if(a.indexOf('소고기') > -1) out.push('소고기·소 부산물, 소 연골·소 젤라틴 유래 원료 (젤라틴 원료 동물 표기 확인 필요)');
+  if(a.indexOf('곡물') > -1) out.push('밀가루·옥수수·쌀 (가수분해 트릿·건사료의 주원료인 경우가 많음. 타피오카는 곡물이 아님)');
+  if(a.indexOf('유제품') > -1) out.push('탈지분유·유청단백·치즈 분말 (분유·유청 유래 단백질 포함)');
   if(!out.length){
     out.push('인공색소 (일부 저키형 제품에 식용색소 표기)');
     out.push('특정 원료 알러지가 없다면, 성분표 3번째 이후 원료까지 확인하는 습관이 안전합니다');
@@ -1588,18 +1681,44 @@ function planRows(){
 }
 
 function comboTable(){
-  const rank = {strong:3, mid:2, weak:1};
-  const pick = {};
-  PRODUCTS.forEach(function(p){
-    if(!pick[p.cat] || rank[p.ev] > rank[pick[p.cat].ev]) pick[p.cat] = p;
-  });
-  return CAT_ORDER.map(function(c){
-    const p = pick[c];
+  const alg = activeAllergies();
+  return comboPicks().map(function(r){
+    const label = '<b>' + CATS[r.cat].emoji + ' ' + CATS[r.cat].label + '</b>';
+    const exclLine = r.excluded.length
+      ? '<span class="exclnote">제외: ' + r.excluded.map(function(x){
+          return x.brand + ' ' + x.name + ' (' + x.allergens.join('·') + ')';
+        }).join(', ') + '</span>'
+      : '';
+    if(!r.pick){
+      return '<tr><td>' + label + '</td>' +
+        '<td colspan="4" class="nopick">선택 알러지(' + alg.join('·') + ') 제외 시 추천 가능 제품 없음 (수의사·전성분 확인 필요)' +
+        exclLine + '</td></tr>';
+    }
+    const p = r.pick;
     const ch = p.ch.coupang || p.ch.naver;
     const price = ch ? ch.p + (ch.sz ? ' (' + ch.sz + ')' : '') : '—';
-    return '<tr><td><b>' + CATS[c].emoji + ' ' + CATS[c].label + '</b></td><td>' + p.brand + ' ' + p.name +
-      '</td><td>' + p.ing[0][0] + '</td><td>' + p.evLabel + '</td><td>' + price + '</td></tr>';
+    const noteLine = p.allergenNote
+      ? '<span class="exclnote">' + (unverifiedLabel(p) ? '원료 확인 필요: ' : '원료 메모: ') + p.allergenNote + '</span>'
+      : '';
+    return '<tr><td>' + label + '</td><td>' + p.brand + ' ' + p.name + exclLine +
+      '</td><td>' + p.ing[0][0] + noteLine + '</td><td>' + p.evLabel + '</td><td>' + price + '</td></tr>';
   }).join('');
+}
+
+/* 선택된 알러지로 무엇이 빠졌는지 리포트에 한 줄로 밝힌다 */
+function allergyBar(){
+  const alg = activeAllergies();
+  if(!alg.length){
+    return '<p class="algbar off">알러지 미선택 — 21개 제품 전체에서 근거 등급이 가장 높은 제품을 고릅니다. 위 “피해야 할 원료”에서 알러지를 고르면 그 원료가 든 제품이 이 표에서 자동으로 빠집니다.</p>';
+  }
+  const picks = comboPicks();
+  const excluded = picks.reduce(function(n, r){ return n + r.excluded.length; }, 0);
+  const dead = picks.filter(function(r){ return !r.pick; }).map(function(r){ return CATS[r.cat].short; });
+  const unknown = PRODUCTS.filter(function(p){ return unverifiedLabel(p) && !isExcluded(p, alg); }).length;
+  return '<p class="algbar"><b>선택 알러지(' + alg.join('·') + ') 포함 제품 자동 제외 적용</b> · 21개 중 ' + excluded + '개 제외' +
+    (dead.length ? ' · 대체 없음: ' + dead.join('·') : '') +
+    (unknown ? '<br>부원료를 끝까지 확인하지 못한 ' + unknown + '개 제품은 임의로 제외하지 않았습니다. 급여 전 라벨을 확인하세요.' : '') +
+    '</p>';
 }
 
 function reportHTML(){
@@ -1663,6 +1782,7 @@ function reportHTML(){
 
     '<div class="rsec">' +
       '<h4><i>05</i> 부위별 최적 조합표</h4>' +
+      allergyBar() +
       '<table class="rtable"><thead><tr><th>부위</th><th>추천</th><th>핵심 성분</th><th>근거</th><th>가격</th></tr></thead><tbody>' +
       comboTable() + '</tbody></table>' +
       '<p style="margin-top:7px">근거 등급은 성분 단위 연구 기준입니다. 제품 자체 임상 유무와는 다릅니다.</p>' +
@@ -2170,6 +2290,7 @@ function bind(){
       if(i > -1) state.allergies.splice(i,1); else state.allergies.push(v);
     }
     paintAllergies(); save();
+    renderProducts();
     if(state.reportOpen) renderReport();
   });
 
@@ -2202,7 +2323,7 @@ function bind(){
     toggleAddPanel(false);
     filterDiet('');
     renderDietList();
-    paintAllergies(); updateDietUI(); renderDx(); renderReport();
+    paintAllergies(); updateDietUI(); renderDx(); renderReport(); renderProducts();
     document.getElementById('printBtn').disabled = true;
     toast('데모 상태를 초기화했습니다');
   });

@@ -2026,7 +2026,7 @@ function bind(){
       if(state.reportOpen) renderReport();
     }
   });
-  document.getElementById('w').addEventListener('change', function(){ setWeight(state.weight, 'w'); });
+  document.getElementById('w').addEventListener('change', function(){ setWeight(state.weight); });
   document.getElementById('wMinus').addEventListener('click', function(){ setWeight(state.weight - 0.5); });
   document.getElementById('wPlus').addEventListener('click', function(){ setWeight(state.weight + 0.5); });
   document.querySelectorAll('.wchip').forEach(function(b){
@@ -2042,9 +2042,9 @@ function bind(){
       if(state.reportOpen) renderReport();
     }
   });
-  document.getElementById('rw').addEventListener('change', function(){ setWeight(state.weight, 'rw'); });
-  document.getElementById('rwMinus').addEventListener('click', function(){ setWeight(state.weight - 0.5, 'rw'); });
-  document.getElementById('rwPlus').addEventListener('click', function(){ setWeight(state.weight + 0.5, 'rw'); });
+  document.getElementById('rw').addEventListener('change', function(){ setWeight(state.weight); });
+  document.getElementById('rwMinus').addEventListener('click', function(){ setWeight(state.weight - 0.5); });
+  document.getElementById('rwPlus').addEventListener('click', function(){ setWeight(state.weight + 0.5); });
 
   /* 나이 — 계산 탭 + 리포트 폼 */
   document.querySelectorAll('[data-age],[data-rgage]').forEach(function(b){

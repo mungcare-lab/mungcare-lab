@@ -1961,7 +1961,7 @@ function paintAge(){
     b.setAttribute('aria-pressed', String(b.dataset.rgage === state.age));
   });
 }
-function setAge(a, skipId){
+function setAge(a){
   if(!a) return;
   state.age = a;
   paintAge();

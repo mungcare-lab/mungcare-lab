@@ -187,6 +187,9 @@ function renderSearchCard(item){
   var checked = offer && offer.checkedAt ? offer.checkedAt : (p.lastChecked || null);
   var buy = buyLink(p);
   var img = p.imageUrl || mcPlaceholderImage(p.kind, p.category);
+  var kindKo = KIND_KO[p.kind] || '제품';
+  var catKo = (CATS[p.category] && CATS[p.category].label) || CATEGORY_KO[p.category] || '기타';
+  var catChip = (catKo && catKo !== kindKo) ? '<span class="scat">' + catKo + '</span>' : '';
   var evBadge = p.evidenceLevel
     ? '<span class="ev ' + p.evidenceLevel + '">' + (EV_TXT[p.evidenceLevel] || p.evidenceLabel || '') + '</span>'
     : '<span class="ev none">근거 미확인</span>';
@@ -197,8 +200,7 @@ function renderSearchCard(item){
       '</button>' +
       '<div class="smain">' +
         '<div class="stop">' +
-          '<span class="skind ' + p.kind + '">' + (KIND_KO[p.kind] || '제품') + '</span>' +
-          '<span class="scat">' + ((CATS[p.category] && CATS[p.category].label) || CATEGORY_KO[p.category] || '기타') + '</span>' +
+          '<span class="skind ' + p.kind + '">' + kindKo + '</span>' + catChip +
           evBadge +
         '</div>' +
         '<h3 class="sname" data-detail="' + p.id + '">' + mcEscape(p.nameKo) + '</h3>' +
@@ -653,8 +655,8 @@ function detailHTML(p){
       '<button class="dx" type="button" data-close-detail aria-label="상세 닫기">✕</button>' +
       '<div class="dheadimg"><img src="' + (p.imageUrl || mcPlaceholderImage(p.kind, p.category)) + '" alt=""></div>' +
       '<div class="dheadtxt">' +
-        '<div class="stop"><span class="skind ' + p.kind + '">' + (KIND_KO[p.kind] || '제품') + '</span>' +
-          '<span class="scat">' + ((CATS[p.category] && CATS[p.category].label) || CATEGORY_KO[p.category] || '기타') + '</span></div>' +
+        '<div class="stop"><span class="skind ' + p.kind + '">' + kindKo + '</span>' +
+          ((catKo && catKo !== kindKo) ? '<span class="scat">' + catKo + '</span>' : '') + '</div>' +
         '<h3 id="detailTitle">' + mcEscape(p.nameKo) + '</h3>' +
         '<p class="sbrand">' + mcEscape(p.brandName) + (makerText(p) ? ' · ' + mcEscape(makerText(p)) : '') + '</p>' +
         '<p class="dprice-lg">' + mcEscape(offer ? offer.priceText : UNKNOWN.price) + '</p>' +

@@ -273,6 +273,7 @@ select.inp{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='h
 footer{padding:26px 0 44px;font-size:11px;color:#AEB6BE;line-height:1.75}
 footer b{color:var(--ink2)}
 footer .fl{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px}
+footer .disc{color:var(--muted)}
 footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-radius:9px;padding:6px 10px;font-size:10.5px;font-weight:700;color:var(--muted)}
 
 @media(prefers-reduced-motion:no-preference){
@@ -324,6 +325,7 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
     <p class="catnote" id="catNote"></p>
     <div class="plist" id="plist"></div>
     <p class="hint" style="margin-top:16px">구매 버튼은 쿠팡·네이버 검색 결과로 연결됩니다(제휴 링크 아님). 가격 옆 괄호는 그 채널의 용량·수량이며, 같은 규격끼리 비교할 수 있도록 맞췄습니다. 가격·평점·리뷰 수는 조사 시점 기준이고 확인하지 못한 칸은 ‘미확인’입니다.</p>
+    <p class="hint" style="margin-top:8px"><b style="color:var(--ink2)">추천은 참고용입니다.</b> 제품 선택·구매·급여와 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 운영자는 법적·금전적 책임을 지지 않습니다.</p>
   </section>
 
   <!-- ② 급여량 계산 -->
@@ -436,6 +438,7 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
           <button class="btn line" id="dxReset" style="flex:0 0 auto">초기화</button>
         </div>
         <p class="hint" id="dxHint" style="margin-top:10px">2개 이상 선택하면 검사할 수 있어요.</p>
+        <p class="hint" style="margin-top:6px">진단 결과는 참고용입니다. 제품 선택·급여에 대한 최종 판단과 그 결과에 대한 책임은 보호자 본인에게 있습니다.</p>
       </div>
       <div class="findings" id="dxOut" aria-live="polite"></div>
     </div>
@@ -469,7 +472,8 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
 
   <footer>
     <b>멍케어 Lab</b> · 반려견 영양 비교 프로토타입 (v0.5)<br>
-    수의학적 진단·처방을 제공하지 않습니다. 영양제는 질병 치료제가 아니며, 급여 전 기저질환·복용 약을 수의사와 확인하세요.<br>
+    <span class="disc">본 사이트의 추천 제품·급여량·성분 정보는 공개 자료를 바탕으로 한 참고용 정보이며, 의학적 진단·처방이 아닙니다. 제품 선택, 구매, 급여 및 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 사이트 운영자는 이에 대한 법적·금전적 책임을 지지 않습니다.</span><br>
+    영양제는 질병 치료제가 아니므로 급여 전 기저질환·복용 약을 수의사와 확인하세요.<br>
     제품 가격·평점·리뷰 수는 2026-11-17 조사 시점의 공개 자료로 이후 변동될 수 있습니다.
     <div class="fl">
       <span>출처: 쿠팡·네이버 판매 페이지, Merck Veterinary Manual, AAHA 2021, IJMS 2022;23:10384, Front Vet Sci 2023;10:1033188</span>
@@ -1639,7 +1643,7 @@ function reportHTML(){
       '</ul>' +
     '</div>' +
 
-    '<div class="rp-foot">본 리포트는 공개 자료와 입력값에 기반한 참고 문서이며 수의학적 진단·처방이 아닙니다. 제품 가격·평점은 2026-11-17 조사 기준입니다.</div>' +
+    '<div class="rp-foot">본 리포트는 공개 자료와 입력값에 기반한 참고 문서이며 의학적 진단·처방이 아닙니다. 제품 선택·구매·급여 및 그로 인한 모든 결과에 대한 판단과 책임은 이용자 본인에게 있으며, 운영자는 법적·금전적 책임을 지지 않습니다. 제품 가격·평점은 2026-11-17 조사 기준입니다.</div>' +
   '</div>';
 }
 

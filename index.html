@@ -1088,6 +1088,11 @@ const HOOKS = {
 };
 
 const EV_TXT = {strong:'근거 강함', mid:'근거 보통', weak:'근거 약함'};
+/* 부위별 추천 정렬: 근거 강함(0) → 보통(1) → 약함(2). 같은 등급은 데이터 순서 유지 */
+const EV_ORDER = {strong:0, mid:1, weak:2};
+function evRank(ev){
+  return Object.prototype.hasOwnProperty.call(EV_ORDER, ev) ? EV_ORDER[ev] : 3;
+}
 const LEVEL_LABEL = {high:'주의', mid:'확인 필요', ok:'이상 없음', unk:'판단 보류'};
 
 /* =========================================================
@@ -1282,7 +1287,13 @@ function cardHTML(p){
 }
 
 function renderProducts(){
-  const list = PRODUCTS.filter(function(p){ return p.cat === state.cat; });
+  const list = PRODUCTS.filter(function(p){ return p.cat === state.cat; })
+    .map(function(p, i){ return {p:p, i:i}; })
+    .sort(function(a, b){
+      const d = evRank(a.p.ev) - evRank(b.p.ev);
+      return d !== 0 ? d : a.i - b.i;
+    })
+    .map(function(x){ return x.p; });
   document.getElementById('plist').innerHTML = list.map(cardHTML).join('');
   document.getElementById('catNote').textContent = CATS[state.cat].note;
   document.querySelectorAll('[data-cat]').forEach(function(b){

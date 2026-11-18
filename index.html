@@ -87,6 +87,7 @@ input,select{font-family:inherit;color:var(--ink)}
 .chan-row .ch{width:38px;flex:0 0 auto;font-weight:700;color:var(--muted);font-size:11.5px}
 .chan-row .rate{color:var(--muted);font-size:11.5px;font-variant-numeric:tabular-nums}
 .chan-row .price{margin-left:auto;font-weight:800;font-size:13.5px;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chan-row .price small{font-size:10.5px;font-weight:600;color:var(--muted);letter-spacing:0}
 .chan-row.na .price{color:var(--muted)}
 
 .p-cta{display:flex;gap:8px;margin-top:14px}
@@ -382,7 +383,7 @@ footer .reset{background:#fff;box-shadow:inset 0 0 0 1px var(--line2);border-rad
     <div class="cats" id="catPills" role="tablist" aria-label="부위 선택"></div>
     <p class="catnote" id="catNote"></p>
     <div class="plist" id="plist"></div>
-    <p class="hint" style="margin-top:16px">구매 버튼은 쿠팡·네이버 검색 결과로 연결됩니다(제휴 링크 아님). 가격·평점·리뷰 수는 조사 시점 기준이며 채널마다 구성·용량이 다를 수 있습니다. 확인하지 못한 칸은 ‘미확인’입니다.</p>
+    <p class="hint" style="margin-top:16px">구매 버튼은 쿠팡·네이버 검색 결과로 연결됩니다(제휴 링크 아님). 가격 옆 괄호는 그 채널의 용량·수량이며, 같은 규격끼리 비교할 수 있도록 맞췄습니다. 가격·평점·리뷰 수는 조사 시점 기준이고 확인하지 못한 칸은 ‘미확인’입니다.</p>
   </section>
 
   <!-- ② 급여량 계산 -->
@@ -597,8 +598,8 @@ const PRODUCTS = [
     id:'penovis', cat:'joint', brand:'페노비스', name:'인캡슐 글루코사민',
     meta:'90g · 연어 저키 안 코팅캡슐 · 3개월령 이상',
     ch:{
-      coupang:{p:'20,720원', r:'5.0', n:'11,303', as:'2026-10-19'},
-      naver:{p:'25,900원', r:'5.0', n:'2,829', as:'2026-11-15'}
+      coupang:{p:'20,720원', sz:'90g', r:'5.0', n:'11,303', as:'2026-10-19'},
+      naver:{p:'25,900원', sz:'90g', r:'5.0', n:'2,829', as:'2026-11-15'}
     },
     ing:[['글루코사민','9,500mg/통'],['초록입홍합','함량 미표기'],['콘드로이친',''],['코엔자임Q10',''],['비타민B1·B6·B12','']],
     ev:'weak', evLabel:'근거 약함',
@@ -613,7 +614,7 @@ const PRODUCTS = [
     id:'tamsa', cat:'joint', brand:'탐사(쿠팡 PB)', name:'뉴트리션 트릿 관절케어',
     meta:'300g 트릿 · 1.5cm · HACCP',
     ch:{
-      coupang:{p:'10,390원', r:'5.0', n:'26,691', as:'2026-10-19'},
+      coupang:{p:'10,390원', sz:'300g', r:'5.0', n:'26,691', as:'2026-10-19'},
       naver:null
     },
     ing:[['글루코사민','함량 미표기'],['MSM','함량 미표기'],['밀가루·가수분해닭','주원료']],
@@ -627,18 +628,19 @@ const PRODUCTS = [
   },
   {
     id:'pokens', cat:'joint', brand:'포켄스', name:'뉴트리션 트릿 (뼈/관절)',
-    meta:'쿠팡 240g / 네이버 100P·800g · 트릿',
+    meta:'800g · 100P 대용량 트릿 · 1개당 글루코사민 320mg',
+    q:'포켄스 뉴트리션 트릿 800g 뼈 관절',
     ch:{
-      coupang:{p:'10,640원', r:'5.0', n:'9,032', as:'2026-10-19'},
-      naver:{p:'47,000원', r:'—', n:'2,426', as:'2026-11-14'}
+      coupang:{p:'46,500원', sz:'800g', r:'5.0', n:'9,459', as:'2026-11-18'},
+      naver:{p:'47,000원', sz:'800g', r:'—', n:'2,426', as:'2026-11-14'}
     },
     ing:[['글루코사민','320mg/개'],['콘드로이틴','56mg/개'],['타피오카전분','주원료']],
     ev:'mid', evLabel:'근거 보통',
     evTitle:'함량은 공개, 다만 1일 1개로는 적음',
     evBody:'성분 함량을 mg으로 밝힌 점은 좋습니다. 다만 11kg 이하 하루 1개 기준이면 글루코사민 320mg/일로, 관절 보조제의 통상 권고 수준에는 못 미칩니다.',
-    src:{t:'제품 라벨 · 쿠팡 240g 기준', u:'https://search.shopping.naver.com/search/all?query=' + encodeURIComponent('포켄스 뉴트리션 트릿 관절')},
+    src:{t:'제품 라벨 · 800g(100P) 기준', u:'https://search.shopping.naver.com/search/all?query=' + encodeURIComponent('포켄스 뉴트리션 트릿 800g 뼈 관절')},
     rev:'"잘 먹는다"가 압도적. 함량을 밝힌 트릿을 찾는 보호자가 선택.',
-    warn:'쿠팡(240g)과 네이버(800g)는 구성이 달라 1개당 단가를 비교해야 합니다.',
+    warn:'800g(100P) 대용량이라 하루 1개면 3개월분입니다. 개봉 후 습기·산패에 주의하고 지퍼백에 나눠 보관하세요.',
     prof:{glu:2, chon:1, disc:'full'}
   },
 
@@ -648,7 +650,7 @@ const PRODUCTS = [
     meta:'8g × 30포 스틱 겔 · 수분 85% · 10.1kcal/포',
     ch:{
       coupang:null,
-      naver:{p:'29,800원', r:'4.7', n:'12,575', as:'2026-11-17'}
+      naver:{p:'29,800원', sz:'8g×30포', r:'4.7', n:'12,575', as:'2026-11-17'}
     },
     ing:[['찔레나무열매추출분말','7,200mg↑'],['AF-343','1,440mg↑'],['스피루리나','']],
     ev:'mid', evLabel:'근거 보통(원료 단위)',
@@ -663,8 +665,8 @@ const PRODUCTS = [
     id:'theracort', cat:'skin', brand:'데이비스', name:'테라코트',
     meta:'400g 분말 · 5kg 이하 1/2티스푼/일',
     ch:{
-      coupang:{p:'36,740원', r:'—', n:'1,638', as:'2026-11-13'},
-      naver:{p:'36,740원', r:'—', n:'8,524', as:'2026-11-13'}
+      coupang:{p:'36,740원', sz:'400g', r:'—', n:'1,638', as:'2026-11-13'},
+      naver:{p:'36,740원', sz:'400g', r:'—', n:'8,524', as:'2026-11-13'}
     },
     ing:[['오메가3·6',''],['콩 레시틴',''],['비타민B·콜린',''],['리놀렌산','']],
     ev:'mid', evLabel:'근거 보통',
@@ -679,8 +681,8 @@ const PRODUCTS = [
     id:'rabivet', cat:'skin', brand:'종근당 라비벳', name:'장&피부 유산균',
     meta:'2g × 30포 · 투입 200억 / 보장 20억 CFU',
     ch:{
-      coupang:{p:'16,780원', r:'—', n:'3,916', as:'2026-11-17'},
-      naver:{label:'다나와', p:'18,250원', r:'4.8', n:'137', as:'2026-11-17'}
+      coupang:{p:'16,780원', sz:'2g×30포', r:'—', n:'3,916', as:'2026-11-17'},
+      naver:{label:'다나와', p:'18,250원', sz:'2g×30포', r:'4.8', n:'137', as:'2026-11-17'}
     },
     ing:[['유산균','보장 20억 CFU'],['저분자 콜라겐',''],['비타민C',''],['프리바이오틱스','']],
     ev:'weak', evLabel:'근거 약함',
@@ -697,8 +699,8 @@ const PRODUCTS = [
     id:'eyespro', cat:'eye', brand:'펫생각', name:'데일리케얼 아이즈PRO',
     meta:'300mg × 60캡슐 · 차즈기·마리골드·빌베리',
     ch:{
-      coupang:{p:'65,070원', r:'—', n:'63', as:'2026-11-17'},
-      naver:{p:'34,800원', r:'4.8', n:'1,325', as:'2026-11-17'}
+      coupang:{p:'65,070원', sz:'60캡슐×2', r:'—', n:'63', as:'2026-11-17'},
+      naver:{p:'34,800원', sz:'60캡슐', r:'4.8', n:'1,325', as:'2026-11-17'}
     },
     ing:[['차즈기추출물','40mg'],['마리골드(루테인)','100mg'],['빌베리','21.75mg'],['헤마토코쿠스','10mg']],
     ev:'mid', evLabel:'근거 보통',
@@ -706,7 +708,7 @@ const PRODUCTS = [
     evBody:'루테인·제아잔틴·아스타잔틴은 수정체·망막의 산화 스트레스를 줄이는 방향으로 쓰입니다. 다만 개는 황반이 없어 "황반 색소 밀도" 논리를 그대로 옮길 수 없습니다. 제조사가 말하는 완제품 임상 4지표는 공개 논문으로 확인하지 못했습니다.',
     src:{t:'KarionPet 눈 영양제 가이드(2026)', u:'https://karionpet.com/supplements/eye/'},
     rev:'캡슐을 열어 사료에 뿌려 먹인다는 후기가 많고, "캡슐이라 먹이기 불편" 불만도 있습니다.',
-    warn:'쿠팡은 2개 묶음 위주(65,070원)로 단가 비교가 어렵습니다. 네이버 단품이 저렴.',
+    warn:'쿠팡은 60캡슐 2개 묶음(65,070원) — 1개당 32,535원입니다. 네이버 단품(34,800원)과 같은 60캡슐 기준으로 비교하세요.',
     prof:{vitAD:1, disc:'full'}
   },
   {
@@ -714,7 +716,7 @@ const PRODUCTS = [
     meta:'스틱 분말 · 6kg 미만 1포 / 6kg 이상 2포',
     ch:{
       coupang:null,
-      naver:{p:'18,000원', r:'4.8', n:'1,058', as:'2026-11-17'}
+      naver:{p:'18,000원', sz:'30포', r:'4.8', n:'1,058', as:'2026-11-17'}
     },
     ing:[['마리골드(루테인)','30mg'],['헤마토코쿠스','20mg'],['밀크씨슬','20mg'],['오메가3','30mg'],['블루베리','20mg']],
     ev:'weak', evLabel:'근거 약함',
@@ -729,8 +731,8 @@ const PRODUCTS = [
     id:'helciyum', cat:'eye', brand:'헬시얌', name:'아이즈 120정',
     meta:'120정 간식형 · 루테인 중심',
     ch:{
-      coupang:{p:'9,900원', r:'4.0', n:'1', as:'2026-06-04'},
-      naver:{label:'자사몰', p:'18,900원', r:'—', n:'2,145', as:'2026-11-17'}
+      coupang:{p:'9,900원', sz:'120정', r:'4.0', n:'1', as:'2026-06-04'},
+      naver:{label:'자사몰', p:'18,900원', sz:'120정', r:'—', n:'2,145', as:'2026-11-17'}
     },
     ing:[['루테인','함량 미확인'],['국산 원료','']],
     ev:'weak', evLabel:'근거 약함',
@@ -747,8 +749,8 @@ const PRODUCTS = [
     id:'omg3', cat:'coat', brand:'펫생각', name:'리얼 rTG 오메가3 미니 180캡슐',
     meta:'1캡슐 EPA+DHA 126mg · 순도 80% · 6개월분',
     ch:{
-      coupang:{p:'35,800원', r:'—', n:'508', as:'2026-10-14'},
-      naver:{p:'34,800원', r:'4.85', n:'5,411', as:'2026-10-14'}
+      coupang:{p:'35,800원', sz:'180캡슐', r:'—', n:'508', as:'2026-10-14'},
+      naver:{p:'34,800원', sz:'180캡슐', r:'4.85', n:'5,411', as:'2026-10-14'}
     },
     ing:[['EPA+DHA','126mg/캡슐'],['순도','80%'],['rTG형',''],['IFOS 인증 원료','']],
     ev:'strong', evLabel:'근거 강함',
@@ -764,7 +766,7 @@ const PRODUCTS = [
     meta:'노르웨이산 연어 100% · 957kcal/100g · 4kg당 1펌프',
     ch:{
       coupang:null,
-      naver:{label:'포옹', p:'25,000원', r:'4.8', n:'78', as:'2026-11-17'}
+      naver:{label:'포옹', p:'25,000원', sz:'300ml', r:'4.8', n:'78', as:'2026-11-17'}
     },
     ing:[['연어유','100%'],['조지방','99.5%'],['열량','957kcal/100g']],
     ev:'mid', evLabel:'근거 보통',
@@ -779,8 +781,8 @@ const PRODUCTS = [
     id:'icelandic', cat:'coat', brand:'아이슬랜딕', name:'헤링 오메가3 250ml',
     meta:'청어 오일 · 1g당 EPA+DHA 147mg · 10kg까지 2펌프',
     ch:{
-      coupang:{p:'37,000원', r:'4.8', n:'55', as:'2026-11-17'},
-      naver:{p:'42,500원', r:'—', n:'—', as:'2026-11-17'}
+      coupang:{p:'37,000원', sz:'250ml', r:'4.8', n:'55', as:'2026-11-17'},
+      naver:{p:'42,500원', sz:'250ml', r:'—', n:'—', as:'2026-11-17'}
     },
     ing:[['EPA+DHA','147mg/1g'],['원료','청어 오일'],['조지방','99.89%']],
     ev:'strong', evLabel:'근거 강함',
@@ -797,7 +799,7 @@ const PRODUCTS = [
     id:'petomedi', cat:'gut', brand:'페토메디', name:'락토 생유산균 600',
     meta:'1g × 60포 · 1포 10억 CFU · 하루 1포 고정',
     ch:{
-      coupang:{p:'19,900원', r:'5.0', n:'2,727', as:'2026-10-13'},
+      coupang:{p:'19,900원', sz:'1g×60포', r:'5.0', n:'2,727', as:'2026-10-13'},
       naver:null
     },
     ing:[['엔테로코커스 훼시엄','10억 CFU/포'],['락토바실러스 3종',''],['비피도박테리움','']],
@@ -814,7 +816,7 @@ const PRODUCTS = [
     meta:'2g × 30포(60g) · 10종 복합균 + 비타민 · 개·고양이 겸용',
     ch:{
       coupang:null,
-      naver:{p:'17,680원', r:'—', n:'5,600', as:'2026-11-10'}
+      naver:{p:'17,680원', sz:'2g×30포', r:'—', n:'5,600', as:'2026-11-10'}
     },
     ing:[['복합미생물 10종',''],['비타민 A·C·E·B',''],['락타아제',''],['키토산','60mg/포']],
     ev:'weak', evLabel:'근거 약함',
@@ -829,7 +831,7 @@ const PRODUCTS = [
     id:'lacto200', cat:'gut', brand:'락토', name:'200+ 프로바이오틱스 30포',
     meta:'30포 · 개·고양이 겸용 분말',
     ch:{
-      coupang:{p:'16,670원', r:'4.6', n:'175', as:'2026-11-09'},
+      coupang:{p:'16,670원', sz:'30포', r:'4.6', n:'175', as:'2026-11-09'},
       naver:null
     },
     ing:[['프로바이오틱스',''],['프리바이오틱스','']],
@@ -847,8 +849,8 @@ const PRODUCTS = [
     id:'hepacardio', cat:'heart', brand:'케어사이드', name:'모두 헤파카디오 Q10',
     meta:'60정 · CoQ10·타우린·L-카르니틴 · 5kg 이하 2~3정/일',
     ch:{
-      coupang:{p:'20,050원', r:'5.0', n:'1,360', as:'2026-11-17'},
-      naver:{label:'에누리', p:'25,120원', r:'4.7', n:'91', as:'2026-11-17'}
+      coupang:{p:'20,050원', sz:'60정', r:'5.0', n:'1,360', as:'2026-11-17'},
+      naver:{label:'에누리', p:'25,120원', sz:'60정', r:'4.7', n:'91', as:'2026-11-17'}
     },
     ing:[['코엔자임Q10',''],['타우린',''],['L-카르니틴',''],['비타민E','']],
     ev:'weak', evLabel:'근거 약함',
@@ -863,7 +865,7 @@ const PRODUCTS = [
     id:'jinjeongseong', cat:'heart', brand:'진정성', name:'코엔자임Q10·타우린 30회분',
     meta:'30회분 · CoQ10 + 타우린 · 기침·헉헉거림 표방',
     ch:{
-      coupang:{p:'23,000원', r:'—', n:'—', as:'2026-11-17'},
+      coupang:{p:'23,000원', sz:'30회분', r:'—', n:'—', as:'2026-11-17'},
       naver:null
     },
     ing:[['코엔자임Q10',''],['타우린','']],
@@ -881,8 +883,8 @@ const PRODUCTS = [
     id:'oratics', cat:'oral', brand:'오라틱스', name:'독 펫바이옴 구강 유산균',
     meta:'2g × 30포(60g) · 구강 유산균',
     ch:{
-      coupang:{p:'26,730원', r:'—', n:'274', as:'2026-11-13'},
-      naver:{p:'26,730원', r:'—', n:'2,318', as:'2026-11-13'}
+      coupang:{p:'26,730원', sz:'2g×30포', r:'—', n:'274', as:'2026-11-13'},
+      naver:{p:'26,730원', sz:'2g×30포', r:'—', n:'2,318', as:'2026-11-13'}
     },
     ing:[['구강 유산균',''],['원료 상세','제품 페이지 참조']],
     ev:'weak', evLabel:'근거 약함',
@@ -897,8 +899,8 @@ const PRODUCTS = [
     id:'canule', cat:'oral', brand:'포켄스', name:'카누들 잇몸플러스 S',
     meta:'170g × 2 · S 사이즈(체중 기준) · 덴탈껌',
     ch:{
-      coupang:{p:'15,660원', r:'—', n:'2,176', as:'2026-11-13'},
-      naver:{p:'15,660원', r:'—', n:'8,184', as:'2026-11-13'}
+      coupang:{p:'15,660원', sz:'170g×2', r:'—', n:'2,176', as:'2026-11-13'},
+      naver:{p:'15,660원', sz:'170g×2', r:'—', n:'8,184', as:'2026-11-13'}
     },
     ing:[['타피오카전분','주원료'],['덴탈껌','씹는 마찰']],
     ev:'mid', evLabel:'근거 보통',
@@ -915,7 +917,7 @@ const PRODUCTS = [
     id:'nutrina', cat:'weight', brand:'뉴트리나', name:'어덜트 다이어트 2.1kg',
     meta:'2.1kg · kg당 약 5,667원 · 닭 단일단백',
     ch:{
-      coupang:{p:'11,900원', r:'—', n:'—', as:'2026-05-11'},
+      coupang:{p:'11,900원', sz:'2.1kg', r:'—', n:'—', as:'2026-05-11'},
       naver:null
     },
     ing:[['닭 단일단백',''],['L-카르니틴','미표기'],['열량','저칼로리 설계']],
@@ -931,7 +933,7 @@ const PRODUCTS = [
     id:'bonapetti', cat:'weight', brand:'본아페티', name:'기능성 사료 다이어트 1kg×2',
     meta:'1kg × 2 · L-카르니틴 강화 · 소포장',
     ch:{
-      coupang:{p:'39,000원', r:'5.0', n:'2', as:'2026-08-15'},
+      coupang:{p:'39,000원', sz:'1kg×2', r:'5.0', n:'2', as:'2026-08-15'},
       naver:null
     },
     ing:[['L-카르니틴','강화'],['조단백','28~32% 설계'],['식이섬유','8~12% 설계']],
@@ -960,101 +962,101 @@ const FDP = {food:1, vitAD:1, ca:1, phos:1, disc:'partial'};
 
 const DX_EXTRA_ITEMS = [
   /* ---------- 사료 (주식) ---------- */
-  {id:'rc_indoor', cat:'food', name:'로얄캐닌 미니 인도어 어덜트', tag:'완전사료', s:'로얄캐닌 로얄카닌 royal canin royalcanin mini indoor 실내견 소형견', prof:FD},
-  {id:'rc_adult', cat:'food', name:'로얄캐닌 미니 어덜트', tag:'완전사료', s:'로얄캐닌 로얄카닌 royal canin mini adult 어덜트', prof:FD},
-  {id:'rc_skin', cat:'food', name:'로얄캐닌 미니 스킨케어', tag:'완전사료', s:'로얄캐닌 로얄카닌 royal canin skin care skincare 피부', prof:FD},
-  {id:'rc_gi', cat:'food', name:'로얄캐닌 가스트로인테스티널', tag:'처방식', s:'로얄캐닌 로얄카닌 royal canin gastrointestinal gi 장 소화 처방', prof:FD},
-  {id:'rc_urinary', cat:'food', name:'로얄캐닌 유리너리 S/O', tag:'처방식', s:'로얄캐닌 로얄카닌 royal canin urinary 유리너리 요로 방광 결석 처방', prof:FD},
-  {id:'orijen_orig', cat:'food', name:'오리젠 오리지널', tag:'완전사료', s:'오리젠 orijen original 오리지널', prof:FD},
-  {id:'orijen_small', cat:'food', name:'오리젠 스몰브리드', tag:'완전사료', s:'오리젠 orijen small breed 스몰브리드 소형견', prof:FD},
-  {id:'orijen_sixfish', cat:'food', name:'오리젠 식스피쉬', tag:'완전사료', s:'오리젠 orijen six fish sixfish 식스피쉬 생선', prof:FD},
-  {id:'acana_small', cat:'food', name:'아카나 스몰브리드', tag:'완전사료', s:'아카나 acana small breed 스몰브리드 소형견', prof:FD},
-  {id:'acana_pacifica', cat:'food', name:'아카나 패시피카', tag:'완전사료', s:'아카나 acana pacifica 패시피카 생선', prof:FD},
-  {id:'ziwi_beef', cat:'food', name:'지위픽 소고기 (에어드라이)', tag:'완전사료', s:'지위픽 ziwi peak 에어드라이 소고기 beef', prof:FD},
-  {id:'ziwi_lamb', cat:'food', name:'지위픽 양고기 (에어드라이)', tag:'완전사료', s:'지위픽 ziwi peak 에어드라이 양고기 lamb', prof:FD},
-  {id:'ziwi_venison', cat:'food', name:'지위픽 사슴고기 (에어드라이)', tag:'완전사료', s:'지위픽 ziwi peak 에어드라이 사슴고기 venison', prof:FD},
-  {id:'now_adult', cat:'food', name:'나우프레시 스몰브리드 어덜트', tag:'완전사료', s:'나우프레시 now fresh 스몰브리드 small breed 어덜트 adult', prof:FD},
-  {id:'now_senior', cat:'food', name:'나우프레시 스몰브리드 시니어', tag:'완전사료', s:'나우프레시 now fresh 스몰브리드 small breed 시니어 senior 노령', prof:FD},
-  {id:'nutro_small', cat:'food', name:'뉴트로 초이스 소형견', tag:'완전사료', s:'뉴트로 nutro 초이스 choice 소형견 스몰', prof:FD},
-  {id:'nb_salmon', cat:'food', name:'내추럴발란스 L.I.D 고구마&연어', tag:'완전사료', s:'내추럴발란스 natural balance 내추럴 밸런스 lid 고구마 연어 salmon', prof:FD},
-  {id:'nb_duck', cat:'food', name:'내추럴발란스 L.I.D 오리', tag:'완전사료', s:'내추럴발란스 natural balance 내추럴 밸런스 lid 오리 duck', prof:FD},
-  {id:'hills_smallbites', cat:'food', name:'힐스 사이언스 다이어트 스몰바이츠', tag:'완전사료', s:'힐스 hills science diet 사이언스 다이어트 스몰바이츠 small bites', prof:FD},
-  {id:'hills_id', cat:'food', name:'힐스 i/d (소화기)', tag:'처방식', s:'힐스 hills i/d 아이디 소화기 gi 장 처방', prof:FD},
-  {id:'hills_zd', cat:'food', name:'힐스 z/d (하이드롤라이즈드)', tag:'처방식', s:'힐스 hills z/d 지디 하이드롤라이즈즈 알러지 피부 처방', prof:FD},
-  {id:'anf_beef', cat:'food', name:'ANF 6Free 소고기', tag:'완전사료', s:'anf 에이엔에프 6free 식스프리 소고기 beef', prof:FD},
-  {id:'anf_salmon', cat:'food', name:'ANF 6Free 연어', tag:'완전사료', s:'anf 에이엔에프 6free 식스프리 연어 salmon', prof:FD},
-  {id:'harim_duck', cat:'food', name:'하림펫푸드 더리얼 오리', tag:'완전사료', s:'하림 하림펫푸드 더리얼 the real 오리 duck', prof:FDP},
-  {id:'doctordog', cat:'food', name:'닥터독 화식 (완전영양)', tag:'화식', s:'닥터독 doctor dog 화식 수제 완전영양', prof:FDP},
-  {id:'naturalcore_eco', cat:'food', name:'네츄럴코어 에코 오리지널', tag:'완전사료', s:'네츄럴코어 natural core eco 에코 오리지널', prof:FD},
-  {id:'jogong_philo', cat:'food', name:'조공 Philo Dog 닭&산양유', tag:'습식', s:'조공 jogong philo 필로 독 dog 닭 산양유 습식 캔', prof:FDP},
-  {id:'willow_hipjoint', cat:'food', name:'윌로펫 헬시포뮬러 힙앤조인트', tag:'완전사료', s:'윌로펫 willow pet 유한양행 헬시포뮬러 힙앤조인트 hip joint 관절 사료', prof:{food:1, vitAD:1, ca:1, phos:1, glu:1, disc:'full'}},
+  {id:'rc_indoor', cat:'food', name:'로얄캐닌 미니 인도어 어덜트', tag:'완전사료', search:'로얄캐닌 로얄카닌 royal canin royalcanin mini indoor 실내견 소형견', prof:FD},
+  {id:'rc_adult', cat:'food', name:'로얄캐닌 미니 어덜트', tag:'완전사료', search:'로얄캐닌 로얄카닌 royal canin mini adult 어덜트', prof:FD},
+  {id:'rc_skin', cat:'food', name:'로얄캐닌 미니 스킨케어', tag:'완전사료', search:'로얄캐닌 로얄카닌 royal canin skin care skincare 피부', prof:FD},
+  {id:'rc_gi', cat:'food', name:'로얄캐닌 가스트로인테스티널', tag:'처방식', search:'로얄캐닌 로얄카닌 royal canin gastrointestinal gi 장 소화 처방', prof:FD},
+  {id:'rc_urinary', cat:'food', name:'로얄캐닌 유리너리 S/O', tag:'처방식', search:'로얄캐닌 로얄카닌 royal canin urinary 유리너리 요로 방광 결석 처방', prof:FD},
+  {id:'orijen_orig', cat:'food', name:'오리젠 오리지널', tag:'완전사료', search:'오리젠 orijen original 오리지널', prof:FD},
+  {id:'orijen_small', cat:'food', name:'오리젠 스몰브리드', tag:'완전사료', search:'오리젠 orijen small breed 스몰브리드 소형견', prof:FD},
+  {id:'orijen_sixfish', cat:'food', name:'오리젠 식스피쉬', tag:'완전사료', search:'오리젠 orijen six fish sixfish 식스피쉬 생선', prof:FD},
+  {id:'acana_small', cat:'food', name:'아카나 스몰브리드', tag:'완전사료', search:'아카나 acana small breed 스몰브리드 소형견', prof:FD},
+  {id:'acana_pacifica', cat:'food', name:'아카나 패시피카', tag:'완전사료', search:'아카나 acana pacifica 패시피카 생선', prof:FD},
+  {id:'ziwi_beef', cat:'food', name:'지위픽 소고기 (에어드라이)', tag:'완전사료', search:'지위픽 ziwi peak 에어드라이 소고기 beef', prof:FD},
+  {id:'ziwi_lamb', cat:'food', name:'지위픽 양고기 (에어드라이)', tag:'완전사료', search:'지위픽 ziwi peak 에어드라이 양고기 lamb', prof:FD},
+  {id:'ziwi_venison', cat:'food', name:'지위픽 사슴고기 (에어드라이)', tag:'완전사료', search:'지위픽 ziwi peak 에어드라이 사슴고기 venison', prof:FD},
+  {id:'now_adult', cat:'food', name:'나우프레시 스몰브리드 어덜트', tag:'완전사료', search:'나우프레시 now fresh 스몰브리드 small breed 어덜트 adult', prof:FD},
+  {id:'now_senior', cat:'food', name:'나우프레시 스몰브리드 시니어', tag:'완전사료', search:'나우프레시 now fresh 스몰브리드 small breed 시니어 senior 노령', prof:FD},
+  {id:'nutro_small', cat:'food', name:'뉴트로 초이스 소형견', tag:'완전사료', search:'뉴트로 nutro 초이스 choice 소형견 스몰', prof:FD},
+  {id:'nb_salmon', cat:'food', name:'내추럴발란스 L.I.D 고구마&연어', tag:'완전사료', search:'내추럴발란스 natural balance 내추럴 밸런스 lid 고구마 연어 salmon', prof:FD},
+  {id:'nb_duck', cat:'food', name:'내추럴발란스 L.I.D 오리', tag:'완전사료', search:'내추럴발란스 natural balance 내추럴 밸런스 lid 오리 duck', prof:FD},
+  {id:'hills_smallbites', cat:'food', name:'힐스 사이언스 다이어트 스몰바이츠', tag:'완전사료', search:'힐스 hills science diet 사이언스 다이어트 스몰바이츠 small bites', prof:FD},
+  {id:'hills_id', cat:'food', name:'힐스 i/d (소화기)', tag:'처방식', search:'힐스 hills i/d 아이디 소화기 gi 장 처방', prof:FD},
+  {id:'hills_zd', cat:'food', name:'힐스 z/d (하이드롤라이즈드)', tag:'처방식', search:'힐스 hills z/d 지디 하이드롤라이즈즈 알러지 피부 처방', prof:FD},
+  {id:'anf_beef', cat:'food', name:'ANF 6Free 소고기', tag:'완전사료', search:'anf 에이엔에프 6free 식스프리 소고기 beef', prof:FD},
+  {id:'anf_salmon', cat:'food', name:'ANF 6Free 연어', tag:'완전사료', search:'anf 에이엔에프 6free 식스프리 연어 salmon', prof:FD},
+  {id:'harim_duck', cat:'food', name:'하림펫푸드 더리얼 오리', tag:'완전사료', search:'하림 하림펫푸드 더리얼 the real 오리 duck', prof:FDP},
+  {id:'doctordog', cat:'food', name:'닥터독 화식 (완전영양)', tag:'화식', search:'닥터독 doctor dog 화식 수제 완전영양', prof:FDP},
+  {id:'naturalcore_eco', cat:'food', name:'네츄럴코어 에코 오리지널', tag:'완전사료', search:'네츄럴코어 natural core eco 에코 오리지널', prof:FD},
+  {id:'jogong_philo', cat:'food', name:'조공 Philo Dog 닭&산양유', tag:'습식', search:'조공 jogong philo 필로 독 dog 닭 산양유 습식 캔', prof:FDP},
+  {id:'willow_hipjoint', cat:'food', name:'윌로펫 헬시포뮬러 힙앤조인트', tag:'완전사료', search:'윌로펫 willow pet 유한양행 헬시포뮬러 힙앤조인트 hip joint 관절 사료', prof:{food:1, vitAD:1, ca:1, phos:1, glu:1, disc:'full'}},
 
   /* ---------- 관절 ---------- */
-  {id:'nutrvet_hipjoint', cat:'joint', name:'뉴트리벳 히프&조인트', tag:'글루코사민·콘드로이틴', s:'뉴트리벳 nutri vet nutrived hip joint 히프 조인트 관절 글루코사민 콘드로이친 msm', prof:{glu:1, chon:1, msm:1, disc:'full'}},
-  {id:'willow_joint', cat:'joint', name:'윌로펫 관절&조인트 영양보조제', tag:'30입', s:'윌로펫 willow 유한양행 관절 조인트 joint 영양보조제', prof:{glu:1, disc:'partial'}},
-  {id:'yuhan_joint', cat:'joint', name:'유한양행 뉴트리헬스 관절조인트', tag:'60정', s:'유한양행 뉴트리헬스 관절 조인트 joint 60정', prof:{glu:1, disc:'partial'}},
-  {id:'recipev_mussel', cat:'joint', name:'레시피브이 본앤고 초록입홍합오일', tag:'홍합 오일', s:'레시피브이 recipe v 본앤고 초록입홍합 홍합 오일 관절 30입', prof:{mussel:1, disc:'partial'}},
-  {id:'bito_calcium', cat:'joint', name:'비토 해조칼슘 져키', tag:'칼슘', s:'비토 vito 해조칼슘 칼슘 져키 관절 영양간식', prof:{caSupp:1, ca:1, disc:'partial'}},
-  {id:'mybev_joint', cat:'joint', name:'마이베프 별자리스틱 관절', tag:'홍합·MSM', s:'마이베프 mybev 별자리스틱 관절 joint 초록입홍합 식이유황 msm', prof:{msm:1, mussel:1, disc:'partial'}},
+  {id:'nutrvet_hipjoint', cat:'joint', name:'뉴트리벳 히프&조인트', tag:'글루코사민·콘드로이틴', search:'뉴트리벳 nutri vet nutrived hip joint 히프 조인트 관절 글루코사민 콘드로이친 msm', prof:{glu:1, chon:1, msm:1, disc:'full'}},
+  {id:'willow_joint', cat:'joint', name:'윌로펫 관절&조인트 영양보조제', tag:'30입', search:'윌로펫 willow 유한양행 관절 조인트 joint 영양보조제', prof:{glu:1, disc:'partial'}},
+  {id:'yuhan_joint', cat:'joint', name:'유한양행 뉴트리헬스 관절조인트', tag:'60정', search:'유한양행 뉴트리헬스 관절 조인트 joint 60정', prof:{glu:1, disc:'partial'}},
+  {id:'recipev_mussel', cat:'joint', name:'레시피브이 본앤고 초록입홍합오일', tag:'홍합 오일', search:'레시피브이 recipe v 본앤고 초록입홍합 홍합 오일 관절 30입', prof:{mussel:1, disc:'partial'}},
+  {id:'bito_calcium', cat:'joint', name:'비토 해조칼슘 져키', tag:'칼슘', search:'비토 vito 해조칼슘 칼슘 져키 관절 영양간식', prof:{caSupp:1, ca:1, disc:'partial'}},
+  {id:'mybev_joint', cat:'joint', name:'마이베프 별자리스틱 관절', tag:'홍합·MSM', search:'마이베프 mybev 별자리스틱 관절 joint 초록입홍합 식이유황 msm', prof:{msm:1, mussel:1, disc:'partial'}},
 
   /* ---------- 피부 ---------- */
-  {id:'vetnex_dermacoat', cat:'skin', name:'벳넥스 더마코트 오메가 츄', tag:'오메가 츄', s:'벳넥스 vetnex 더마코트 dermacoat 오메가 츄 피부 피모', prof:{o3:1, disc:'partial'}},
-  {id:'maxiderm_lq', cat:'skin', name:'협성로하스 맥시덤 LQ', tag:'피부·모발', s:'협성로하스 맥시덤 maxiderm lq 피부 모발 오메가3', prof:{o3:1, disc:'partial'}},
+  {id:'vetnex_dermacoat', cat:'skin', name:'벳넥스 더마코트 오메가 츄', tag:'오메가 츄', search:'벳넥스 vetnex 더마코트 dermacoat 오메가 츄 피부 피모', prof:{o3:1, disc:'partial'}},
+  {id:'maxiderm_lq', cat:'skin', name:'협성로하스 맥시덤 LQ', tag:'피부·모발', search:'협성로하스 맥시덤 maxiderm lq 피부 모발 오메가3', prof:{o3:1, disc:'partial'}},
 
   /* ---------- 눈 ---------- */
-  {id:'mybev_eye', cat:'eye', name:'마이베프 별자리스틱 눈', tag:'루테인·아스타잔틴', s:'마이베프 mybev 별자리스틱 눈 eye 루테인 아스타잔틴 포도씨', prof:{lutein:1, o3:1, disc:'partial'}},
-  {id:'bito_lutein', cat:'eye', name:'비토 루테인 눈 건강 영양간식', tag:'루테인', s:'비토 vito 루테인 눈 눈물자국 영양간식', prof:{lutein:1, disc:'partial'}},
-  {id:'alokitchen_eye', cat:'eye', name:'알로키친 눈 아이즈 100파워', tag:'눈 영양', s:'알로키친 alokitchen 눈 아이즈 eye 100파워 백내장 녹내장', prof:{disc:'partial'}},
-  {id:'thinkpets_lutein', cat:'eye', name:'펫생각 리포좀 루테인', tag:'루테인', s:'펫생각 thinkpets 리포좀 루테인 눈 눈물자국 백내장', prof:{lutein:1, disc:'partial'}},
-  {id:'petspark_eye', cat:'eye', name:'펫츠파크 눈 건강 항산화제', tag:'항산화', s:'펫츠파크 petspark 눈 eye 항산화 눈물', prof:{disc:'partial'}},
+  {id:'mybev_eye', cat:'eye', name:'마이베프 별자리스틱 눈', tag:'루테인·아스타잔틴', search:'마이베프 mybev 별자리스틱 눈 eye 루테인 아스타잔틴 포도씨', prof:{lutein:1, o3:1, disc:'partial'}},
+  {id:'bito_lutein', cat:'eye', name:'비토 루테인 눈 건강 영양간식', tag:'루테인', search:'비토 vito 루테인 눈 눈물자국 영양간식', prof:{lutein:1, disc:'partial'}},
+  {id:'alokitchen_eye', cat:'eye', name:'알로키친 눈 아이즈 100파워', tag:'눈 영양', search:'알로키친 alokitchen 눈 아이즈 eye 100파워 백내장 녹내장', prof:{disc:'partial'}},
+  {id:'thinkpets_lutein', cat:'eye', name:'펫생각 리포좀 루테인', tag:'루테인', search:'펫생각 thinkpets 리포좀 루테인 눈 눈물자국 백내장', prof:{lutein:1, disc:'partial'}},
+  {id:'petspark_eye', cat:'eye', name:'펫츠파크 눈 건강 항산화제', tag:'항산화', search:'펫츠파크 petspark 눈 eye 항산화 눈물', prof:{disc:'partial'}},
 
   /* ---------- 털·피모 ---------- */
-  {id:'jogong_omega3', cat:'coat', name:'조공 이지 케어 오메가-3', tag:'EPA+DHA 200mg', s:'조공 jogong 이지케어 easy care 오메가3 omega3 피부 피모 스틱', prof:{o3:1, disc:'full'}},
-  {id:'jogong_red', cat:'coat', name:'조공 프리미엄 레드 오메가3 미니', tag:'캡슐', s:'조공 jogong 프리미엄 레드 오메가3 omega3 미니 캡슐', prof:{o3:1, disc:'partial'}},
-  {id:'fera_fish', cat:'coat', name:'페라 펫츠 피쉬오일 236.5ml', tag:'EPA 700mg/5ml', s:'페라 펫츠 fera pets 피쉬오일 fish oil 오메가3', prof:{o3:1, disc:'full'}},
-  {id:'fera_algae', cat:'coat', name:'페라 펫츠 플랜트 베이스드 알게오일', tag:'DHA 460mg/5ml', s:'페라 펫츠 fera pets 알게오일 algae plant based 식물성 오메가3', prof:{o3:1, disc:'full'}},
-  {id:'vetactive8_omega', cat:'coat', name:'벳액티브8 오메가3', tag:'90캡슐', s:'벳액티브8 vetactive8 오메가3 omega3 90캡슐 360캡슐', prof:{o3:1, disc:'partial'}},
-  {id:'drinnerpeace_omega', cat:'coat', name:'닥터이너피스 rTG 오메가3', tag:'rTG', s:'닥터이너피스 dr innerpeace rtg 오메가3 omega3 바잇미', prof:{o3:1, disc:'partial'}},
+  {id:'jogong_omega3', cat:'coat', name:'조공 이지 케어 오메가-3', tag:'EPA+DHA 200mg', search:'조공 jogong 이지케어 easy care 오메가3 omega3 피부 피모 스틱', prof:{o3:1, disc:'full'}},
+  {id:'jogong_red', cat:'coat', name:'조공 프리미엄 레드 오메가3 미니', tag:'캡슐', search:'조공 jogong 프리미엄 레드 오메가3 omega3 미니 캡슐', prof:{o3:1, disc:'partial'}},
+  {id:'fera_fish', cat:'coat', name:'페라 펫츠 피쉬오일 236.5ml', tag:'EPA 700mg/5ml', search:'페라 펫츠 fera pets 피쉬오일 fish oil 오메가3', prof:{o3:1, disc:'full'}},
+  {id:'fera_algae', cat:'coat', name:'페라 펫츠 플랜트 베이스드 알게오일', tag:'DHA 460mg/5ml', search:'페라 펫츠 fera pets 알게오일 algae plant based 식물성 오메가3', prof:{o3:1, disc:'full'}},
+  {id:'vetactive8_omega', cat:'coat', name:'벳액티브8 오메가3', tag:'90캡슐', search:'벳액티브8 vetactive8 오메가3 omega3 90캡슐 360캡슐', prof:{o3:1, disc:'partial'}},
+  {id:'drinnerpeace_omega', cat:'coat', name:'닥터이너피스 rTG 오메가3', tag:'rTG', search:'닥터이너피스 dr innerpeace rtg 오메가3 omega3 바잇미', prof:{o3:1, disc:'partial'}},
 
   /* ---------- 장·소화 ---------- */
-  {id:'jogong_multi', cat:'gut', name:'조공 이지 케어 멀티바이오틱스', tag:'장·면역', s:'조공 jogong 이지케어 멀티바이오틱스 multibiotics 장 면역 유산균', prof:{probio:1, disc:'partial'}},
-  {id:'jogong_probio', cat:'gut', name:'조공 프로바이오틱스 30스틱', tag:'30스틱', s:'조공 jogong 프로바이오틱스 probiotics 유산균 스틱', prof:{probio:1, disc:'partial'}},
-  {id:'mercola_probio', cat:'gut', name:'닥터머콜라 컴플리트 유산균', tag:'38억 CFU·14종', s:'닥터머콜라 dr mercola bark whiskers 컴플리트 유산균 probiotics 90g', prof:{probio:1, disc:'full'}},
-  {id:'drinnerpeace_gut', cat:'gut', name:'바잇미 닥터이너피스 장튼튼 유산균', tag:'비피더스 80억', s:'바잇미 biteme 닥터이너피스 장튼튼 유산균 비피더스', prof:{probio:1, disc:'full'}},
-  {id:'oral_effect', cat:'gut', name:'바잇미 오랄이펙트 프로바이오틱스', tag:'구강·장', s:'바잇미 biteme 오랄이펙트 oral effect 프로바이오틱스 구강 장', prof:{probio:1, disc:'partial'}},
-  {id:'vetactive8_syn', cat:'gut', name:'벳액티브8 신바이오틱 부스트', tag:'신바이오틱', s:'벳액티브8 vetactive8 신바이오틱 부스트 synbiotic 유산균', prof:{probio:1, disc:'partial'}},
-  {id:'fera_probio', cat:'gut', name:'페라 오가닉 프로바이오틱스', tag:'유기농', s:'페라 오가닉 organic 프로바이오틱스 프리바이오틱스 유산균', prof:{probio:1, disc:'partial'}},
-  {id:'labivet_gut_joint', cat:'gut', name:'라비벳 유산균 (장&관절)', tag:'장·관절', s:'라비벳 labivet 유산균 장 관절 종근당', prof:{probio:1, disc:'partial'}},
-  {id:'pethroom_probio', cat:'gut', name:'페스룸 프로바이오 케어 스틱', tag:'장건강', s:'페스룸 pethroom 프로바이오 probio 케어 스틱 장 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'jogong_multi', cat:'gut', name:'조공 이지 케어 멀티바이오틱스', tag:'장·면역', search:'조공 jogong 이지케어 멀티바이오틱스 multibiotics 장 면역 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'jogong_probio', cat:'gut', name:'조공 프로바이오틱스 30스틱', tag:'30스틱', search:'조공 jogong 프로바이오틱스 probiotics 유산균 스틱', prof:{probio:1, disc:'partial'}},
+  {id:'mercola_probio', cat:'gut', name:'닥터머콜라 컴플리트 유산균', tag:'38억 CFU·14종', search:'닥터머콜라 dr mercola bark whiskers 컴플리트 유산균 probiotics 90g', prof:{probio:1, disc:'full'}},
+  {id:'drinnerpeace_gut', cat:'gut', name:'바잇미 닥터이너피스 장튼튼 유산균', tag:'비피더스 80억', search:'바잇미 biteme 닥터이너피스 장튼튼 유산균 비피더스', prof:{probio:1, disc:'full'}},
+  {id:'oral_effect', cat:'gut', name:'바잇미 오랄이펙트 프로바이오틱스', tag:'구강·장', search:'바잇미 biteme 오랄이펙트 oral effect 프로바이오틱스 구강 장', prof:{probio:1, disc:'partial'}},
+  {id:'vetactive8_syn', cat:'gut', name:'벳액티브8 신바이오틱 부스트', tag:'신바이오틱', search:'벳액티브8 vetactive8 신바이오틱 부스트 synbiotic 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'fera_probio', cat:'gut', name:'페라 오가닉 프로바이오틱스', tag:'유기농', search:'페라 오가닉 organic 프로바이오틱스 프리바이오틱스 유산균', prof:{probio:1, disc:'partial'}},
+  {id:'labivet_gut_joint', cat:'gut', name:'라비벳 유산균 (장&관절)', tag:'장·관절', search:'라비벳 labivet 유산균 장 관절 종근당', prof:{probio:1, disc:'partial'}},
+  {id:'pethroom_probio', cat:'gut', name:'페스룸 프로바이오 케어 스틱', tag:'장건강', search:'페스룸 pethroom 프로바이오 probio 케어 스틱 장 유산균', prof:{probio:1, disc:'partial'}},
 
   /* ---------- 심장 ---------- */
-  {id:'mybev_heart', cat:'heart', name:'마이베프 별자리스틱 심장', tag:'CoQ10·타우린', s:'마이베프 mybev 별자리스틱 심장 heart 코엔자임 타우린 카르니틴', prof:{coq10:1, taurine:1, o3:1, disc:'partial'}},
+  {id:'mybev_heart', cat:'heart', name:'마이베프 별자리스틱 심장', tag:'CoQ10·타우린', search:'마이베프 mybev 별자리스틱 심장 heart 코엔자임 타우린 카르니틴', prof:{coq10:1, taurine:1, o3:1, disc:'partial'}},
 
   /* ---------- 구강 ---------- */
-  {id:'pethroom_dental', cat:'oral', name:'페스룸 덴탈 케어 스틱', tag:'구강', s:'페스룸 pethroom 덴탈 dental 케어 스틱 구강 치아', prof:{disc:'partial'}},
-  {id:'petspark_kelp', cat:'oral', name:'펫츠파크 켈프 구강 영양제', tag:'켈프', s:'펫츠파크 petspark 켈프 kelp 구강 영양제 치아', prof:{disc:'partial'}},
-  {id:'jogong_dental', cat:'oral', name:'조공 산양유 덴탈껌', tag:'덴탈껌', s:'조공 jogong 산양유 덴탈껌 dental gum 14개입', prof:{disc:'partial'}},
+  {id:'pethroom_dental', cat:'oral', name:'페스룸 덴탈 케어 스틱', tag:'구강', search:'페스룸 pethroom 덴탈 dental 케어 스틱 구강 치아', prof:{disc:'partial'}},
+  {id:'petspark_kelp', cat:'oral', name:'펫츠파크 켈프 구강 영양제', tag:'켈프', search:'펫츠파크 petspark 켈프 kelp 구강 영양제 치아', prof:{disc:'partial'}},
+  {id:'jogong_dental', cat:'oral', name:'조공 산양유 덴탈껌', tag:'덴탈껌', search:'조공 jogong 산양유 덴탈껌 dental gum 14개입', prof:{disc:'partial'}},
 
   /* ---------- 체중 ---------- */
-  {id:'pethroom_weight', cat:'weight', name:'페스룸 웨이트 케어 스틱', tag:'체중조절', s:'페스룸 pethroom 웨이트 weight 케어 스틱 다이어트 체중', prof:{disc:'partial'}},
-  {id:'proqumin_inulin', cat:'weight', name:'프로큐민 하이눌린', tag:'이눌린', s:'프로큐민 proqumin 하이눌린 inulin 비만 혈당 신장', prof:{disc:'partial'}},
+  {id:'pethroom_weight', cat:'weight', name:'페스룸 웨이트 케어 스틱', tag:'체중조절', search:'페스룸 pethroom 웨이트 weight 케어 스틱 다이어트 체중', prof:{disc:'partial'}},
+  {id:'proqumin_inulin', cat:'weight', name:'프로큐민 하이눌린', tag:'이눌린', search:'프로큐민 proqumin 하이눌린 inulin 비만 혈당 신장', prof:{disc:'partial'}},
 
   /* ---------- 기타 (종합·신장·간) ---------- */
-  {id:'nutrvet_multi', cat:'extra', name:'뉴트리벳 멀티비타민&미네랄', tag:'종합', s:'뉴트리벳 nutri vet 멀티비타민 멀티바이탈 미네랄 종합 60정', prof:{vitAD:1, zinc:1, ca:1, disc:'full'}},
-  {id:'willow_senior', cat:'extra', name:'윌로펫 시니어 종합영양보조제', tag:'7세 이상', s:'윌로펫 willow 유한양행 시니어 senior 종합 영양보조제', prof:{vitAD:1, disc:'partial'}},
-  {id:'willow_adult', cat:'extra', name:'윌로펫 어덜트 종합영양보조제', tag:'1~7세', s:'윌로펫 willow 유한양행 어덜트 adult 종합 영양보조제', prof:{vitAD:1, disc:'partial'}},
-  {id:'willow_puppy', cat:'extra', name:'윌로펫 퍼피&주니어 종합영양보조제', tag:'1세 이하', s:'윌로펫 willow 유한양행 퍼피 puppy 주니어 종합 영양보조제', prof:{vitAD:1, ca:1, disc:'partial'}},
-  {id:'pethroom_total', cat:'extra', name:'페스룸 토탈 밸런스 스틱', tag:'종합', s:'페스룸 pethroom 토탈 밸런스 total balance 스틱 종합영양제', prof:{vitAD:1, zinc:1, disc:'partial'}},
-  {id:'jogong_enough', cat:'extra', name:'조공 이지 케어 이너프 (종합)', tag:'종합', s:'조공 jogong 이지케어 이너프 enough 종합케어 종합', prof:{vitAD:1, disc:'partial'}},
-  {id:'mercola_mealmix', cat:'extra', name:'닥터머콜라 밀믹스 종합 영양제', tag:'종합', s:'닥터머콜라 dr mercola 밀믹스 meal mix 종합 영양제', prof:{vitAD:1, zinc:1, disc:'partial'}},
-  {id:'mybev_multi', cat:'extra', name:'마이베프 별자리스틱 멀티비타민', tag:'비타민B·D3', s:'마이베프 mybev 별자리스틱 멀티비타민 multivitamin', prof:{vitAD:1, disc:'partial'}},
-  {id:'mybev_kidney', cat:'extra', name:'마이베프 별자리스틱 신장', tag:'신장', s:'마이베프 mybev 별자리스틱 신장 kidney 코엔자임 오메가3', prof:{coq10:1, o3:1, disc:'partial'}},
+  {id:'nutrvet_multi', cat:'extra', name:'뉴트리벳 멀티비타민&미네랄', tag:'종합', search:'뉴트리벳 nutri vet 멀티비타민 멀티바이탈 미네랄 종합 60정', prof:{vitAD:1, zinc:1, ca:1, disc:'full'}},
+  {id:'willow_senior', cat:'extra', name:'윌로펫 시니어 종합영양보조제', tag:'7세 이상', search:'윌로펫 willow 유한양행 시니어 senior 종합 영양보조제', prof:{vitAD:1, disc:'partial'}},
+  {id:'willow_adult', cat:'extra', name:'윌로펫 어덜트 종합영양보조제', tag:'1~7세', search:'윌로펫 willow 유한양행 어덜트 adult 종합 영양보조제', prof:{vitAD:1, disc:'partial'}},
+  {id:'willow_puppy', cat:'extra', name:'윌로펫 퍼피&주니어 종합영양보조제', tag:'1세 이하', search:'윌로펫 willow 유한양행 퍼피 puppy 주니어 종합 영양보조제', prof:{vitAD:1, ca:1, disc:'partial'}},
+  {id:'pethroom_total', cat:'extra', name:'페스룸 토탈 밸런스 스틱', tag:'종합', search:'페스룸 pethroom 토탈 밸런스 total balance 스틱 종합영양제', prof:{vitAD:1, zinc:1, disc:'partial'}},
+  {id:'jogong_enough', cat:'extra', name:'조공 이지 케어 이너프 (종합)', tag:'종합', search:'조공 jogong 이지케어 이너프 enough 종합케어 종합', prof:{vitAD:1, disc:'partial'}},
+  {id:'mercola_mealmix', cat:'extra', name:'닥터머콜라 밀믹스 종합 영양제', tag:'종합', search:'닥터머콜라 dr mercola 밀믹스 meal mix 종합 영양제', prof:{vitAD:1, zinc:1, disc:'partial'}},
+  {id:'mybev_multi', cat:'extra', name:'마이베프 별자리스틱 멀티비타민', tag:'비타민B·D3', search:'마이베프 mybev 별자리스틱 멀티비타민 multivitamin', prof:{vitAD:1, disc:'partial'}},
+  {id:'mybev_kidney', cat:'extra', name:'마이베프 별자리스틱 신장', tag:'신장', search:'마이베프 mybev 별자리스틱 신장 kidney 코엔자임 오메가3', prof:{coq10:1, o3:1, disc:'partial'}},
 
   /* ---------- 제품 외 기본 항목 ---------- */
-  {id:'food', cat:'extra', name:'완전건식 사료 (AAFCO 완전영양)', tag:'완전사료', s:'완전건식 사료 aafco 주식 건식', prof:{food:1, vitAD:1, ca:1, phos:1, disc:'full'}},
-  {id:'homemade', cat:'extra', name:'수제식·화식 (육류 위주)', tag:'', s:'수제식 화식 육류 생식', prof:{phos:1, meaty:1, disc:'none'}},
-  {id:'multivit', cat:'extra', name:'종합 비타민·미네랄', tag:'', s:'종합 비타민 미네랄 멀티비타민', prof:{vitAD:1, zinc:1, biotin:1, disc:'partial'}},
-  {id:'calcium', cat:'extra', name:'칼슘 보충제', tag:'', s:'칼슘 보충제 calcium', prof:{caSupp:1, ca:1, disc:'partial'}}
+  {id:'food', cat:'extra', name:'완전건식 사료 (AAFCO 완전영양)', tag:'완전사료', search:'완전건식 사료 aafco 주식 건식', prof:{food:1, vitAD:1, ca:1, phos:1, disc:'full'}},
+  {id:'homemade', cat:'extra', name:'수제식·화식 (육류 위주)', tag:'', search:'수제식 화식 육류 생식', prof:{phos:1, meaty:1, disc:'none'}},
+  {id:'multivit', cat:'extra', name:'종합 비타민·미네랄', tag:'', search:'종합 비타민 미네랄 멀티비타민', prof:{vitAD:1, zinc:1, biotin:1, disc:'partial'}},
+  {id:'calcium', cat:'extra', name:'칼슘 보충제', tag:'', search:'칼슘 보충제 calcium', prof:{caSupp:1, ca:1, disc:'partial'}}
 ];
 
 const EXTRAS = DX_EXTRA_ITEMS;
@@ -1140,7 +1142,7 @@ function load(){
     if(o.purchased) state.purchased = {dx:!!o.purchased.dx, report:!!o.purchased.report};
     if(Array.isArray(o.custom)){
       state.custom = o.custom.filter(function(c){ return c && c.id && c.name; }).map(function(c){
-        return {id:c.id, name:String(c.name).slice(0,40), prof:c.prof || {disc:'none'}, s:c.s || c.name};
+        return {id:c.id, name:String(c.name).slice(0,40), prof:c.prof || {disc:'none'}, search:c.search || c.name};
       });
       state.customSeq = state.custom.length + 1;
     }
@@ -1233,12 +1235,13 @@ function chanRow(ch, label){
   }
   const rate = (ch.r && ch.r !== '—') ? '★ ' + ch.r : '평점 없음';
   const cnt = (ch.n && ch.n !== '—') ? ' · 리뷰 ' + fmtCount(ch.n) : '';
+  const sz = ch.sz ? ' <small>(' + ch.sz + ')</small>' : '';
   return '<div class="chan-row"><span class="ch">' + label + '</span>' +
-    '<span class="rate">' + rate + cnt + '</span><span class="price">' + ch.p + '</span></div>';
+    '<span class="rate">' + rate + cnt + '</span><span class="price">' + ch.p + sz + '</span></div>';
 }
 
 function cardHTML(p){
-  const q = encodeURIComponent(p.brand + ' ' + p.name);
+  const q = encodeURIComponent(p.q || (p.brand + ' ' + p.name));
   const hook = HOOKS[p.id] || '';
   const ing = p.ing.map(function(x){
     return '<span>' + x[0] + (x[1] ? ' <i>' + x[1] + '</i>' : '') + '</span>';
@@ -1292,12 +1295,12 @@ function renderProducts(){
    ========================================================= */
 function dietCatalog(){
   const base = PRODUCTS.map(function(p){
-    return {id:p.id, name:p.brand + ' ' + p.name, cat:p.cat, prof:p.prof, s:p.brand + ' ' + p.name, tag:''};
+    return {id:p.id, name:p.brand + ' ' + p.name, cat:p.cat, prof:p.prof, search:p.brand + ' ' + p.name, tag:''};
   }).concat(EXTRAS.map(function(e){
-    return {id:e.id, name:e.name, cat:e.cat || 'extra', prof:e.prof, s:e.s || e.name, tag:e.tag || ''};
+    return {id:e.id, name:e.name, cat:e.cat || 'extra', prof:e.prof, search:e.search || e.name, tag:e.tag || ''};
   }));
   return base.concat((state.custom || []).map(function(c){
-    return {id:c.id, name:c.name, cat:'custom', prof:c.prof, s:c.s || c.name, tag:'직접 추가', custom:true};
+    return {id:c.id, name:c.name, cat:'custom', prof:c.prof, search:c.search || c.name, tag:'직접 추가', custom:true};
   }));
 }
 
@@ -1646,8 +1649,10 @@ function comboTable(){
   });
   return CAT_ORDER.map(function(c){
     const p = pick[c];
+    const ch = p.ch.coupang || p.ch.naver;
+    const price = ch ? ch.p + (ch.sz ? ' (' + ch.sz + ')' : '') : '—';
     return '<tr><td><b>' + CATS[c].emoji + ' ' + CATS[c].label + '</b></td><td>' + p.brand + ' ' + p.name +
-      '</td><td>' + p.ing[0][0] + '</td><td>' + p.evLabel + '</td><td>' + (p.ch.coupang ? p.ch.coupang.p : (p.ch.naver ? p.ch.naver.p : '—')) + '</td></tr>';
+      '</td><td>' + p.ing[0][0] + '</td><td>' + p.evLabel + '</td><td>' + price + '</td></tr>';
   }).join('');
 }
 
@@ -1865,7 +1870,7 @@ function dietRowHTML(it){
   const del = it.custom
     ? '<button class="del" type="button" data-del="' + esc(it.id) + '" aria-label="' + esc(it.name) + ' 목록에서 삭제">✕</button>'
     : '';
-  const hay = normQ(it.name + ' ' + (it.s || '') + ' ' + (it.tag || ''));
+  const hay = normQ(it.name + ' ' + (it.search || '') + ' ' + (it.tag || ''));
   return '<label class="drow" data-name="' + esc(it.name) + '" data-s="' + esc(hay) + '">' +
     '<input type="checkbox" value="' + esc(it.id) + '"><span>' + esc(it.name) + '</span>' + tag + del + '</label>';
 }
@@ -2022,7 +2027,7 @@ function addCustomItem(){
     id:'cus_' + Date.now().toString(36) + '_' + (state.customSeq++),
     name:name,
     prof:customProfFromChips(state.addChips),
-    s:name
+    search:name
   };
   state.custom.push(item);
   save();

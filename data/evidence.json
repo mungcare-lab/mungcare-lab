@@ -1,0 +1,526 @@
+[
+ {
+  "id": "ev_penovis",
+  "subjectType": "product",
+  "subjectId": "penovis",
+  "ingredientIds": [
+   "glu",
+   "mussel",
+   "chon",
+   "coq10",
+   "vitB"
+  ],
+  "scope": "ingredient",
+  "strength": "weak",
+  "title": "글루코사민 단독 의존은 비추천",
+  "summary": "57편을 모은 2022년 메타분석에서 콘드로이틴-글루코사민 조합은 진통 효과가 사실상 없었습니다(비효과 88.9%). 초록입홍합이 들어 있으나, 시험에 쓰인 것은 분말이 아닌 지질 추출물이라 같은 근거로 보기 어렵습니다.",
+  "citation": "Int J Mol Sci 2022;23:10384",
+  "url": "https://doi.org/10.3390/ijms231810384",
+  "sourceId": "ijms2022",
+  "lastChecked": "2026-11-15",
+  "note": "신장질환·당뇨 등 기저질환이 있으면 급여 전 수의사 상담."
+ },
+ {
+  "id": "ev_tamsa",
+  "subjectType": "product",
+  "subjectId": "tamsa",
+  "ingredientIds": [
+   "glu",
+   "msm",
+   "chicken"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "함량이 없으면 검증할 수 없음",
+  "summary": "글루코사민·MSM이 들어 있다고만 표기되고 mg 함량이 없습니다. 원료 첫 줄이 밀가루·가수분해닭이라 간식에 가까운 구성입니다. 리뷰는 많지만 \"많이 팔린다\"와 \"유효 용량\"은 다른 문제입니다.",
+  "citation": "라벨 표기 기준",
+  "url": "https://www.coupang.com/np/search?q=%ED%83%90%EC%82%AC%20%EA%B0%95%EC%95%84%EC%A7%80%20%EB%89%B4%ED%8A%B8%EB%A6%AC%EC%85%98%20%ED%8A%B8%EB%A6%BF%20%EA%B4%80%EC%A0%88%EC%BC%80%EC%96%B4",
+  "sourceId": "label",
+  "lastChecked": "2026-11-15",
+  "note": "간식으로 주면 하루 총열량이 늘어납니다. 급여 개수만큼 사료를 줄이세요."
+ },
+ {
+  "id": "ev_pokens",
+  "subjectType": "product",
+  "subjectId": "pokens",
+  "ingredientIds": [
+   "glu",
+   "chon",
+   "tapioca"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "함량은 공개, 다만 1일 1개로는 적음",
+  "summary": "성분 함량을 mg으로 밝힌 점은 좋습니다. 다만 11kg 이하 하루 1개 기준이면 글루코사민 320mg/일로, 관절 보조제의 통상 권고 수준에는 못 미칩니다.",
+  "citation": "제품 라벨 · 800g(100P) 기준",
+  "url": "https://search.shopping.naver.com/search/all?query=%ED%8F%AC%EC%BC%84%EC%8A%A4%20%EB%89%B4%ED%8A%B8%EB%A6%AC%EC%85%98%20%ED%8A%B8%EB%A6%BF%20800g%20%EB%BC%88%20%EA%B4%80%EC%A0%88",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "800g(100P) 대용량이라 하루 1개면 3개월분입니다. 개봉 후 습기·산패에 주의하고 지퍼백에 나눠 보관하세요."
+ },
+ {
+  "id": "ev_drby",
+  "subjectType": "product",
+  "subjectId": "drby",
+  "ingredientIds": [
+   "rosehip",
+   "rosehip",
+   "spirulina"
+  ],
+  "scope": "ingredient",
+  "strength": "moderate",
+  "title": "원료 연구는 있고, 제품 임상은 아님",
+  "summary": "찔레나무열매 추출물을 개 8마리에 2주 급여한 연구에서 비만세포 탈과립 75% 감소, 면역세포 침윤 61% 감소가 보고됐습니다. 다만 이는 원료 단위 연구이며 이 제품 자체를 시험한 결과가 아닙니다(제조사도 명시).",
+  "citation": "Front Vet Sci 2025;12:1531313",
+  "url": "https://doi.org/10.3389/fvets.2025.1531313",
+  "sourceId": "fvs2025",
+  "lastChecked": "2026-11-18",
+  "note": "가려움이 2주 이상 지속되거나 진물·원형 탈모가 보이면 급여를 늘리지 말고 진료."
+ },
+ {
+  "id": "ev_theracort",
+  "subjectType": "product",
+  "subjectId": "theracort",
+  "ingredientIds": [
+   "o3",
+   "lecithin",
+   "vitB",
+   "linoleic"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "필수지방산 + 비타민B의 고전 구성",
+  "summary": "피부 장벽과 모질의 기본 축인 필수지방산과 비타민B 조합입니다. 400g 대용량이라 5kg 이하 기준 1년 가까이 쓰는 가성비형. 다만 EPA·DHA mg 표기가 없어 실제 오메가3 섭취량은 알 수 없습니다.",
+  "citation": "LKV Sachsen, 피부질환 식이 가이드(2025)",
+  "url": "https://www.lkvsachsen.de/en/blog/feeding-advisor/blogpost/artikel/diaetetik-bei-hautproblemen-beim-hund/",
+  "sourceId": "lkvsachsen",
+  "lastChecked": "2026-11-18",
+  "note": "분말이 털·주둥이에 묻습니다. 물기 있는 사료에 섞으면 덜 날립니다."
+ },
+ {
+  "id": "ev_rabivet",
+  "subjectType": "product",
+  "subjectId": "rabivet",
+  "ingredientIds": [
+   "probio",
+   "collagen",
+   "vitC",
+   "prebio"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "피부 개선 근거는 제한적",
+  "summary": "개 아토피에서 프로바이오틱스 보조 근거는 일부 있으나 일관되지 않습니다. 피부 유산균 특허·임상은 브랜드 설명이며 공개 논문으로 확인되지 않았습니다. 장 건강이 주목적일 때 합리적입니다.",
+  "citation": "브랜드 설명 · 라벨",
+  "url": "https://search.shopping.naver.com/search/all?query=%EC%A2%85%EA%B7%BC%EB%8B%B9%20%EB%9D%BC%EB%B9%84%EB%B2%B3%20%EC%9E%A5%20%ED%94%BC%EB%B6%80%20%EC%9C%A0%EC%82%B0%EA%B7%A0",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "처음엔 권장량의 절반부터. 묽은 변이 2~3일 이어지면 중단."
+ },
+ {
+  "id": "ev_eyespro",
+  "subjectType": "product",
+  "subjectId": "eyespro",
+  "ingredientIds": [
+   "chrysanthemum",
+   "lutein",
+   "bilberry",
+   "hematococcus"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "항산화 축은 맞지만 \"황반\"은 사람 논리",
+  "summary": "루테인·제아잔틴·아스타잔틴은 수정체·망막의 산화 스트레스를 줄이는 방향으로 쓰입니다. 다만 개는 황반이 없어 \"황반 색소 밀도\" 논리를 그대로 옮길 수 없습니다. 제조사가 말하는 완제품 임상 4지표는 공개 논문으로 확인하지 못했습니다.",
+  "citation": "KarionPet 눈 영양제 가이드(2026)",
+  "url": "https://karionpet.com/supplements/eye/",
+  "sourceId": "karion_eye",
+  "lastChecked": "2026-11-18",
+  "note": "쿠팡은 60캡슐 2개 묶음(65,070원) — 1개당 32,535원입니다. 네이버 단품(34,800원)과 같은 60캡슐 기준으로 비교하세요."
+ },
+ {
+  "id": "ev_haruallday",
+  "subjectType": "product",
+  "subjectId": "haruallday",
+  "ingredientIds": [
+   "lutein",
+   "hematococcus",
+   "milkthistle",
+   "o3",
+   "blueberry"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "가격·기호성 강점, 성분량은 적음",
+  "summary": "루테인 30mg은 눈 영양제 중 낮지 않은 편이지만, 오메가3는 30mg으로 사실상 상징적 수준입니다. 800건 리뷰 분석에서 \"브랜드 신뢰\"가 만족 이유 1위(9.5%)였고, 눈물자국 변화를 직접 적은 리뷰는 3.6%였습니다.",
+  "citation": "네이버 스마트스토어 800건 리뷰 분석(2026-05)",
+  "url": "https://review-analyst.tistory.com/35",
+  "sourceId": "review_analysis",
+  "lastChecked": "2026-11-18",
+  "note": "분말을 그대로 핥이면 켁켁거릴 수 있습니다. 사료에 섞어 주세요."
+ },
+ {
+  "id": "ev_helciyum",
+  "subjectType": "product",
+  "subjectId": "helciyum",
+  "ingredientIds": [
+   "lutein"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "리뷰·성분 공개가 모두 부족",
+  "summary": "쿠팡에서 확인된 리뷰는 1건이고, 루테인 함량도 상세 표기로 확인되지 않았습니다. \"가격이 가장 낮은 진입 제품\"으로만 의미가 있습니다.",
+  "citation": "판매 페이지 기준",
+  "url": "https://search.shopping.naver.com/search/all?query=%ED%97%AC%EC%8B%9C%EC%96%8C%20%EC%95%84%EC%9D%B4%EC%A6%88%20%EB%88%88%20%EC%98%81%EC%96%91%EC%A0%9C",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "함량 미확인 제품은 다른 눈 영양제와 겹쳐 급여하지 마세요."
+ },
+ {
+  "id": "ev_omg3",
+  "subjectType": "product",
+  "subjectId": "omg3",
+  "ingredientIds": [
+   "o3"
+  ],
+  "scope": "ingredient",
+  "strength": "strong",
+  "title": "오메가3는 관절·피부 모두 근거가 탄탄",
+  "summary": "오메가3는 2022 메타분석에서 관절 통증 완화 근거가 가장 뚜렷한 축이었고, 피부에서는 체중 1kg당 EPA+DHA 50~75mg/일이 교과서 권장으로 인용됩니다. 5kg이면 하루 250~375mg → 1캡슐 126mg 기준 2~3캡슐입니다.",
+  "citation": "IJMS 2022;23:10384 · 수의내과학 교과서 권장량",
+  "url": "https://doi.org/10.3390/ijms231810384",
+  "sourceId": "ijms2022",
+  "lastChecked": "2026-11-18",
+  "note": "수술 전 2주는 항응고 작용 때문에 수의사와 상의해 중단 여부를 정하세요."
+ },
+ {
+  "id": "ev_brilliant",
+  "subjectType": "product",
+  "subjectId": "brilliant",
+  "ingredientIds": [
+   "salmonoil"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "원료는 단순, 함량 표기는 아쉬움",
+  "summary": "단일 원료 연어유라 깔끔하지만 EPA·DHA mg 표기가 없습니다. 액상 오일은 개봉 후 산화가 빨라 냉장 보관과 3개월 내 소진이 필요합니다. 957kcal/100g로 열량이 높아 비만 관리 중이면 양을 엄격히 지켜야 합니다.",
+  "citation": "포옹 상품 성분표 · 라벨 가이드",
+  "url": "https://www.po-ong.com/shop/152",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "산패 신호는 비린내·탁한 색. 개봉 후 냉장 보관."
+ },
+ {
+  "id": "ev_icelandic",
+  "subjectType": "product",
+  "subjectId": "icelandic",
+  "ingredientIds": [
+   "o3"
+  ],
+  "scope": "secondary",
+  "strength": "strong",
+  "title": "함량이 숫자로 보이는 액상 오일",
+  "summary": "1g당 EPA+DHA 147mg을 표기해 계산이 가능합니다. 10kg 이하 2펌프(약 2ml)면 하루 약 294mg으로, 5kg 권장(250~375mg) 범위에 들어옵니다. 관절과 피부를 한 번에 보려는 경우 우선 후보.",
+  "citation": "에누리 상품정보 · 라벨",
+  "url": "https://price.enuri.com/catalog/70946537",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "일시품절이 잦습니다. 네이버가 쿠팡보다 5,500원 비쌉니다."
+ },
+ {
+  "id": "ev_petomedi",
+  "subjectType": "product",
+  "subjectId": "petomedi",
+  "ingredientIds": [],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "균주와 포당 균수를 공개한 쪽",
+  "summary": "\"600억\"은 60포 전체를 더한 값이고, 실제 표기는 1포당 10억 CFU입니다. 개의 급성 설사에서 특정 균주의 보조 효과를 본 연구가 있으나 균주별 차이가 큽니다. 설사가 이틀을 넘으면 제품을 바꾸지 말고 진료하세요.",
+  "citation": "코넬 수의대 · 프로바이오틱스 가이드(초이스몬 정리)",
+  "url": "https://choicemon.com/dog-probiotics-recommend/",
+  "sourceId": "cornell_guide",
+  "lastChecked": "2026-11-18",
+  "note": "많이 주면 배가 부풀거나 변이 묽어집니다. 하루 1포를 넘기지 마세요."
+ },
+ {
+  "id": "ev_intragen",
+  "subjectType": "product",
+  "subjectId": "intragen",
+  "ingredientIds": [
+   "probio",
+   "vitA",
+   "lactase",
+   "chitosan"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "포당 균수가 표기되지 않음",
+  "summary": "10종 복합균이라고만 적혀 있어 포당 몇 마리인지 알 수 없습니다. 다른 제품과 균수로 비교하려면 표기가 있는 제품을 골라야 합니다. 오래 팔린 제품이라 안정성 참고는 됩니다.",
+  "citation": "제품 라벨 · 판매 페이지",
+  "url": "https://search.shopping.naver.com/search/all?query=%EC%9D%B8%ED%8A%B8%EB%9D%BC%EC%A0%A0%20%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9C%A0%EC%82%B0%EA%B7%A0",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "5~10kg는 하루 3~5포. 한 통이 한 달도 안 갈 수 있습니다."
+ },
+ {
+  "id": "ev_lacto200",
+  "subjectType": "product",
+  "subjectId": "lacto200",
+  "ingredientIds": [
+   "probio",
+   "prebio"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "표기 정보가 적음",
+  "summary": "균종·함량 표기가 적어 다른 제품과 직접 비교하기 어렵습니다. 가격대만 보면 진입용으로 무난하지만, 성분을 따져 고르는 목적에는 맞지 않습니다.",
+  "citation": "쿠팡 상품 페이지",
+  "url": "https://www.coupang.com/np/search?q=%EB%9D%BD%ED%86%A0%20200%2B%20%ED%94%84%EB%A1%9C%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8B%B1%EC%8A%A4",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "묽은 변이 2~3일 이어지면 중단하고 진료하세요."
+ },
+ {
+  "id": "ev_hepacardio",
+  "subjectType": "product",
+  "subjectId": "hepacardio",
+  "ingredientIds": [
+   "coq10",
+   "taurine",
+   "carnitine",
+   "vitE"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "보조 성분 — 처방약을 대신하지 못함",
+  "summary": "MMVD 같은 심장 질환의 1차 치료는 피모벤단·이뇨제 등 처방약입니다. 타우린은 결핌 상태일 때만 의미가 있고, 개는 대개 스스로 합성합니다. CoQ10은 심근 에너지 대사 보조로 쓰이지만 개 대상 임상 근거는 제한적입니다.",
+  "citation": "심장 영양제 성분 검토(DogGrade 2026)",
+  "url": "https://doggrade.com/dog-heart-supplement-2026/",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "심장사상충 예방약과 전혀 다른 제품입니다. 예방 효과 없음. 기침·헉헉거림이 이어지면 초음파 검사가 먼저입니다."
+ },
+ {
+  "id": "ev_jinjeongseong",
+  "subjectType": "product",
+  "subjectId": "jinjeongseong",
+  "ingredientIds": [
+   "coq10",
+   "taurine"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "표방 문구가 강한 제품",
+  "summary": "제품명에 \"기침·헉헉거림\"을 내세우지만, 이는 진단이 필요한 증상입니다. 성분 함량(mg)도 상세 페이지에서 확인되지 않았습니다. 심장 질환을 진단받은 아이라면 병원과 상의해 급여하세요.",
+  "citation": "쿠팡 상품 페이지",
+  "url": "https://www.coupang.com/np/search?q=%EC%A7%84%EC%A0%95%EC%84%B1%20%EC%BD%94%EC%97%94%EC%9E%90%EC%9E%84Q10%20%ED%83%80%EC%9A%B0%EB%A6%B0",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "증상 완화를 기대하고 급여를 미루지 마세요. 헉헉거림은 심장·기관지·비만이 모두 원인이 됩니다."
+ },
+ {
+  "id": "ev_oratics",
+  "subjectType": "product",
+  "subjectId": "oratics",
+  "ingredientIds": [
+   "probio"
+  ],
+  "scope": "secondary",
+  "strength": "weak",
+  "title": "유산균은 양치를 대신하지 못함",
+  "summary": "구강 유산균은 입냄새·잇몸 관리의 보조 수단입니다. 치석은 썰는 마찰이나 기계적 제거로 줄어드는 것이어서, 유산균만으로 이미 붙은 치석이 없어지지는 않습니다.",
+  "citation": "펫바이블 후기 분석 · 구강관리 가이드",
+  "url": "https://petbible.co.kr/c/supplements/",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "양치를 대신할 수 없습니다. 치석이 단단하게 붙었으면 스케일링 상담."
+ },
+ {
+  "id": "ev_canule",
+  "subjectType": "product",
+  "subjectId": "canule",
+  "ingredientIds": [
+   "tapioca",
+   "dentalgum"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "씹는 마찰로 플라크를 줄이는 방식",
+  "summary": "덴탈껌의 효과는 성분보다 \"얼마나 오래 이빨에 닿아 썰는가\"에서 나옵니다. 그래서 크기를 체중에 맞추는 것이 핵심입니다. 너무 크면 통째로 삼키고, 너무 작으면 몇 초 만에 넘깁니다.",
+  "citation": "덴탈껌 비교 가이드(2026-10)",
+  "url": "https://pick.sisebox.com/dog-dental-chew/",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "첫 급여 때 삼키지 않는지 지켜보세요. 6개월 미만·2kg 이하 급여 제한 제품이 있습니다."
+ },
+ {
+  "id": "ev_nutrina",
+  "subjectType": "product",
+  "subjectId": "nutrina",
+  "ingredientIds": [
+   "chicken",
+   "carnitine"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "사료 교체가 가장 확실한 개입",
+  "summary": "일반 사료의 양만 줄이면 단백질·미네랄까지 함께 줄어 근손실과 탈모가 생깁니다. 다이어트 사료는 칼로리만 낮추고 단백질 비율은 유지하도록 설계됩니다. 다만 이 제품은 L-카르니틴 표기가 없어 기능성 성분은 기대하기 어렵습니다.",
+  "citation": "다이어트 사료 비교 · BCS 가이드(DogGrade 2026)",
+  "url": "https://doggrade.com/dog-diet-food-comparison-2026/",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "7:3 → 5:5 → 3:7 비율로 1주씩 나눠 전환하세요. 급격한 변경은 설사를 부릅니다."
+ },
+ {
+  "id": "ev_bonapetti",
+  "subjectType": "product",
+  "subjectId": "bonapetti",
+  "ingredientIds": [
+   "carnitine"
+  ],
+  "scope": "secondary",
+  "strength": "moderate",
+  "title": "고단백·고섬유 설계에 카르니틴 추가",
+  "summary": "L-카르니틴은 지방산을 미토콘드리아로 운반하는 역할을 합니다. 비만견 30마리 연구에서 카르니틴 급여군이 더 많은 체중 감소를 보였으나, 효과는 열량 제한과 함께일 때입니다. 제품 자체 임상은 아닙니다.",
+  "citation": "L-카르니틴 감량 연구 리뷰(동물복지저널)",
+  "url": "https://animalwellnessmagazine.com/supplements-for-weight-loss/",
+  "sourceId": "label",
+  "lastChecked": "2026-11-18",
+  "note": "소포장이라 산패 위험이 적은 대신 kg당 단가가 높습니다."
+ },
+ {
+  "id": "st_glu_meta",
+  "subjectType": "ingredient",
+  "subjectId": "glu",
+  "ingredientIds": [
+   "glu"
+  ],
+  "scope": "ingredient",
+  "strength": "strong",
+  "title": "글루코사민 단독·콘드로이틴 조합의 진통 효과",
+  "summary": "2022년 57편 메타분석에서 콘드로이틴-글루코사민 조합의 비효과 비율이 88.9%였습니다. 관절 보조제 중에서는 오메가3 쪽 근거가 상대적으로 뚜렷합니다.",
+  "citation": "Int J Mol Sci 2022;23:10384",
+  "url": "https://doi.org/10.3390/ijms231810384",
+  "sourceId": "ijms2022",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_o3_meta",
+  "subjectType": "ingredient",
+  "subjectId": "o3",
+  "ingredientIds": [
+   "o3"
+  ],
+  "scope": "ingredient",
+  "strength": "strong",
+  "title": "오메가3와 관절 통증 완화",
+  "summary": "같은 메타분석에서 오메가3는 관절 통증 완화 근거가 가장 일관된 축으로 정리됐습니다. 피부·모질에는 체중 1kg당 EPA+DHA 50~75mg/일이 교과서 권장으로 인용됩니다.",
+  "citation": "Int J Mol Sci 2022;23:10384 · 수의내과학 교과서 권장량",
+  "url": "https://doi.org/10.3390/ijms231810384",
+  "sourceId": "ijms2022",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_mussel",
+  "subjectType": "ingredient",
+  "subjectId": "mussel",
+  "ingredientIds": [
+   "mussel"
+  ],
+  "scope": "ingredient",
+  "strength": "weak",
+  "title": "초록입홍합은 지질 추출물 기준 연구",
+  "summary": "초록입홍합 관련 시험은 대부분 지질 추출물을 사용했습니다. 분말·오일 형태 제품에 같은 근거를 그대로 적용하기는 어렵습니다.",
+  "citation": "Int J Mol Sci 2022;23:10384",
+  "url": "https://doi.org/10.3390/ijms231810384",
+  "sourceId": "ijms2022",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_rosehip",
+  "subjectType": "ingredient",
+  "subjectId": "rosehip",
+  "ingredientIds": [
+   "rosehip"
+  ],
+  "scope": "ingredient",
+  "strength": "moderate",
+  "title": "찔레나무열매 추출물(AF-343) 원료 연구",
+  "summary": "개 8마리에 2주 급여한 연구에서 비만세포 탈과립 75% 감소, 면역세포 침윤 61% 감소가 보고됐습니다. 원료 단위 연구이고 완제품 임상은 아닙니다.",
+  "citation": "Front Vet Sci 2025;12:1531313",
+  "url": "https://doi.org/10.3389/fvets.2025.1531313",
+  "sourceId": "fvs2025",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_probio",
+  "subjectType": "ingredient",
+  "subjectId": "probio",
+  "ingredientIds": [
+   "probio"
+  ],
+  "scope": "ingredient",
+  "strength": "weak",
+  "title": "프로바이오틱스와 급성 설사 보조",
+  "summary": "개의 급성 설사에서 특정 균주의 보조 효과를 본 연구가 있으나 균주별 차이가 큽니다. 제품의 균주·CFU 표기가 없으면 근거를 적용할 수 없습니다.",
+  "citation": "코넬 수의대 프로바이오틱스 가이드(2차 정리)",
+  "url": "https://choicemon.com/dog-probiotics-recommend/",
+  "sourceId": "cornell_guide",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_lutein",
+  "subjectType": "ingredient",
+  "subjectId": "lutein",
+  "ingredientIds": [
+   "lutein"
+  ],
+  "scope": "ingredient",
+  "strength": "weak",
+  "title": "루테인·제아잔틴과 눈 산화 스트레스",
+  "summary": "수정체·망막의 산화 스트레스를 줄이는 방향으로 쓰이지만, 개는 황반이 없어 사람의 “황반 색소 밀도” 논리를 그대로 옮길 수 없습니다.",
+  "citation": "KarionPet 눈 영양제 가이드(2026, 2차)",
+  "url": "https://karionpet.com/supplements/eye/",
+  "sourceId": "karion_eye",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_efa",
+  "subjectType": "ingredient",
+  "subjectId": "linoleic",
+  "ingredientIds": [
+   "linoleic"
+  ],
+  "scope": "ingredient",
+  "strength": "moderate",
+  "title": "필수지방산·비타민B와 피부 장벽",
+  "summary": "피부 장벽과 모질의 기본 축은 필수지방산과 비타민B입니다. 다만 EPA·DHA mg 표기가 없으면 실제 섭취량은 알 수 없습니다.",
+  "citation": "LKV Sachsen 피부질환 식이 가이드(2025)",
+  "url": "https://www.lkvsachsen.de/en/blog/feeding-advisor/blogpost/artikel/diaetetik-bei-hautproblemen-beim-hund/",
+  "sourceId": "lkvsachsen",
+  "lastChecked": "2026-11-18",
+  "note": null
+ },
+ {
+  "id": "st_wsava",
+  "subjectType": "ingredient",
+  "subjectId": "o3",
+  "ingredientIds": [
+   "o3"
+  ],
+  "scope": "ingredient",
+  "strength": "moderate",
+  "title": "간식은 하루 총열량의 10% 이내",
+  "summary": "WSAVA 안내 기준. 영양제 트릿도 간식 열량에 포함해 계산해야 합니다.",
+  "citation": "WSAVA Global Nutrition Guidelines",
+  "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/",
+  "sourceId": "wdsfva",
+  "lastChecked": "2026-11-18",
+  "note": null
+ }
+]

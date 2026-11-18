@@ -1,0 +1,4793 @@
+[
+ {
+  "id": "penovis",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "penovis",
+  "brandName": "페노비스",
+  "nameKo": "인캡슐 글루코사민",
+  "nameEn": "Glucosamine Encapsulated",
+  "maker": null,
+  "sizeText": "90g · 연어 저키 안 코팅캡슐 · 3개월령 이상",
+  "formText": "90g · 연어 저키 안 코팅캡슐 · 3개월령 이상",
+  "hook": "글루코사민 9,500mg 캡슐, 리뷰 1.1만 건",
+  "cautions": "신장질환·당뇨 등 기저질환이 있으면 급여 전 수의사 상담.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-15",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Glucosamine Encapsulated"
+  ],
+  "tags": [],
+  "allergens": [
+   "곡물",
+   "유제품"
+  ],
+  "allergenNote": "제조사 전성분에 쌀·분리유청단백이 포함(연어 저키 베이스)",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang",
+   "naver",
+   "ijms2022"
+  ],
+  "lowestPrice": 20720,
+  "priceCheckedAt": "2026-11-15",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "glu": 2,
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "페노비스 인캡슐 글루코사민"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "tamsa",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "tamsa",
+  "brandName": "탐사(쿠팡 PB)",
+  "nameKo": "뉴트리션 트릿 관절케어",
+  "nameEn": "Nutrition Joint Care Treat",
+  "maker": "쿠팡 PB",
+  "sizeText": "300g 트릿 · 1.5cm · HACCP",
+  "formText": "300g 트릿 · 1.5cm · HACCP",
+  "hook": "300g 대용량 트릿 간식, 성분 함량은 미표기",
+  "cautions": "간식으로 주면 하루 총열량이 늘어납니다. 급여 개수만큼 사료를 줄이세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-15",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Nutrition Joint Care Treat"
+  ],
+  "tags": [],
+  "allergens": [
+   "닭고기",
+   "곡물"
+  ],
+  "allergenNote": "원료 첫 줄이 밀가루·가수분해닭",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang"
+  ],
+  "lowestPrice": 10390,
+  "priceCheckedAt": "2026-11-15",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "glu": 1,
+    "msm": 1,
+    "disc": "none"
+   },
+   "tag": "",
+   "search": "탐사(쿠팡 PB) 뉴트리션 트릿 관절케어"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "pokens",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "pokens",
+  "brandName": "포켄스",
+  "nameKo": "뉴트리션 트릿 (뼈/관절)",
+  "nameEn": "Nutrition Treat (Bone/Joint)",
+  "maker": null,
+  "sizeText": "800g · 100P 대용량 트릿 · 1개당 글루코사민 320mg",
+  "formText": "800g · 100P 대용량 트릿 · 1개당 글루코사민 320mg",
+  "hook": "함량을 공개한 트릿, 하루 1개부터",
+  "cautions": "800g(100P) 대용량이라 하루 1개면 3개월분입니다. 개봉 후 습기·산패에 주의하고 지퍼백에 나눠 보관하세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": "포켄스 뉴트리션 트릿 800g 뼈 관절",
+  "searchTerms": [
+   "포켄스 뉴트리션 트릿 800g 뼈 관절",
+   "Nutrition Treat (Bone/Joint)"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "타피오카·젤라틴·향료 구성(곡물 표기 없음). 젤라틴의 원료 동물은 표기되지 않음",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang",
+   "naver"
+  ],
+  "lowestPrice": 46500,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "glu": 2,
+    "chon": 1,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "포켄스 뉴트리션 트릿 (뼈/관절)"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "drby",
+  "kind": "supplement",
+  "category": "skin",
+  "brandId": "drby",
+  "brandName": "닥터바이",
+  "nameKo": "스킨앤코트 3.0",
+  "nameEn": "Skin & Coat 3.0",
+  "maker": null,
+  "sizeText": "8g × 30포 스틱 겔 · 수분 85% · 10.1kcal/포",
+  "formText": "8g × 30포 스틱 겔 · 수분 85% · 10.1kcal/포",
+  "hook": "스틱 겔 1포 10kcal, 수분 85%라 잘 먹음",
+  "cautions": "가려움이 2주 이상 지속되거나 진물·원형 탈모가 보이면 급여를 늘리지 말고 진료.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Skin & Coat 3.0"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통(원료 단위)",
+  "sourceIds": [
+   "naver",
+   "fvs2025"
+  ],
+  "lowestPrice": 29800,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "닥터바이 스킨앤코트 3.0"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "theracort",
+  "kind": "supplement",
+  "category": "skin",
+  "brandId": "davis",
+  "brandName": "데이비스",
+  "nameKo": "테라코트",
+  "nameEn": "Theracort",
+  "maker": null,
+  "sizeText": "400g 분말 · 5kg 이하 1/2티스푼/일",
+  "formText": "400g 분말 · 5kg 이하 1/2티스푼/일",
+  "hook": "필수지방산 + 비타민B 분말, 400g 대용량",
+  "cautions": "분말이 털·주둥이에 묻습니다. 물기 있는 사료에 섞으면 덜 날립니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Theracort"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "전성분 목록 미공개(오메가3·6·콩 레시틴·비타민B 중심) — 급여 전 라벨 확인",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang",
+   "naver",
+   "lkvsachsen"
+  ],
+  "lowestPrice": 36740,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "biotin": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "데이비스 테라코트"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "rabivet",
+  "kind": "supplement",
+  "category": "skin",
+  "brandId": "labivet",
+  "brandName": "종근당 라비벳",
+  "nameKo": "장&피부 유산균",
+  "nameEn": "Gut & Skin Probiotics",
+  "maker": "종근당바이오",
+  "sizeText": "2g × 30포 · 투입 200억 / 보장 20억 CFU",
+  "formText": "2g × 30포 · 투입 200억 / 보장 20억 CFU",
+  "hook": "보장 20억 CFU 유산균, 장·피부 겸용",
+  "cautions": "처음엔 권장량의 절반부터. 묽은 변이 2~3일 이어지면 중단.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Gut & Skin Probiotics"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "난소화성말토덱스트린(전분 유래) 포함 — 원료 동물성 단백은 확인되지 않음",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang",
+   "naver",
+   "enuri"
+  ],
+  "lowestPrice": 16780,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "종근당 라비벳 장&피부 유산균"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "eyespro",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "thinkpets",
+  "brandName": "펫생각",
+  "nameKo": "데일리케얼 아이즈PRO",
+  "nameEn": "Daily Care Eyes PRO",
+  "maker": null,
+  "sizeText": "300mg × 60캡슐 · 차즈기·마리골드·빌베리",
+  "formText": "300mg × 60캡슐 · 차즈기·마리골드·빌베리",
+  "hook": "차즈기·마리골드·빌베리 항산화 3종",
+  "cautions": "쿠팡은 60캡슐 2개 묶음(65,070원) — 1개당 32,535원입니다. 네이버 단품(34,800원)과 같은 60캡슐 기준으로 비교하세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Daily Care Eyes PRO"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "캡슐 껍질이 식물성(HPMC)이라 젤라틴이 없음",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang",
+   "naver"
+  ],
+  "lowestPrice": 34800,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "펫생각 데일리케얼 아이즈PRO"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "haruallday",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "yuyu",
+  "brandName": "유유제약",
+  "nameKo": "하루올데이 EYES",
+  "nameEn": "Haru All Day EYES",
+  "maker": "유유제약",
+  "sizeText": "스틱 분말 · 6kg 미만 1포 / 6kg 이상 2포",
+  "formText": "스틱 분말 · 6kg 미만 1포 / 6kg 이상 2포",
+  "hook": "스틱 분말, 체중별 1~2포로 간편",
+  "cautions": "분말을 그대로 핥이면 켁켁거릴 수 있습니다. 사료에 섞어 주세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Haru All Day EYES"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "전성분 목록을 확인하지 못함(제조사는 그레인·글루텐 프리 표기)",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "naver"
+  ],
+  "lowestPrice": 18000,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "유유제약 하루올데이 EYES"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "helciyum",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "healthyyum",
+  "brandName": "헬시얌",
+  "nameKo": "아이즈 120정",
+  "nameEn": "Eyes 120 Tablets",
+  "maker": null,
+  "sizeText": "120정 간식형 · 루테인 중심",
+  "formText": "120정 간식형 · 루테인 중심",
+  "hook": "루테인 중심 120정 간식형, 가격이 낮음",
+  "cautions": "함량 미확인 제품은 다른 눈 영양제와 겹쳐 급여하지 마세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Eyes 120 Tablets"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "성분표 미공개(루테인 함량도 미확인) — 급여 전 라벨 확인",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang",
+   "naver"
+  ],
+  "lowestPrice": 9900,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "헬시얌 아이즈 120정"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "omg3",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "thinkpets",
+  "brandName": "펫생각",
+  "nameKo": "리얼 rTG 오메가3 미니 180캡슐",
+  "nameEn": "Real rTG Omega3 Mini 180",
+  "maker": null,
+  "sizeText": "1캡슐 EPA+DHA 126mg · 순도 80% · 6개월분",
+  "formText": "1캡슐 EPA+DHA 126mg · 순도 80% · 6개월분",
+  "hook": "캡슐당 EPA+DHA 126mg, rTG 순도 80%",
+  "cautions": "수술 전 2주는 항응고 작용 때문에 수의사와 상의해 중단 여부를 정하세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Real rTG Omega3 Mini 180"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "연질캡슐 껍질(젤라틴) 원료 동물 미표기",
+  "evidenceLevel": "strong",
+  "evidenceLabel": "근거 강함",
+  "sourceIds": [
+   "coupang",
+   "naver",
+   "ijms2022"
+  ],
+  "lowestPrice": 34800,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 2,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "펫생각 리얼 rTG 오메가3 미니 180캡슐"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "brilliant",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "brilliant",
+  "brandName": "브릴리언트",
+  "nameKo": "연어오일 300ml",
+  "nameEn": "Salmon Oil 300ml",
+  "maker": null,
+  "sizeText": "노르웨이산 연어 100% · 957kcal/100g · 4kg당 1펌프",
+  "formText": "노르웨이산 연어 100% · 957kcal/100g · 4kg당 1펌프",
+  "hook": "노르웨이산 연어 100% 액상 오일",
+  "cautions": "산패 신호는 비린내·탁한 색. 개봉 후 냉장 보관.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Salmon Oil 300ml"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "naver"
+  ],
+  "lowestPrice": 25000,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 2,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "브릴리언트 연어오일 300ml"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "icelandic",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "icelandic",
+  "brandName": "아이슬랜딕",
+  "nameKo": "헤링 오메가3 250ml",
+  "nameEn": "Herring Omega3 250ml",
+  "maker": null,
+  "sizeText": "청어 오일 · 1g당 EPA+DHA 147mg · 10kg까지 2펌프",
+  "formText": "청어 오일 · 1g당 EPA+DHA 147mg · 10kg까지 2펌프",
+  "hook": "1g당 EPA+DHA 147mg, 함량이 보이는 오일",
+  "cautions": "일시품절이 잦습니다. 네이버가 쿠팡보다 5,500원 비쌉니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Herring Omega3 250ml"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": "strong",
+  "evidenceLabel": "근거 강함",
+  "sourceIds": [
+   "coupang",
+   "naver"
+  ],
+  "lowestPrice": 37000,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 2,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "아이슬랜딕 헤링 오메가3 250ml"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "petomedi",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "petomedi",
+  "brandName": "페토메디",
+  "nameKo": "락토 생유산균 600",
+  "nameEn": "Lacto Live Probiotics 600",
+  "maker": null,
+  "sizeText": "1g × 60포 · 1포 10억 CFU · 하루 1포 고정",
+  "formText": "1g × 60포 · 1포 10억 CFU · 하루 1포 고정",
+  "hook": "포당 10억 CFU, 균주를 공개한 유산균",
+  "cautions": "많이 주면 배가 부풀거나 변이 묽어집니다. 하루 1포를 넘기지 마세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Lacto Live Probiotics 600"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "전성분 목록 미확인(균주·프리바이오틱스 표기 중심) — 급여 전 라벨 확인",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang"
+  ],
+  "lowestPrice": 19900,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "full"
+   },
+   "tag": "",
+   "search": "페토메디 락토 생유산균 600"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "intragen",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "intragen",
+  "brandName": "인트라젠",
+  "nameKo": "플러스 유산균 30포",
+  "nameEn": "Plus Probiotics 30",
+  "maker": null,
+  "sizeText": "2g × 30포(60g) · 10종 복합균 + 비타민 · 개·고양이 겸용",
+  "formText": "2g × 30포(60g) · 10종 복합균 + 비타민 · 개·고양이 겸용",
+  "hook": "10종 복합균 + 비타민, 개·고양이 겸용",
+  "cautions": "5~10kg는 하루 3~5포. 한 통이 한 달도 안 갈 수 있습니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Plus Probiotics 30"
+  ],
+  "tags": [],
+  "allergens": [
+   "유제품"
+  ],
+  "allergenNote": "탈지분유 함유(제조사 표시사항)",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "naver"
+  ],
+  "lowestPrice": 17680,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "인트라젠 플러스 유산균 30포"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "lacto200",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "lacto",
+  "brandName": "락토",
+  "nameKo": "200+ 프로바이오틱스 30포",
+  "nameEn": "Lacto 200+ Probiotics 30",
+  "maker": null,
+  "sizeText": "30포 · 개·고양이 겸용 분말",
+  "formText": "30포 · 개·고양이 겸용 분말",
+  "hook": "30포 대용량, 포당 균수는 미표기",
+  "cautions": "묽은 변이 2~3일 이어지면 중단하고 진료하세요.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Lacto 200+ Probiotics 30"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "전성분 표기가 적어 부원료 미확인",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang"
+  ],
+  "lowestPrice": 16670,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "락토 200+ 프로바이오틱스 30포"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "hepacardio",
+  "kind": "supplement",
+  "category": "heart",
+  "brandId": "careside",
+  "brandName": "케어사이드",
+  "nameKo": "모두 헤파카디오 Q10",
+  "nameEn": "Modu Hepacardio Q10",
+  "maker": null,
+  "sizeText": "60정 · CoQ10·타우린·L-카르니틴 · 5kg 이하 2~3정/일",
+  "formText": "60정 · CoQ10·타우린·L-카르니틴 · 5kg 이하 2~3정/일",
+  "hook": "CoQ10·타우린·카르니틴 60정",
+  "cautions": "심장사상충 예방약과 전혀 다른 제품입니다. 예방 효과 없음. 기침·헉헉거림이 이어지면 초음파 검사가 먼저입니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Modu Hepacardio Q10"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "향미제·감미료 합제의 세부 원료는 미표기",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang",
+   "naver",
+   "enuri"
+  ],
+  "lowestPrice": 20050,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "coq10": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "케어사이드 모두 헤파카디오 Q10"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jinjeongseong",
+  "kind": "supplement",
+  "category": "heart",
+  "brandId": "jinjeongseong",
+  "brandName": "진정성",
+  "nameKo": "코엔자임Q10·타우린 30회분",
+  "nameEn": "CoQ10 & Taurine 30",
+  "maker": null,
+  "sizeText": "30회분 · CoQ10 + 타우린 · 기침·헉헉거림 표방",
+  "formText": "30회분 · CoQ10 + 타우린 · 기침·헉헉거림 표방",
+  "hook": "CoQ10·타우린 30회분, 표방 문구가 강함",
+  "cautions": "증상 완화를 기대하고 급여를 미루지 마세요. 헉헉거림은 심장·기관지·비만이 모두 원인이 됩니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "CoQ10 & Taurine 30"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "전성분·함량 미확인 — 급여 전 라벨 확인",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang"
+  ],
+  "lowestPrice": 23000,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "coq10": 1,
+    "disc": "none"
+   },
+   "tag": "",
+   "search": "진정성 코엔자임Q10·타우린 30회분"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "oratics",
+  "kind": "supplement",
+  "category": "oral",
+  "brandId": "oratics",
+  "brandName": "오라틱스",
+  "nameKo": "독 펫바이옴 구강 유산균",
+  "nameEn": "Dog Petbiome Oral Probiotics",
+  "maker": null,
+  "sizeText": "2g × 30포(60g) · 구강 유산균",
+  "formText": "2g × 30포(60g) · 구강 유산균",
+  "hook": "구강 유산균 30포, 양치 보조용",
+  "cautions": "양치를 대신할 수 없습니다. 치석이 단단하게 붙었으면 스케일링 상담.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Dog Petbiome Oral Probiotics"
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": "치즈향 표기 — 유제품 유래 여부는 미확인",
+  "evidenceLevel": "weak",
+  "evidenceLabel": "근거 약함",
+  "sourceIds": [
+   "coupang",
+   "naver"
+  ],
+  "lowestPrice": 26730,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "오라틱스 독 펫바이옴 구강 유산균"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "canule",
+  "kind": "supplement",
+  "category": "oral",
+  "brandId": "pokens",
+  "brandName": "포켄스",
+  "nameKo": "카누들 잇몸플러스 S",
+  "nameEn": "Canule Gum Plus S",
+  "maker": null,
+  "sizeText": "170g × 2 · S 사이즈(체중 기준) · 덴탈껌",
+  "formText": "170g × 2 · S 사이즈(체중 기준) · 덴탈껌",
+  "hook": "체중 맞춤 덴탈껌, 씹는 마찰로 관리",
+  "cautions": "첫 급여 때 삼키지 않는지 지켜보세요. 6개월 미만·2kg 이하 급여 제한 제품이 있습니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Canule Gum Plus S"
+  ],
+  "tags": [],
+  "allergens": [
+   "닭고기"
+  ],
+  "allergenNote": "치킨오일·천연가금향 함유(제조사 전성분)",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang",
+   "naver"
+  ],
+  "lowestPrice": 15660,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "포켄스 카누들 잇몸플러스 S"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "nutrina",
+  "kind": "food",
+  "category": "weight",
+  "brandId": "nutrina",
+  "brandName": "뉴트리나",
+  "nameKo": "어덜트 다이어트 2.1kg",
+  "nameEn": "Adult Diet 2.1kg",
+  "maker": null,
+  "sizeText": "2.1kg · kg당 약 5,667원 · 닭 단일단백",
+  "formText": "2.1kg · kg당 약 5,667원 · 닭 단일단백",
+  "hook": "닭 단일단백 다이어트 사료, kg당 5,667원",
+  "cautions": "7:3 → 5:5 → 3:7 비율로 1주씩 나눠 전환하세요. 급격한 변경은 설사를 부릅니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Adult Diet 2.1kg"
+  ],
+  "tags": [],
+  "allergens": [
+   "닭고기",
+   "곡물"
+  ],
+  "allergenNote": "옥수수·밀·닭고기가루가 주원료(제조사·판매처 원료표)",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang"
+  ],
+  "lowestPrice": 11900,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial",
+    "weight": 1
+   },
+   "tag": "",
+   "search": "뉴트리나 어덜트 다이어트 2.1kg"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "bonapetti",
+  "kind": "food",
+  "category": "weight",
+  "brandId": "bonapetti",
+  "brandName": "본아페티",
+  "nameKo": "기능성 사료 다이어트 1kg×2",
+  "nameEn": "Functional Diet 1kg x2",
+  "maker": null,
+  "sizeText": "1kg × 2 · L-카르니틴 강화 · 소포장",
+  "formText": "1kg × 2 · L-카르니틴 강화 · 소포장",
+  "hook": "L-카르니틴 강화 고단백 사료, 1kg 소포장",
+  "cautions": "소포장이라 산패 위험이 적은 대신 kg당 단가가 높습니다.",
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "",
+   "Functional Diet 1kg x2"
+  ],
+  "tags": [],
+  "allergens": [
+   "닭고기",
+   "곡물",
+   "유제품"
+  ],
+  "allergenNote": "가수분해닭고기·쌀가루·옥수수분말·유청단백(1kg 고시 원료 기준)",
+  "evidenceLevel": "mid",
+  "evidenceLabel": "근거 보통",
+  "sourceIds": [
+   "coupang"
+  ],
+  "lowestPrice": 39000,
+  "priceCheckedAt": "2026-11-18",
+  "comparison": true,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "full",
+    "weight": 1
+   },
+   "tag": "",
+   "search": "본아페티 기능성 사료 다이어트 1kg×2"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "rc_indoor",
+  "kind": "food",
+  "category": "food",
+  "brandId": "royalcanin",
+  "brandName": "로얄캐닌",
+  "nameKo": "로얄캐닌 미니 인도어 어덜트",
+  "nameEn": "Mini Indoor Adult",
+  "maker": "Royal Canin",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "로얄캐닌 로얄카닌 royal canin royalcanin mini indoor 실내견 소형견",
+   "Mini Indoor Adult"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "로얄캐닌 로얄카닌 royal canin royalcanin mini indoor 실내견 소형견"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "rc_adult",
+  "kind": "food",
+  "category": "food",
+  "brandId": "royalcanin",
+  "brandName": "로얄캐닌",
+  "nameKo": "로얄캐닌 미니 어덜트",
+  "nameEn": "Mini Adult",
+  "maker": "Royal Canin",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "로얄캐닌 로얄카닌 royal canin mini adult 어덜트",
+   "Mini Adult"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [
+   "닭고기",
+   "곡물"
+  ],
+  "allergenNote": "공식 원재료에 육분(닭·오리)·밀가루·옥수수·밀 글루텐이 표기됨(제조사 원재료 목록 기준)",
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [
+   "rc_kr"
+  ],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "로얄캐닌 로얄카닌 royal canin mini adult 어덜트"
+  },
+  "detail": {
+   "analysis": {
+    "protein": "25.0% 이상",
+    "fat": "14.0% 이상",
+    "fiber": "2.4% 이하",
+    "ash": "7.0% 이하",
+    "moisture": "10.5% 이하",
+    "kcal": null
+   },
+   "ingredientList": [
+    "육분(닭, 오리)",
+    "밀가루",
+    "옥수수",
+    "동물성 유지(닭, 오리)",
+    "옥수수가루",
+    "보리",
+    "밀",
+    "유도 단백질(닭, 칠면조, 어류)",
+    "밀 글루텐",
+    "옥수수 글루텐",
+    "사탕무박",
+    "양조효모",
+    "대두유",
+    "비타민제 합제",
+    "정제소금",
+    "탄산칼슘",
+    "혼합광물질류 합제",
+    "제일인산칼슘",
+    "프락토올리고당",
+    "어유",
+    "염화콜린",
+    "폴리인산나트륨",
+    "소르빈산칼륨",
+    "염화칼륨",
+    "DL-메티오닌",
+    "비타민 E",
+    "해조유(EPA+DHA의 원료)",
+    "비타민 C",
+    "식물성 유지",
+    "로즈마리 추출물"
+   ],
+   "lifeStage": "생후 10개월 이후 소형견(성견 체중 10kg 미만)",
+   "servingGuide": null,
+   "sourceNote": "로얄캐닌 코리아 공식 페이지의 등록성분량입니다. 제조사는 국내 포장 표시와 일부 다를 수 있다고 안내합니다."
+  },
+  "note": null
+ },
+ {
+  "id": "rc_skin",
+  "kind": "food",
+  "category": "food",
+  "brandId": "royalcanin",
+  "brandName": "로얄캐닌",
+  "nameKo": "로얄캐닌 미니 스킨케어",
+  "nameEn": "Mini Skin Care",
+  "maker": "Royal Canin",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "로얄캐닌 로얄카닌 royal canin skin care skincare 피부",
+   "Mini Skin Care"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "로얄캐닌 로얄카닌 royal canin skin care skincare 피부"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "rc_gi",
+  "kind": "food",
+  "category": "food",
+  "brandId": "royalcanin",
+  "brandName": "로얄캐닌",
+  "nameKo": "로얄캐닌 가스트로인테스티널",
+  "nameEn": "Gastrointestinal",
+  "maker": "Royal Canin",
+  "sizeText": "처방식",
+  "formText": "처방식",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "로얄캐닌 로얄카닌 royal canin gastrointestinal gi 장 소화 처방",
+   "Gastrointestinal"
+  ],
+  "tags": [
+   "처방식"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "처방식",
+   "search": "로얄캐닌 로얄카닌 royal canin gastrointestinal gi 장 소화 처방"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "rc_urinary",
+  "kind": "food",
+  "category": "food",
+  "brandId": "royalcanin",
+  "brandName": "로얄캐닌",
+  "nameKo": "로얄캐닌 유리너리 S/O",
+  "nameEn": "Urinary S/O",
+  "maker": "Royal Canin",
+  "sizeText": "처방식",
+  "formText": "처방식",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "로얄캐닌 로얄카닌 royal canin urinary 유리너리 요로 방광 결석 처방",
+   "Urinary S/O"
+  ],
+  "tags": [
+   "처방식"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "처방식",
+   "search": "로얄캐닌 로얄카닌 royal canin urinary 유리너리 요로 방광 결석 처방"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "orijen_orig",
+  "kind": "food",
+  "category": "food",
+  "brandId": "orijen",
+  "brandName": "오리젠",
+  "nameKo": "오리젠 오리지널",
+  "nameEn": "Original",
+  "maker": "Champion Petfoods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": "2026-11-18",
+  "searchQuery": null,
+  "searchTerms": [
+   "오리젠 orijen original 오리지널",
+   "Original"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [
+   "닭고기"
+  ],
+  "allergenNote": "공식 원재료 첫 항목이 신선한 닭고기(25%) — 닭고기 알레르기 보호자는 주의",
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [
+   "orijen_kr"
+  ],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "오리젠 orijen original 오리지널"
+  },
+  "detail": {
+   "analysis": {
+    "protein": "38% 이상",
+    "fat": "18% 이상",
+    "fiber": "5% 이하",
+    "ash": "9% 이하",
+    "moisture": "12% 이하",
+    "kcal": "3,860 kcal/kg"
+   },
+   "ingredientList": null,
+   "lifeStage": "전 견종·전 연령(FEDIAF 기준, 14주 미만 그레이트 데인 제외)",
+   "servingGuide": null,
+   "sourceNote": "ORIJEN APAC 공식 페이지의 보장된 분석(Guaranteed Analysis) 값입니다. 국내 유통 표시와 다를 수 있습니다."
+  },
+  "note": null
+ },
+ {
+  "id": "orijen_small",
+  "kind": "food",
+  "category": "food",
+  "brandId": "orijen",
+  "brandName": "오리젠",
+  "nameKo": "오리젠 스몰브리드",
+  "nameEn": "Small Breed",
+  "maker": "Champion Petfoods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "오리젠 orijen small breed 스몰브리드 소형견",
+   "Small Breed"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "오리젠 orijen small breed 스몰브리드 소형견"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "orijen_sixfish",
+  "kind": "food",
+  "category": "food",
+  "brandId": "orijen",
+  "brandName": "오리젠",
+  "nameKo": "오리젠 식스피쉬",
+  "nameEn": "Six Fish",
+  "maker": "Champion Petfoods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "오리젠 orijen six fish sixfish 식스피쉬 생선",
+   "Six Fish"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "오리젠 orijen six fish sixfish 식스피쉬 생선"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "acana_small",
+  "kind": "food",
+  "category": "food",
+  "brandId": "acana",
+  "brandName": "아카나",
+  "nameKo": "아카나 스몰브리드",
+  "nameEn": "Small Breed",
+  "maker": "Champion Petfoods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "아카나 acana small breed 스몰브리드 소형견",
+   "Small Breed"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "아카나 acana small breed 스몰브리드 소형견"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "acana_pacifica",
+  "kind": "food",
+  "category": "food",
+  "brandId": "acana",
+  "brandName": "아카나",
+  "nameKo": "아카나 패시피카",
+  "nameEn": "Pacifica",
+  "maker": "Champion Petfoods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "아카나 acana pacifica 패시피카 생선",
+   "Pacifica"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "아카나 acana pacifica 패시피카 생선"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "ziwi_beef",
+  "kind": "food",
+  "category": "food",
+  "brandId": "ziwi",
+  "brandName": "지위픽",
+  "nameKo": "지위픽 소고기 (에어드라이)",
+  "nameEn": "Beef Air-Dried",
+  "maker": "Ziwi Ltd",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "지위픽 ziwi peak 에어드라이 소고기 beef",
+   "Beef Air-Dried"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "지위픽 ziwi peak 에어드라이 소고기 beef"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "ziwi_lamb",
+  "kind": "food",
+  "category": "food",
+  "brandId": "ziwi",
+  "brandName": "지위픽",
+  "nameKo": "지위픽 양고기 (에어드라이)",
+  "nameEn": "Lamb Air-Dried",
+  "maker": "Ziwi Ltd",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "지위픽 ziwi peak 에어드라이 양고기 lamb",
+   "Lamb Air-Dried"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "지위픽 ziwi peak 에어드라이 양고기 lamb"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "ziwi_venison",
+  "kind": "food",
+  "category": "food",
+  "brandId": "ziwi",
+  "brandName": "지위픽",
+  "nameKo": "지위픽 사슴고기 (에어드라이)",
+  "nameEn": "Venison Air-Dried",
+  "maker": "Ziwi Ltd",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "지위픽 ziwi peak 에어드라이 사슴고기 venison",
+   "Venison Air-Dried"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "지위픽 ziwi peak 에어드라이 사슴고기 venison"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "now_adult",
+  "kind": "food",
+  "category": "food",
+  "brandId": "nowfresh",
+  "brandName": "나우프레시",
+  "nameKo": "나우프레시 스몰브리드 어덜트",
+  "nameEn": "Small Breed Adult",
+  "maker": "Petcurean",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "나우프레시 now fresh 스몰브리드 small breed 어덜트 adult",
+   "Small Breed Adult"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "나우프레시 now fresh 스몰브리드 small breed 어덜트 adult"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "now_senior",
+  "kind": "food",
+  "category": "food",
+  "brandId": "nowfresh",
+  "brandName": "나우프레시",
+  "nameKo": "나우프레시 스몰브리드 시니어",
+  "nameEn": "Small Breed Senior",
+  "maker": "Petcurean",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "나우프레시 now fresh 스몰브리드 small breed 시니어 senior 노령",
+   "Small Breed Senior"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "나우프레시 now fresh 스몰브리드 small breed 시니어 senior 노령"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "nutro_small",
+  "kind": "food",
+  "category": "food",
+  "brandId": "nutro",
+  "brandName": "뉴트로",
+  "nameKo": "뉴트로 초이스 소형견",
+  "nameEn": "Choice Small Breed",
+  "maker": "Mars Petcare",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "뉴트로 nutro 초이스 choice 소형견 스몰",
+   "Choice Small Breed"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "뉴트로 nutro 초이스 choice 소형견 스몰"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "nb_salmon",
+  "kind": "food",
+  "category": "food",
+  "brandId": "naturalbalance",
+  "brandName": "내추럴발란스",
+  "nameKo": "내추럴발란스 L.I.D 고구마&연어",
+  "nameEn": "L.I.D Sweet Potato & Salmon",
+  "maker": "Natural Balance Pet Foods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "내추럴발란스 natural balance 내추럴 밸런스 lid 고구마 연어 salmon",
+   "L.I.D Sweet Potato & Salmon"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "내추럴발란스 natural balance 내추럴 밸런스 lid 고구마 연어 salmon"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "nb_duck",
+  "kind": "food",
+  "category": "food",
+  "brandId": "naturalbalance",
+  "brandName": "내추럴발란스",
+  "nameKo": "내추럴발란스 L.I.D 오리",
+  "nameEn": "L.I.D Duck",
+  "maker": "Natural Balance Pet Foods",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "내추럴발란스 natural balance 내추럴 밸런스 lid 오리 duck",
+   "L.I.D Duck"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "내추럴발란스 natural balance 내추럴 밸런스 lid 오리 duck"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "hills_smallbites",
+  "kind": "food",
+  "category": "food",
+  "brandId": "hills",
+  "brandName": "힐스",
+  "nameKo": "힐스 사이언스 다이어트 스몰바이츠",
+  "nameEn": "Science Diet Small Bites",
+  "maker": "Hill's Pet Nutrition",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "힐스 hills science diet 사이언스 다이어트 스몰바이츠 small bites",
+   "Science Diet Small Bites"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "힐스 hills science diet 사이언스 다이어트 스몰바이츠 small bites"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "hills_id",
+  "kind": "food",
+  "category": "food",
+  "brandId": "hills",
+  "brandName": "힐스",
+  "nameKo": "힐스 i/d (소화기)",
+  "nameEn": "i/d Digestive Care",
+  "maker": "Hill's Pet Nutrition",
+  "sizeText": "처방식",
+  "formText": "처방식",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "힐스 hills i/d 아이디 소화기 gi 장 처방",
+   "i/d Digestive Care"
+  ],
+  "tags": [
+   "처방식"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "처방식",
+   "search": "힐스 hills i/d 아이디 소화기 gi 장 처방"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "hills_zd",
+  "kind": "food",
+  "category": "food",
+  "brandId": "hills",
+  "brandName": "힐스",
+  "nameKo": "힐스 z/d (하이드롤라이즈드)",
+  "nameEn": "z/d Hydrolyzed",
+  "maker": "Hill's Pet Nutrition",
+  "sizeText": "처방식",
+  "formText": "처방식",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "힐스 hills z/d 지디 하이드롤라이즈즈 알러지 피부 처방",
+   "z/d Hydrolyzed"
+  ],
+  "tags": [
+   "처방식"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "처방식",
+   "search": "힐스 hills z/d 지디 하이드롤라이즈즈 알러지 피부 처방"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "anf_beef",
+  "kind": "food",
+  "category": "food",
+  "brandId": "anf",
+  "brandName": "ANF",
+  "nameKo": "ANF 6Free 소고기",
+  "nameEn": "6Free Beef",
+  "maker": null,
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "anf 에이엔에프 6free 식스프리 소고기 beef",
+   "6Free Beef"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "anf 에이엔에프 6free 식스프리 소고기 beef"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "anf_salmon",
+  "kind": "food",
+  "category": "food",
+  "brandId": "anf",
+  "brandName": "ANF",
+  "nameKo": "ANF 6Free 연어",
+  "nameEn": "6Free Salmon",
+  "maker": null,
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "anf 에이엔에프 6free 식스프리 연어 salmon",
+   "6Free Salmon"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "anf 에이엔에프 6free 식스프리 연어 salmon"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "harim_duck",
+  "kind": "food",
+  "category": "food",
+  "brandId": "harim",
+  "brandName": "하림펫푸드",
+  "nameKo": "하림펫푸드 더리얼 오리",
+  "nameEn": "The Real Duck",
+  "maker": "하림펫푸드",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "하림 하림펫푸드 더리얼 the real 오리 duck",
+   "The Real Duck"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "partial"
+   },
+   "tag": "완전사료",
+   "search": "하림 하림펫푸드 더리얼 the real 오리 duck"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "doctordog",
+  "kind": "food",
+  "category": "food",
+  "brandId": "doctordog",
+  "brandName": "닥터독",
+  "nameKo": "닥터독 화식 (완전영양)",
+  "nameEn": "Cooked Fresh (Complete)",
+  "maker": null,
+  "sizeText": "화식",
+  "formText": "화식",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "닥터독 doctor dog 화식 수제 완전영양",
+   "Cooked Fresh (Complete)"
+  ],
+  "tags": [
+   "화식"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "partial"
+   },
+   "tag": "화식",
+   "search": "닥터독 doctor dog 화식 수제 완전영양"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "naturalcore_eco",
+  "kind": "food",
+  "category": "food",
+  "brandId": "naturalcore",
+  "brandName": "네츄럴코어",
+  "nameKo": "네츄럴코어 에코 오리지널",
+  "nameEn": "Eco Original",
+  "maker": null,
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "네츄럴코어 natural core eco 에코 오리지널",
+   "Eco Original"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "네츄럴코어 natural core eco 에코 오리지널"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_philo",
+  "kind": "food",
+  "category": "food",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 Philo Dog 닭&산양유",
+  "nameEn": "Philo Dog Chicken & Goat Milk",
+  "maker": null,
+  "sizeText": "습식",
+  "formText": "습식",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong philo 필로 독 dog 닭 산양유 습식 캔",
+   "Philo Dog Chicken & Goat Milk"
+  ],
+  "tags": [
+   "습식"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "partial"
+   },
+   "tag": "습식",
+   "search": "조공 jogong philo 필로 독 dog 닭 산양유 습식 캔"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "willow_hipjoint",
+  "kind": "food",
+  "category": "food",
+  "brandId": "willow",
+  "brandName": "윌로펫",
+  "nameKo": "윌로펫 헬시포뮬러 힙앤조인트",
+  "nameEn": "Healthy Formula Hip & Joint",
+  "maker": "유한양행",
+  "sizeText": "완전사료",
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "윌로펫 willow pet 유한양행 헬시포뮬러 힙앤조인트 hip joint 관절 사료",
+   "Healthy Formula Hip & Joint"
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "glu": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "윌로펫 willow pet 유한양행 헬시포뮬러 힙앤조인트 hip joint 관절 사료"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "nutrvet_hipjoint",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "nutrvet",
+  "brandName": "뉴트리벳",
+  "nameKo": "뉴트리벳 히프&조인트",
+  "nameEn": "Hip & Joint",
+  "maker": null,
+  "sizeText": "글루코사민·콘드로이틴",
+  "formText": "글루코사민·콘드로이틴",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "뉴트리벳 nutri vet nutrived hip joint 히프 조인트 관절 글루코사민 콘드로이친 msm",
+   "Hip & Joint"
+  ],
+  "tags": [
+   "글루코사민·콘드로이틴"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "glu": 1,
+    "chon": 1,
+    "msm": 1,
+    "disc": "full"
+   },
+   "tag": "글루코사민·콘드로이틴",
+   "search": "뉴트리벳 nutri vet nutrived hip joint 히프 조인트 관절 글루코사민 콘드로이친 msm"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "willow_joint",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "willow",
+  "brandName": "윌로펫",
+  "nameKo": "윌로펫 관절&조인트 영양보조제",
+  "nameEn": "Joint & Joint Supplement",
+  "maker": "유한양행",
+  "sizeText": "30입",
+  "formText": "30입",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "윌로펫 willow 유한양행 관절 조인트 joint 영양보조제",
+   "Joint & Joint Supplement"
+  ],
+  "tags": [
+   "30입"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "glu": 1,
+    "disc": "partial"
+   },
+   "tag": "30입",
+   "search": "윌로펫 willow 유한양행 관절 조인트 joint 영양보조제"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "yuhan_joint",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "yuhan",
+  "brandName": "유한양행",
+  "nameKo": "유한양행 뉴트리헬스 관절조인트",
+  "nameEn": "Nutrihealth Joint",
+  "maker": "유한양행",
+  "sizeText": "60정",
+  "formText": "60정",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "유한양행 뉴트리헬스 관절 조인트 joint 60정",
+   "Nutrihealth Joint"
+  ],
+  "tags": [
+   "60정"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "glu": 1,
+    "disc": "partial"
+   },
+   "tag": "60정",
+   "search": "유한양행 뉴트리헬스 관절 조인트 joint 60정"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "recipev_mussel",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "recipev",
+  "brandName": "레시피브이",
+  "nameKo": "레시피브이 본앤고 초록입홍합오일",
+  "nameEn": "Born & Go Green Mussel Oil",
+  "maker": null,
+  "sizeText": "홍합 오일",
+  "formText": "홍합 오일",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "레시피브이 recipe v 본앤고 초록입홍합 홍합 오일 관절 30입",
+   "Born & Go Green Mussel Oil"
+  ],
+  "tags": [
+   "홍합 오일"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "mussel": 1,
+    "disc": "partial"
+   },
+   "tag": "홍합 오일",
+   "search": "레시피브이 recipe v 본앤고 초록입홍합 홍합 오일 관절 30입"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "bito_calcium",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "vito",
+  "brandName": "비토",
+  "nameKo": "비토 해조칼슘 져키",
+  "nameEn": "Seaweed Calcium Jerky",
+  "maker": null,
+  "sizeText": "칼슘",
+  "formText": "칼슘",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "비토 vito 해조칼슘 칼슘 져키 관절 영양간식",
+   "Seaweed Calcium Jerky"
+  ],
+  "tags": [
+   "칼슘"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "caSupp": 1,
+    "ca": 1,
+    "disc": "partial"
+   },
+   "tag": "칼슘",
+   "search": "비토 vito 해조칼슘 칼슘 져키 관절 영양간식"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mybev_joint",
+  "kind": "supplement",
+  "category": "joint",
+  "brandId": "mybev",
+  "brandName": "마이베프",
+  "nameKo": "마이베프 별자리스틱 관절",
+  "nameEn": "Constellation Stick Joint",
+  "maker": null,
+  "sizeText": "홍합·MSM",
+  "formText": "홍합·MSM",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "마이베프 mybev 별자리스틱 관절 joint 초록입홍합 식이유황 msm",
+   "Constellation Stick Joint"
+  ],
+  "tags": [
+   "홍합·MSM"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "msm": 1,
+    "mussel": 1,
+    "disc": "partial"
+   },
+   "tag": "홍합·MSM",
+   "search": "마이베프 mybev 별자리스틱 관절 joint 초록입홍합 식이유황 msm"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "vetnex_dermacoat",
+  "kind": "supplement",
+  "category": "skin",
+  "brandId": "vetnex",
+  "brandName": "벳넥스",
+  "nameKo": "벳넥스 더마코트 오메가 츄",
+  "nameEn": "Dermacoat Omega Chew",
+  "maker": null,
+  "sizeText": "오메가 츄",
+  "formText": "오메가 츄",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "벳넥스 vetnex 더마코트 dermacoat 오메가 츄 피부 피모",
+   "Dermacoat Omega Chew"
+  ],
+  "tags": [
+   "오메가 츄"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "오메가 츄",
+   "search": "벳넥스 vetnex 더마코트 dermacoat 오메가 츄 피부 피모"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "maxiderm_lq",
+  "kind": "supplement",
+  "category": "skin",
+  "brandId": "maxiderm",
+  "brandName": "협성로하스",
+  "nameKo": "협성로하스 맥시덤 LQ",
+  "nameEn": "Maxiderm LQ",
+  "maker": "협성로하스",
+  "sizeText": "피부·모발",
+  "formText": "피부·모발",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "협성로하스 맥시덤 maxiderm lq 피부 모발 오메가3",
+   "Maxiderm LQ"
+  ],
+  "tags": [
+   "피부·모발"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "피부·모발",
+   "search": "협성로하스 맥시덤 maxiderm lq 피부 모발 오메가3"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mybev_eye",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "mybev",
+  "brandName": "마이베프",
+  "nameKo": "마이베프 별자리스틱 눈",
+  "nameEn": "Constellation Stick Eye",
+  "maker": null,
+  "sizeText": "루테인·아스타잔틴",
+  "formText": "루테인·아스타잔틴",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "마이베프 mybev 별자리스틱 눈 eye 루테인 아스타잔틴 포도씨",
+   "Constellation Stick Eye"
+  ],
+  "tags": [
+   "루테인·아스타잔틴"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "lutein": 1,
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "루테인·아스타잔틴",
+   "search": "마이베프 mybev 별자리스틱 눈 eye 루테인 아스타잔틴 포도씨"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "bito_lutein",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "vito",
+  "brandName": "비토",
+  "nameKo": "비토 루테인 눈 건강 영양간식",
+  "nameEn": "Lutein Eye Health Treat",
+  "maker": null,
+  "sizeText": "루테인",
+  "formText": "루테인",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "비토 vito 루테인 눈 눈물자국 영양간식",
+   "Lutein Eye Health Treat"
+  ],
+  "tags": [
+   "루테인"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "lutein": 1,
+    "disc": "partial"
+   },
+   "tag": "루테인",
+   "search": "비토 vito 루테인 눈 눈물자국 영양간식"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "alokitchen_eye",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "alokitchen",
+  "brandName": "알로키친",
+  "nameKo": "알로키친 눈 아이즈 100파워",
+  "nameEn": "Eye Eyes 100 Power",
+  "maker": null,
+  "sizeText": "눈 영양",
+  "formText": "눈 영양",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "알로키친 alokitchen 눈 아이즈 eye 100파워 백내장 녹내장",
+   "Eye Eyes 100 Power"
+  ],
+  "tags": [
+   "눈 영양"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "눈 영양",
+   "search": "알로키친 alokitchen 눈 아이즈 eye 100파워 백내장 녹내장"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "thinkpets_lutein",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "thinkpets",
+  "brandName": "펫생각",
+  "nameKo": "펫생각 리포좀 루테인",
+  "nameEn": "Liposomal Lutein",
+  "maker": null,
+  "sizeText": "루테인",
+  "formText": "루테인",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "펫생각 thinkpets 리포좀 루테인 눈 눈물자국 백내장",
+   "Liposomal Lutein"
+  ],
+  "tags": [
+   "루테인"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "lutein": 1,
+    "disc": "partial"
+   },
+   "tag": "루테인",
+   "search": "펫생각 thinkpets 리포좀 루테인 눈 눈물자국 백내장"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "petspark_eye",
+  "kind": "supplement",
+  "category": "eye",
+  "brandId": "petspark",
+  "brandName": "펫츠파크",
+  "nameKo": "펫츠파크 눈 건강 항산화제",
+  "nameEn": "Eye Health Antioxidant",
+  "maker": null,
+  "sizeText": "항산화",
+  "formText": "항산화",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "펫츠파크 petspark 눈 eye 항산화 눈물",
+   "Eye Health Antioxidant"
+  ],
+  "tags": [
+   "항산화"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "항산화",
+   "search": "펫츠파크 petspark 눈 eye 항산화 눈물"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_omega3",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 이지 케어 오메가-3",
+  "nameEn": "Easy Care Omega-3",
+  "maker": null,
+  "sizeText": "EPA+DHA 200mg",
+  "formText": "EPA+DHA 200mg",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong 이지케어 easy care 오메가3 omega3 피부 피모 스틱",
+   "Easy Care Omega-3"
+  ],
+  "tags": [
+   "EPA+DHA 200mg"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "full"
+   },
+   "tag": "EPA+DHA 200mg",
+   "search": "조공 jogong 이지케어 easy care 오메가3 omega3 피부 피모 스틱"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_red",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 프리미엄 레드 오메가3 미니",
+  "nameEn": "Premium Red Omega3 Mini",
+  "maker": null,
+  "sizeText": "캡슐",
+  "formText": "캡슐",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong 프리미엄 레드 오메가3 omega3 미니 캡슐",
+   "Premium Red Omega3 Mini"
+  ],
+  "tags": [
+   "캡슐"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "캡슐",
+   "search": "조공 jogong 프리미엄 레드 오메가3 omega3 미니 캡슐"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "fera_fish",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "fera",
+  "brandName": "페라 펫츠",
+  "nameKo": "페라 펫츠 피쉬오일 236.5ml",
+  "nameEn": "Pets Fish Oil 236.5ml",
+  "maker": null,
+  "sizeText": "EPA 700mg/5ml",
+  "formText": "EPA 700mg/5ml",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페라 펫츠 fera pets 피쉬오일 fish oil 오메가3",
+   "Pets Fish Oil 236.5ml"
+  ],
+  "tags": [
+   "EPA 700mg/5ml"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "full"
+   },
+   "tag": "EPA 700mg/5ml",
+   "search": "페라 펫츠 fera pets 피쉬오일 fish oil 오메가3"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "fera_algae",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "fera",
+  "brandName": "페라 펫츠",
+  "nameKo": "페라 펫츠 플랜트 베이스드 알게오일",
+  "nameEn": "Plant Based Algae Oil",
+  "maker": null,
+  "sizeText": "DHA 460mg/5ml",
+  "formText": "DHA 460mg/5ml",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페라 펫츠 fera pets 알게오일 algae plant based 식물성 오메가3",
+   "Plant Based Algae Oil"
+  ],
+  "tags": [
+   "DHA 460mg/5ml"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "full"
+   },
+   "tag": "DHA 460mg/5ml",
+   "search": "페라 펫츠 fera pets 알게오일 algae plant based 식물성 오메가3"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "vetactive8_omega",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "vetactive8",
+  "brandName": "벳액티브8",
+  "nameKo": "벳액티브8 오메가3",
+  "nameEn": "Omega3",
+  "maker": null,
+  "sizeText": "90캡슐",
+  "formText": "90캡슐",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "벳액티브8 vetactive8 오메가3 omega3 90캡슐 360캡슐",
+   "Omega3"
+  ],
+  "tags": [
+   "90캡슐"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "90캡슐",
+   "search": "벳액티브8 vetactive8 오메가3 omega3 90캡슐 360캡슐"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "drinnerpeace_omega",
+  "kind": "supplement",
+  "category": "coat",
+  "brandId": "biteme",
+  "brandName": "바잇미",
+  "nameKo": "닥터이너피스 rTG 오메가3",
+  "nameEn": "Dr.InnerPeace rTG Omega3",
+  "maker": null,
+  "sizeText": "rTG",
+  "formText": "rTG",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "닥터이너피스 dr innerpeace rtg 오메가3 omega3 바잇미",
+   "Dr.InnerPeace rTG Omega3"
+  ],
+  "tags": [
+   "rTG"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "rTG",
+   "search": "닥터이너피스 dr innerpeace rtg 오메가3 omega3 바잇미"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_multi",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 이지 케어 멀티바이오틱스",
+  "nameEn": "Easy Care Multibiotics",
+  "maker": null,
+  "sizeText": "장·면역",
+  "formText": "장·면역",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong 이지케어 멀티바이오틱스 multibiotics 장 면역 유산균",
+   "Easy Care Multibiotics"
+  ],
+  "tags": [
+   "장·면역"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "장·면역",
+   "search": "조공 jogong 이지케어 멀티바이오틱스 multibiotics 장 면역 유산균"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_probio",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 프로바이오틱스 30스틱",
+  "nameEn": "Probiotics 30 Stick",
+  "maker": null,
+  "sizeText": "30스틱",
+  "formText": "30스틱",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong 프로바이오틱스 probiotics 유산균 스틱",
+   "Probiotics 30 Stick"
+  ],
+  "tags": [
+   "30스틱"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "30스틱",
+   "search": "조공 jogong 프로바이오틱스 probiotics 유산균 스틱"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mercola_probio",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "mercola",
+  "brandName": "닥터머콜라",
+  "nameKo": "닥터머콜라 컴플리트 유산균",
+  "nameEn": "Complete Probiotics",
+  "maker": null,
+  "sizeText": "38억 CFU·14종",
+  "formText": "38억 CFU·14종",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "닥터머콜라 dr mercola bark whiskers 컴플리트 유산균 probiotics 90g",
+   "Complete Probiotics"
+  ],
+  "tags": [
+   "38억 CFU·14종"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "full"
+   },
+   "tag": "38억 CFU·14종",
+   "search": "닥터머콜라 dr mercola bark whiskers 컴플리트 유산균 probiotics 90g"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "drinnerpeace_gut",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "biteme",
+  "brandName": "바잇미",
+  "nameKo": "바잇미 닥터이너피스 장튼튼 유산균",
+  "nameEn": "Dr.InnerPeace Gut Probiotics",
+  "maker": null,
+  "sizeText": "비피더스 80억",
+  "formText": "비피더스 80억",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "바잇미 biteme 닥터이너피스 장튼튼 유산균 비피더스",
+   "Dr.InnerPeace Gut Probiotics"
+  ],
+  "tags": [
+   "비피더스 80억"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "full"
+   },
+   "tag": "비피더스 80억",
+   "search": "바잇미 biteme 닥터이너피스 장튼튼 유산균 비피더스"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "oral_effect",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "biteme",
+  "brandName": "바잇미",
+  "nameKo": "바잇미 오랄이펙트 프로바이오틱스",
+  "nameEn": "Oral Effect Probiotics",
+  "maker": null,
+  "sizeText": "구강·장",
+  "formText": "구강·장",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "바잇미 biteme 오랄이펙트 oral effect 프로바이오틱스 구강 장",
+   "Oral Effect Probiotics"
+  ],
+  "tags": [
+   "구강·장"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "구강·장",
+   "search": "바잇미 biteme 오랄이펙트 oral effect 프로바이오틱스 구강 장"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "vetactive8_syn",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "vetactive8",
+  "brandName": "벳액티브8",
+  "nameKo": "벳액티브8 신바이오틱 부스트",
+  "nameEn": "Synbiotic Boost",
+  "maker": null,
+  "sizeText": "신바이오틱",
+  "formText": "신바이오틱",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "벳액티브8 vetactive8 신바이오틱 부스트 synbiotic 유산균",
+   "Synbiotic Boost"
+  ],
+  "tags": [
+   "신바이오틱"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "신바이오틱",
+   "search": "벳액티브8 vetactive8 신바이오틱 부스트 synbiotic 유산균"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "fera_probio",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "fera",
+  "brandName": "페라 펫츠",
+  "nameKo": "페라 오가닉 프로바이오틱스",
+  "nameEn": "Organic Probiotics",
+  "maker": null,
+  "sizeText": "유기농",
+  "formText": "유기농",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페라 오가닉 organic 프로바이오틱스 프리바이오틱스 유산균",
+   "Organic Probiotics"
+  ],
+  "tags": [
+   "유기농"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "유기농",
+   "search": "페라 오가닉 organic 프로바이오틱스 프리바이오틱스 유산균"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "labivet_gut_joint",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "labivet",
+  "brandName": "종근당 라비벳",
+  "nameKo": "라비벳 유산균 (장&관절)",
+  "nameEn": "Probiotics (Gut & Joint)",
+  "maker": "종근당바이오",
+  "sizeText": "장·관절",
+  "formText": "장·관절",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "라비벳 labivet 유산균 장 관절 종근당",
+   "Probiotics (Gut & Joint)"
+  ],
+  "tags": [
+   "장·관절"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "장·관절",
+   "search": "라비벳 labivet 유산균 장 관절 종근당"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "pethroom_probio",
+  "kind": "supplement",
+  "category": "gut",
+  "brandId": "pethroom",
+  "brandName": "페스룸",
+  "nameKo": "페스룸 프로바이오 케어 스틱",
+  "nameEn": "ProBio Care Stick",
+  "maker": null,
+  "sizeText": "장건강",
+  "formText": "장건강",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페스룸 pethroom 프로바이오 probio 케어 스틱 장 유산균",
+   "ProBio Care Stick"
+  ],
+  "tags": [
+   "장건강"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "probio": 1,
+    "disc": "partial"
+   },
+   "tag": "장건강",
+   "search": "페스룸 pethroom 프로바이오 probio 케어 스틱 장 유산균"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mybev_heart",
+  "kind": "supplement",
+  "category": "heart",
+  "brandId": "mybev",
+  "brandName": "마이베프",
+  "nameKo": "마이베프 별자리스틱 심장",
+  "nameEn": "Constellation Stick Heart",
+  "maker": null,
+  "sizeText": "CoQ10·타우린",
+  "formText": "CoQ10·타우린",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "마이베프 mybev 별자리스틱 심장 heart 코엔자임 타우린 카르니틴",
+   "Constellation Stick Heart"
+  ],
+  "tags": [
+   "CoQ10·타우린"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "coq10": 1,
+    "taurine": 1,
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "CoQ10·타우린",
+   "search": "마이베프 mybev 별자리스틱 심장 heart 코엔자임 타우린 카르니틴"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "pethroom_dental",
+  "kind": "supplement",
+  "category": "oral",
+  "brandId": "pethroom",
+  "brandName": "페스룸",
+  "nameKo": "페스룸 덴탈 케어 스틱",
+  "nameEn": "Dental Care Stick",
+  "maker": null,
+  "sizeText": "구강",
+  "formText": "구강",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페스룸 pethroom 덴탈 dental 케어 스틱 구강 치아",
+   "Dental Care Stick"
+  ],
+  "tags": [
+   "구강"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "구강",
+   "search": "페스룸 pethroom 덴탈 dental 케어 스틱 구강 치아"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "petspark_kelp",
+  "kind": "supplement",
+  "category": "oral",
+  "brandId": "petspark",
+  "brandName": "펫츠파크",
+  "nameKo": "펫츠파크 켈프 구강 영양제",
+  "nameEn": "Kelp Oral Supplement",
+  "maker": null,
+  "sizeText": "켈프",
+  "formText": "켈프",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "펫츠파크 petspark 켈프 kelp 구강 영양제 치아",
+   "Kelp Oral Supplement"
+  ],
+  "tags": [
+   "켈프"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "켈프",
+   "search": "펫츠파크 petspark 켈프 kelp 구강 영양제 치아"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_dental",
+  "kind": "supplement",
+  "category": "oral",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 산양유 덴탈껌",
+  "nameEn": "Goat Milk Dental Gum",
+  "maker": null,
+  "sizeText": "덴탈껌",
+  "formText": "덴탈껌",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong 산양유 덴탈껌 dental gum 14개입",
+   "Goat Milk Dental Gum"
+  ],
+  "tags": [
+   "덴탈껌"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "덴탈껌",
+   "search": "조공 jogong 산양유 덴탈껌 dental gum 14개입"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "pethroom_weight",
+  "kind": "supplement",
+  "category": "weight",
+  "brandId": "pethroom",
+  "brandName": "페스룸",
+  "nameKo": "페스룸 웨이트 케어 스틱",
+  "nameEn": "Weight Care Stick",
+  "maker": null,
+  "sizeText": "체중조절",
+  "formText": "체중조절",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페스룸 pethroom 웨이트 weight 케어 스틱 다이어트 체중",
+   "Weight Care Stick"
+  ],
+  "tags": [
+   "체중조절"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "체중조절",
+   "search": "페스룸 pethroom 웨이트 weight 케어 스틱 다이어트 체중"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "proqumin_inulin",
+  "kind": "supplement",
+  "category": "weight",
+  "brandId": "proqumin",
+  "brandName": "프로큐민",
+  "nameKo": "프로큐민 하이눌린",
+  "nameEn": "High Inulin",
+  "maker": null,
+  "sizeText": "이눌린",
+  "formText": "이눌린",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "프로큐민 proqumin 하이눌린 inulin 비만 혈당 신장",
+   "High Inulin"
+  ],
+  "tags": [
+   "이눌린"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "disc": "partial"
+   },
+   "tag": "이눌린",
+   "search": "프로큐민 proqumin 하이눌린 inulin 비만 혈당 신장"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "nutrvet_multi",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "nutrvet",
+  "brandName": "뉴트리벳",
+  "nameKo": "뉴트리벳 멀티비타민&미네랄",
+  "nameEn": "Multivitamin & Mineral",
+  "maker": null,
+  "sizeText": "종합",
+  "formText": "종합",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "뉴트리벳 nutri vet 멀티비타민 멀티바이탈 미네랄 종합 60정",
+   "Multivitamin & Mineral"
+  ],
+  "tags": [
+   "종합"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "zinc": 1,
+    "ca": 1,
+    "disc": "full"
+   },
+   "tag": "종합",
+   "search": "뉴트리벳 nutri vet 멀티비타민 멀티바이탈 미네랄 종합 60정"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "willow_senior",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "willow",
+  "brandName": "윌로펫",
+  "nameKo": "윌로펫 시니어 종합영양보조제",
+  "nameEn": "Senior Multivitamin",
+  "maker": "유한양행",
+  "sizeText": "7세 이상",
+  "formText": "7세 이상",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "윌로펫 willow 유한양행 시니어 senior 종합 영양보조제",
+   "Senior Multivitamin"
+  ],
+  "tags": [
+   "7세 이상"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "disc": "partial"
+   },
+   "tag": "7세 이상",
+   "search": "윌로펫 willow 유한양행 시니어 senior 종합 영양보조제"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "willow_adult",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "willow",
+  "brandName": "윌로펫",
+  "nameKo": "윌로펫 어덜트 종합영양보조제",
+  "nameEn": "Adult Multivitamin",
+  "maker": "유한양행",
+  "sizeText": "1~7세",
+  "formText": "1~7세",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "윌로펫 willow 유한양행 어덜트 adult 종합 영양보조제",
+   "Adult Multivitamin"
+  ],
+  "tags": [
+   "1~7세"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "disc": "partial"
+   },
+   "tag": "1~7세",
+   "search": "윌로펫 willow 유한양행 어덜트 adult 종합 영양보조제"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "willow_puppy",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "willow",
+  "brandName": "윌로펫",
+  "nameKo": "윌로펫 퍼피&주니어 종합영양보조제",
+  "nameEn": "Puppy & Junior Multivitamin",
+  "maker": "유한양행",
+  "sizeText": "1세 이하",
+  "formText": "1세 이하",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "윌로펫 willow 유한양행 퍼피 puppy 주니어 종합 영양보조제",
+   "Puppy & Junior Multivitamin"
+  ],
+  "tags": [
+   "1세 이하"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "ca": 1,
+    "disc": "partial"
+   },
+   "tag": "1세 이하",
+   "search": "윌로펫 willow 유한양행 퍼피 puppy 주니어 종합 영양보조제"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "pethroom_total",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "pethroom",
+  "brandName": "페스룸",
+  "nameKo": "페스룸 토탈 밸런스 스틱",
+  "nameEn": "Total Balance Stick",
+  "maker": null,
+  "sizeText": "종합",
+  "formText": "종합",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "페스룸 pethroom 토탈 밸런스 total balance 스틱 종합영양제",
+   "Total Balance Stick"
+  ],
+  "tags": [
+   "종합"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "zinc": 1,
+    "disc": "partial"
+   },
+   "tag": "종합",
+   "search": "페스룸 pethroom 토탈 밸런스 total balance 스틱 종합영양제"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "jogong_enough",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "jogong",
+  "brandName": "조공",
+  "nameKo": "조공 이지 케어 이너프 (종합)",
+  "nameEn": "Easy Care Enough",
+  "maker": null,
+  "sizeText": "종합",
+  "formText": "종합",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "조공 jogong 이지케어 이너프 enough 종합케어 종합",
+   "Easy Care Enough"
+  ],
+  "tags": [
+   "종합"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "disc": "partial"
+   },
+   "tag": "종합",
+   "search": "조공 jogong 이지케어 이너프 enough 종합케어 종합"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mercola_mealmix",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "mercola",
+  "brandName": "닥터머콜라",
+  "nameKo": "닥터머콜라 밀믹스 종합 영양제",
+  "nameEn": "Meal Mix Multivitamin",
+  "maker": null,
+  "sizeText": "종합",
+  "formText": "종합",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "닥터머콜라 dr mercola 밀믹스 meal mix 종합 영양제",
+   "Meal Mix Multivitamin"
+  ],
+  "tags": [
+   "종합"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "zinc": 1,
+    "disc": "partial"
+   },
+   "tag": "종합",
+   "search": "닥터머콜라 dr mercola 밀믹스 meal mix 종합 영양제"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mybev_multi",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "mybev",
+  "brandName": "마이베프",
+  "nameKo": "마이베프 별자리스틱 멀티비타민",
+  "nameEn": "Constellation Stick Multivitamin",
+  "maker": null,
+  "sizeText": "비타민B·D3",
+  "formText": "비타민B·D3",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "마이베프 mybev 별자리스틱 멀티비타민 multivitamin",
+   "Constellation Stick Multivitamin"
+  ],
+  "tags": [
+   "비타민B·D3"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "disc": "partial"
+   },
+   "tag": "비타민B·D3",
+   "search": "마이베프 mybev 별자리스틱 멀티비타민 multivitamin"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "mybev_kidney",
+  "kind": "supplement",
+  "category": "extra",
+  "brandId": "mybev",
+  "brandName": "마이베프",
+  "nameKo": "마이베프 별자리스틱 신장",
+  "nameEn": "Constellation Stick Kidney",
+  "maker": null,
+  "sizeText": "신장",
+  "formText": "신장",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "마이베프 mybev 별자리스틱 신장 kidney 코엔자임 오메가3",
+   "Constellation Stick Kidney"
+  ],
+  "tags": [
+   "신장"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "coq10": 1,
+    "o3": 1,
+    "disc": "partial"
+   },
+   "tag": "신장",
+   "search": "마이베프 mybev 별자리스틱 신장 kidney 코엔자임 오메가3"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": null
+ },
+ {
+  "id": "food",
+  "kind": "generic",
+  "category": "extra",
+  "brandId": "generic",
+  "brandName": "일반 항목",
+  "nameKo": "완전건식 사료 (AAFCO 완전영양)",
+  "nameEn": null,
+  "maker": null,
+  "sizeText": null,
+  "formText": "완전사료",
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "완전건식 사료 aafco 주식 건식",
+   ""
+  ],
+  "tags": [
+   "완전사료"
+  ],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "food": 1,
+    "vitAD": 1,
+    "ca": 1,
+    "phos": 1,
+    "disc": "full"
+   },
+   "tag": "완전사료",
+   "search": "완전건식 사료 aafco 주식 건식"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": "진단 목록용 일반 항목 — 특정 제품이 아닙니다."
+ },
+ {
+  "id": "homemade",
+  "kind": "generic",
+  "category": "extra",
+  "brandId": "generic",
+  "brandName": "일반 항목",
+  "nameKo": "수제식·화식 (육류 위주)",
+  "nameEn": null,
+  "maker": null,
+  "sizeText": null,
+  "formText": null,
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "수제식 화식 육류 생식",
+   ""
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "phos": 1,
+    "meaty": 1,
+    "disc": "none"
+   },
+   "tag": "",
+   "search": "수제식 화식 육류 생식"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": "진단 목록용 일반 항목 — 특정 제품이 아닙니다."
+ },
+ {
+  "id": "multivit",
+  "kind": "generic",
+  "category": "extra",
+  "brandId": "generic",
+  "brandName": "일반 항목",
+  "nameKo": "종합 비타민·미네랄",
+  "nameEn": null,
+  "maker": null,
+  "sizeText": null,
+  "formText": null,
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "종합 비타민 미네랄 멀티비타민",
+   ""
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "vitAD": 1,
+    "zinc": 1,
+    "biotin": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "종합 비타민 미네랄 멀티비타민"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": "진단 목록용 일반 항목 — 특정 제품이 아닙니다."
+ },
+ {
+  "id": "calcium",
+  "kind": "generic",
+  "category": "extra",
+  "brandId": "generic",
+  "brandName": "일반 항목",
+  "nameKo": "칼슘 보충제",
+  "nameEn": null,
+  "maker": null,
+  "sizeText": null,
+  "formText": null,
+  "hook": null,
+  "cautions": null,
+  "imageUrl": null,
+  "lastChecked": null,
+  "searchQuery": null,
+  "searchTerms": [
+   "칼슘 보충제 calcium",
+   ""
+  ],
+  "tags": [],
+  "allergens": [],
+  "allergenNote": null,
+  "evidenceLevel": null,
+  "evidenceLabel": null,
+  "sourceIds": [],
+  "lowestPrice": null,
+  "priceCheckedAt": null,
+  "comparison": false,
+  "diagnosis": {
+   "catalog": true,
+   "profile": {
+    "caSupp": 1,
+    "ca": 1,
+    "disc": "partial"
+   },
+   "tag": "",
+   "search": "칼슘 보충제 calcium"
+  },
+  "detail": {
+   "servingGuide": null,
+   "lifeStage": null,
+   "analysis": null,
+   "ingredientList": null
+  },
+  "note": "진단 목록용 일반 항목 — 특정 제품이 아닙니다."
+ }
+]

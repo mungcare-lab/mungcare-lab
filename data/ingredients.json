@@ -1,0 +1,453 @@
+[
+ {
+  "id": "glu",
+  "nameKo": "글루코사민",
+  "nameEn": "Glucosamine",
+  "aliases": [
+   "글루코사민",
+   "glucosamine"
+  ],
+  "class": "관절"
+ },
+ {
+  "id": "chon",
+  "nameKo": "콘드로이친",
+  "nameEn": "Chondroitin",
+  "aliases": [
+   "콘드로이친",
+   "콘드로이틴",
+   "chondroitin"
+  ],
+  "class": "관절"
+ },
+ {
+  "id": "msm",
+  "nameKo": "MSM(식이유황)",
+  "nameEn": "MSM",
+  "aliases": [
+   "MSM",
+   "식이유황",
+   "methylsulfonylmethane"
+  ],
+  "class": "관절"
+ },
+ {
+  "id": "mussel",
+  "nameKo": "초록입홍합",
+  "nameEn": "Green-lipped mussel",
+  "aliases": [
+   "초록입홍합",
+   "홍합",
+   "green lipped mussel"
+  ],
+  "class": "관절"
+ },
+ {
+  "id": "o3",
+  "nameKo": "오메가3(EPA+DHA)",
+  "nameEn": "Omega-3 (EPA+DHA)",
+  "aliases": [
+   "오메가3",
+   "EPA",
+   "DHA",
+   "omega3",
+   "오메가-3"
+  ],
+  "class": "지방산"
+ },
+ {
+  "id": "salmonoil",
+  "nameKo": "연어유",
+  "nameEn": "Salmon oil",
+  "aliases": [
+   "연어유",
+   "연어 오일",
+   "salmon oil"
+  ],
+  "class": "지방산"
+ },
+ {
+  "id": "herringoil",
+  "nameKo": "청어 오일",
+  "nameEn": "Herring oil",
+  "aliases": [
+   "청어 오일",
+   "헤링",
+   "herring"
+  ],
+  "class": "지방산"
+ },
+ {
+  "id": "algaeoil",
+  "nameKo": "알게 오일(식물성 DHA)",
+  "nameEn": "Algae oil",
+  "aliases": [
+   "알게오일",
+   "algae oil"
+  ],
+  "class": "지방산"
+ },
+ {
+  "id": "probio",
+  "nameKo": "프로바이오틱스(유산균)",
+  "nameEn": "Probiotics",
+  "aliases": [
+   "유산균",
+   "프로바이오틱스",
+   "복합미생물",
+   "probiotics"
+  ],
+  "class": "장"
+ },
+ {
+  "id": "prebio",
+  "nameKo": "프리바이오틱스",
+  "nameEn": "Prebiotics",
+  "aliases": [
+   "프리바이오틱스",
+   "prebiotics"
+  ],
+  "class": "장"
+ },
+ {
+  "id": "lutein",
+  "nameKo": "루테인",
+  "nameEn": "Lutein",
+  "aliases": [
+   "루테인",
+   "마리골드",
+   "lutein"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "zeaxanthin",
+  "nameKo": "제아잔틴",
+  "nameEn": "Zeaxanthin",
+  "aliases": [
+   "제아잔틴",
+   "zeaxanthin"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "astaxanthin",
+  "nameKo": "아스타잔틴",
+  "nameEn": "Astaxanthin",
+  "aliases": [
+   "아스타잔틴",
+   "astaxanthin"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "bilberry",
+  "nameKo": "빌베리",
+  "nameEn": "Bilberry",
+  "aliases": [
+   "빌베리",
+   "bilberry"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "chrysanthemum",
+  "nameKo": "차즈기(차조기)추출물",
+  "nameEn": null,
+  "aliases": [
+   "차즈기",
+   "차조기"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "hematococcus",
+  "nameKo": "헤마토코쿠스",
+  "nameEn": "Haematococcus",
+  "aliases": [
+   "헤마토코쿠스",
+   "haematococcus"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "blueberry",
+  "nameKo": "블루베리",
+  "nameEn": "Blueberry",
+  "aliases": [
+   "블루베리",
+   "blueberry"
+  ],
+  "class": "눈"
+ },
+ {
+  "id": "milkthistle",
+  "nameKo": "밀크씨슬",
+  "nameEn": "Milk thistle",
+  "aliases": [
+   "밀크씨슬",
+   "milk thistle"
+  ],
+  "class": "간"
+ },
+ {
+  "id": "spirulina",
+  "nameKo": "스피루리나",
+  "nameEn": "Spirulina",
+  "aliases": [
+   "스피루리나",
+   "spirulina"
+  ],
+  "class": "항산화"
+ },
+ {
+  "id": "rosehip",
+  "nameKo": "찔레나무열매추출물(AF-343)",
+  "nameEn": "Rose hip extract",
+  "aliases": [
+   "찔레나무",
+   "AF-343",
+   "rose hip"
+  ],
+  "class": "피부"
+ },
+ {
+  "id": "collagen",
+  "nameKo": "저분자 콜라겐",
+  "nameEn": "Collagen",
+  "aliases": [
+   "콜라겐",
+   "collagen"
+  ],
+  "class": "피부"
+ },
+ {
+  "id": "biotin",
+  "nameKo": "비오틴",
+  "nameEn": "Biotin",
+  "aliases": [
+   "비오틴",
+   "biotin"
+  ],
+  "class": "피부"
+ },
+ {
+  "id": "zinc",
+  "nameKo": "아연",
+  "nameEn": "Zinc",
+  "aliases": [
+   "아연",
+   "zinc"
+  ],
+  "class": "피부"
+ },
+ {
+  "id": "vitA",
+  "nameKo": "비타민A",
+  "nameEn": "Vitamin A",
+  "aliases": [
+   "비타민A",
+   "비타민 A"
+  ],
+  "class": "비타민"
+ },
+ {
+  "id": "vitD",
+  "nameKo": "비타민D",
+  "nameEn": "Vitamin D",
+  "aliases": [
+   "비타민D",
+   "비타민 D"
+  ],
+  "class": "비타민"
+ },
+ {
+  "id": "vitB",
+  "nameKo": "비타민B",
+  "nameEn": "Vitamin B complex",
+  "aliases": [
+   "비타민B",
+   "비타민 B",
+   "비타민B1"
+  ],
+  "class": "비타민"
+ },
+ {
+  "id": "vitC",
+  "nameKo": "비타민C",
+  "nameEn": "Vitamin C",
+  "aliases": [
+   "비타민C",
+   "비타민 C"
+  ],
+  "class": "비타민"
+ },
+ {
+  "id": "vitE",
+  "nameKo": "비타민E",
+  "nameEn": "Vitamin E",
+  "aliases": [
+   "비타민E",
+   "비타민 E"
+  ],
+  "class": "비타민"
+ },
+ {
+  "id": "coq10",
+  "nameKo": "코엔자임Q10",
+  "nameEn": "CoQ10",
+  "aliases": [
+   "코엔자임Q10",
+   "CoQ10",
+   "코큐텐"
+  ],
+  "class": "심장"
+ },
+ {
+  "id": "taurine",
+  "nameKo": "타우린",
+  "nameEn": "Taurine",
+  "aliases": [
+   "타우린",
+   "taurine"
+  ],
+  "class": "심장"
+ },
+ {
+  "id": "carnitine",
+  "nameKo": "L-카르니틴",
+  "nameEn": "L-Carnitine",
+  "aliases": [
+   "L-카르니틴",
+   "카르니틴",
+   "carnitine"
+  ],
+  "class": "체중"
+ },
+ {
+  "id": "calcium",
+  "nameKo": "칼슘",
+  "nameEn": "Calcium",
+  "aliases": [
+   "칼슘",
+   "calcium"
+  ],
+  "class": "미네랄"
+ },
+ {
+  "id": "phosphorus",
+  "nameKo": "인",
+  "nameEn": "Phosphorus",
+  "aliases": [
+   "인 함량",
+   "phos"
+  ],
+  "class": "미네랄"
+ },
+ {
+  "id": "lecithin",
+  "nameKo": "레시틴",
+  "nameEn": "Lecithin",
+  "aliases": [
+   "레시틴",
+   "lecithin"
+  ],
+  "class": "지방"
+ },
+ {
+  "id": "linoleic",
+  "nameKo": "리놀렌산",
+  "nameEn": "Linoleic acid",
+  "aliases": [
+   "리놀렌산"
+  ],
+  "class": "지방산"
+ },
+ {
+  "id": "inulin",
+  "nameKo": "이눌린",
+  "nameEn": "Inulin",
+  "aliases": [
+   "이눌린",
+   "inulin"
+  ],
+  "class": "장"
+ },
+ {
+  "id": "kelp",
+  "nameKo": "켈프",
+  "nameEn": "Kelp",
+  "aliases": [
+   "켈프",
+   "kelp"
+  ],
+  "class": "구강"
+ },
+ {
+  "id": "kelpnote",
+  "nameKo": "켈프 구강 영양",
+  "nameEn": null,
+  "aliases": [],
+  "class": "구강"
+ },
+ {
+  "id": "chitosan",
+  "nameKo": "키토산",
+  "nameEn": "Chitosan",
+  "aliases": [
+   "키토산",
+   "chitosan"
+  ],
+  "class": "기타"
+ },
+ {
+  "id": "lactase",
+  "nameKo": "락타아제",
+  "nameEn": "Lactase",
+  "aliases": [
+   "락타아제",
+   "lactase"
+  ],
+  "class": "소화"
+ },
+ {
+  "id": "yeast",
+  "nameKo": "효모",
+  "nameEn": "Yeast",
+  "aliases": [
+   "효모"
+  ],
+  "class": "기타"
+ },
+ {
+  "id": "dentalgum",
+  "nameKo": "덴탈껌 기재",
+  "nameEn": null,
+  "aliases": [
+   "덴탈껌",
+   "덴탈 껌"
+  ],
+  "class": "구강"
+ },
+ {
+  "id": "tapioca",
+  "nameKo": "타피오카전분",
+  "nameEn": "Tapioca starch",
+  "aliases": [
+   "타피오카"
+  ],
+  "class": "기타"
+ },
+ {
+  "id": "chicken",
+  "nameKo": "닭고기(가수분해)",
+  "nameEn": "Chicken",
+  "aliases": [
+   "닭고기",
+   "가수분해닭",
+   "닭 단일단백",
+   "닭"
+  ],
+  "class": "단백질"
+ }
+]

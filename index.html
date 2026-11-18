@@ -1332,7 +1332,11 @@ function diagnose(){
 
 function renderDx(){
   const box = document.getElementById('dxOut');
-  if(!state.dx){ box.innerHTML = ''; return; }
+  if(!state.dx){
+    box.innerHTML = '';
+    document.getElementById('dxPayFlag').innerHTML = '';
+    return;
+  }
   const d = state.dx;
   const unlocked = state.purchased.dx;
 
@@ -1497,7 +1501,11 @@ function reportHTML(){
 }
 
 function renderReport(){
-  if(!state.reportOpen){ document.getElementById('reportOut').innerHTML = ''; return; }
+  if(!state.reportOpen){
+    document.getElementById('reportOut').innerHTML = '';
+    document.getElementById('reportPayFlag').innerHTML = '';
+    return;
+  }
   document.getElementById('reportOut').innerHTML = reportHTML();
   const sheet = document.getElementById('reportSheet');
   if(!sheet) return;
